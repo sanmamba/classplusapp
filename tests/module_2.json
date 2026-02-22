@@ -124,7 +124,7 @@
                 "inCorrectAnswers": 5,
                 "partiallyCorrectAnswers": 2,
                 "unAttempted": 0,
-                "name": "Chemsitry_MCQ",
+                "name": "Chemistry_MCQ",
                 "order": 5,
                 "sectionDuration": 0,
                 "sectionId": "698c53b09c93107c53c70a1d"
@@ -1563,7 +1563,7 @@
                 "sectionInstructions": " ",
                 "_id": "698c53b09c93107c53c70a1d",
                 "hasOptionalQuestions": false,
-                "name": "Chemsitry_MCQ",
+                "name": "Chemistry_MCQ",
                 "order": 5,
                 "createdAt": "2026-02-12T13:34:55.508Z",
                 "updatedAt": "2026-02-12T13:34:55.508Z",
