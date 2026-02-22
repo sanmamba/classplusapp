@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Section, Question, SectionStats } from "../types";
 import { cn } from "../utils";
 import { Badge } from "./ui/Badge";
@@ -19,6 +19,13 @@ export const Sidebar: React.FC<SidebarProps> = ({
   onQuestionSelect,
   starredQuestions,
 }) => {
+  const [totalScore, setTotalScore] = useState(`0`);
+  const [subjectwiseScore, setSubjectwiseScore] = useState({
+    phy: 0,
+    chem: 0,
+    maths: 0,
+  });
+
   // Helper to determine the status color of a question button
   const getQuestionStatusClass = (q: Question, isSelected: boolean) => {
     // Reduced size: w-7 h-7 instead of w-8 h-8
@@ -71,12 +78,51 @@ export const Sidebar: React.FC<SidebarProps> = ({
     return stat ? { scored: stat.marksScored, total: stat.sectionMarks } : null;
   };
 
+  const calculateSubjectwiseScore = () => {
+    let phy = 0,
+      chem = 0,
+      maths = 0;
+    let phy_tot = 0,
+      chem_tot = 0,
+      maths_tot = 0;
+    sections.forEach((section) => {
+      if (section.name.toLowerCase().includes("physics")) {
+        phy_tot += getSectionScore(section._id).total;
+        phy += getSectionScore(section._id).scored;
+      }
+      if (section.name.toLowerCase().includes("chemistry")) {
+        chem_tot += getSectionScore(section._id).total;
+        chem += getSectionScore(section._id).scored;
+      }
+      if (section.name.toLowerCase().includes("maths")) {
+        maths_tot += getSectionScore(section._id).total;
+        maths += getSectionScore(section._id).scored;
+      }
+    });
+
+    setSubjectwiseScore({
+      phy: `${phy}/${phy_tot}`,
+      chem: `${chem}/${chem_tot}`,
+      maths: `${maths}/${maths_tot}`,
+    });
+
+    setTotalScore(`${phy + chem + maths}/${phy_tot + chem_tot + maths_tot}`);
+  };
+
+  useEffect(() => {
+    calculateSubjectwiseScore();
+    return () => {};
+  }, [sections]);
+
   return (
     <aside className="w-full md:w-72 border-r border-border bg-card h-[calc(100vh-4rem)] flex-shrink-0 flex flex-col overflow-hidden">
       <div className="p-4 border-b border-border bg-muted/20">
-        <h2 className="font-semibold text-sm uppercase tracking-wider text-muted-foreground mb-1">
-          Question Palette
-        </h2>
+        <h3 className="font-semibold text-sm text-muted-foreground mb-1 flex gap-3">
+          <p>Phy: {subjectwiseScore.phy}</p>
+          <p>Chem: {subjectwiseScore.chem}</p>
+          <p>Maths: {subjectwiseScore.maths}</p>
+          <p>Total: {totalScore}</p>
+        </h3>
       </div>
 
       <div className="flex-1 overflow-y-auto p-4 space-y-6">

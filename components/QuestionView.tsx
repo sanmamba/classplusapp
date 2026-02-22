@@ -1,8 +1,9 @@
-import React from "react";
-import { Question, Option } from "../types";
+import React, { useState, useEffect, useRef } from "react";
+import { Question, Option, SectionStats } from "../types";
 import { cn, formatTime } from "../utils";
 import { Badge } from "./ui/Badge";
 import { Button } from "./ui/Button";
+import { Dialog } from "./ui/Dialog";
 import {
   Clock,
   CheckCircle2,
@@ -14,10 +15,16 @@ import {
   ZoomOut,
   ChevronLeft,
   ChevronRight,
+  FileJson,
+  Save,
+  Copy,
+  Check,
+  Loader2,
 } from "lucide-react";
 
 interface QuestionViewProps {
   question: Question;
+  sectionName: string;
   isStarred: boolean;
   onToggleStar: () => void;
   zoomLevel: number;
@@ -27,10 +34,13 @@ interface QuestionViewProps {
   onPrev?: () => void;
   hasPrev: boolean;
   hasNext: boolean;
+  sectionStats: SectionStats | null;
+  onUpdateData: (question: Question, sectionStats: SectionStats | null) => void;
 }
 
 export const QuestionView: React.FC<QuestionViewProps> = ({
   question,
+  sectionName,
   isStarred,
   onToggleStar,
   zoomLevel,
@@ -40,9 +50,132 @@ export const QuestionView: React.FC<QuestionViewProps> = ({
   onPrev,
   hasPrev,
   hasNext,
+  sectionStats,
+  onUpdateData,
 }) => {
   // Determine user's selected option (if any)
   const userSelectedOption = question.options.find((opt) => opt.isMarked);
+  const questionContentRef = useRef<HTMLDivElement>(null);
+
+  // Dialog State
+  const [isUpdateOpen, setIsUpdateOpen] = useState(false);
+  const [jsonQuestion, setJsonQuestion] = useState("");
+  const [jsonStats, setJsonStats] = useState("");
+  const [jsonError, setJsonError] = useState<string | null>(null);
+
+  // Copy State
+  const [isCopying, setIsCopying] = useState(false);
+  const [isCopied, setIsCopied] = useState(false);
+
+  // Load JSON when dialog opens
+  useEffect(() => {
+    if (isUpdateOpen) {
+      setJsonQuestion(JSON.stringify(question, null, 2));
+      setJsonStats(sectionStats ? JSON.stringify(sectionStats, null, 2) : "");
+      setJsonError(null);
+    }
+  }, [isUpdateOpen, question, sectionStats]);
+
+  const handleSaveJson = () => {
+    try {
+      const parsedQuestion = JSON.parse(jsonQuestion);
+      const parsedStats = jsonStats.trim() ? JSON.parse(jsonStats) : null;
+
+      // Basic validation
+      if (!parsedQuestion._id || !parsedQuestion.type) {
+        throw new Error("Invalid Question JSON structure");
+      }
+
+      onUpdateData(parsedQuestion, parsedStats);
+      setIsUpdateOpen(false);
+    } catch (e: any) {
+      setJsonError(e.message || "Invalid JSON");
+    }
+  };
+
+  const handleCopyQuestion = async () => {
+    if (!questionContentRef.current || isCopying) return;
+
+    setIsCopying(true);
+    try {
+      // @ts-ignore - html2canvas is loaded via CDN in index.html
+      if (typeof window.html2canvas === "undefined") {
+        console.error("html2canvas not loaded");
+        setIsCopying(false);
+        return;
+      }
+
+      const isDark = document.documentElement.classList.contains("dark");
+
+      // @ts-ignore
+      const canvas = await window.html2canvas(questionContentRef.current, {
+        useCORS: true,
+        backgroundColor: isDark ? "#020617" : "#ffffff", // Explicit background color
+        scale: 2, // Higher quality
+        logging: false,
+        onclone: (clonedDoc: Document) => {
+          // CRITICAL FIX: Apply dark class to cloned document root if active in real DOM
+          // This ensures CSS variables and dark mode overrides apply correctly in the capture
+          if (isDark) {
+            clonedDoc.documentElement.classList.add("dark");
+          }
+
+          const clonedContent = clonedDoc.querySelector(
+            '[data-question-content="true"]',
+          );
+          if (clonedContent) {
+            const header = clonedDoc.createElement("div");
+            header.style.marginBottom = "20px";
+            header.style.paddingBottom = "10px";
+            header.style.borderBottom = isDark
+              ? "1px solid #1e293b"
+              : "1px solid #e2e8f0";
+            header.style.display = "flex";
+            header.style.justifyContent = "space-between";
+            header.style.alignItems = "center";
+            header.style.fontFamily = "ui-sans-serif, system-ui, sans-serif";
+
+            const title = clonedDoc.createElement("span");
+            title.innerText = `${sectionName} • Q${question.order}`;
+            title.style.fontSize = "14px";
+            title.style.fontWeight = "600";
+            title.style.color = isDark ? "#94a3b8" : "#64748b";
+            title.style.textTransform = "uppercase";
+            title.style.letterSpacing = "0.05em";
+
+            const branding = clonedDoc.createElement("span");
+            branding.innerText = "";
+            branding.style.fontSize = "11px";
+            branding.style.color = isDark ? "#475569" : "#94a3b8";
+            branding.style.fontWeight = "500";
+
+            header.appendChild(title);
+            header.appendChild(branding);
+
+            clonedContent.insertBefore(header, clonedContent.firstChild);
+          }
+        },
+      });
+
+      canvas.toBlob((blob: Blob | null) => {
+        if (blob) {
+          navigator.clipboard
+            .write([new ClipboardItem({ "image/png": blob })])
+            .then(() => {
+              setIsCopied(true);
+              setTimeout(() => setIsCopied(false), 2000);
+            })
+            .catch((err) => {
+              console.error("Failed to write to clipboard", err);
+            });
+        }
+        setIsCopying(false);
+      }, "image/png");
+    } catch (error) {
+      console.error("Screenshot failed:", error);
+      setIsCopying(false);
+    }
+  };
 
   // Helper to style options based on state
   const getOptionClass = (opt: Option) => {
@@ -122,6 +255,40 @@ export const QuestionView: React.FC<QuestionViewProps> = ({
               {isStarred ? "Starred" : "Star Question"}
             </span>
           </Button>
+
+          <Button
+            variant="ghost"
+            size="sm"
+            onClick={() => setIsUpdateOpen(true)}
+            className="ml-1 gap-1.5 text-muted-foreground hover:text-primary"
+          >
+            <FileJson className="w-4 h-4" />
+            <span className="text-xs font-semibold">Update Key</span>
+          </Button>
+
+          <Button
+            variant="ghost"
+            size="sm"
+            onClick={handleCopyQuestion}
+            disabled={isCopying}
+            className={cn(
+              "ml-1 gap-1.5 transition-colors",
+              isCopied
+                ? "text-emerald-500 hover:text-emerald-600"
+                : "text-muted-foreground hover:text-primary",
+            )}
+          >
+            {isCopying ? (
+              <Loader2 className="w-4 h-4 animate-spin" />
+            ) : isCopied ? (
+              <Check className="w-4 h-4" />
+            ) : (
+              <Copy className="w-4 h-4" />
+            )}
+            <span className="text-xs font-semibold">
+              {isCopied ? "Copied" : "Copy"}
+            </span>
+          </Button>
         </div>
 
         <div className="flex items-center gap-4 text-sm ml-auto">
@@ -159,7 +326,7 @@ export const QuestionView: React.FC<QuestionViewProps> = ({
 
           <div className="bg-secondary/50 rounded-md px-3 py-1.5 flex flex-col items-end border border-border">
             <span className="text-[10px] text-muted-foreground font-bold uppercase">
-              Marks+
+              Marks
             </span>
             <div className="flex items-center gap-1 text-sm font-semibold">
               <span className="text-emerald-600 dark:text-emerald-400">
@@ -176,9 +343,11 @@ export const QuestionView: React.FC<QuestionViewProps> = ({
 
       {/* Scrollable Content */}
       <div className="flex-1 overflow-y-auto p-4 md:p-8 w-full pb-20">
-        {/* Container for zooming */}
+        {/* Container for zooming and capturing */}
         <div
-          className="max-w-5xl mx-auto origin-top-left transition-all duration-200"
+          ref={questionContentRef}
+          data-question-content="true"
+          className="max-w-5xl mx-auto origin-top-left transition-all duration-200 p-4 rounded-lg bg-background"
           style={{
             // Using zoom property for best browser compatibility with "text and image" scaling simultaneously
             // Although non-standard, it is effective for this specific "A+/A-" requirement on mixed content.
@@ -189,6 +358,12 @@ export const QuestionView: React.FC<QuestionViewProps> = ({
         >
           {/* Question Text */}
           <div className="prose dark:prose-invert max-w-none mb-8">
+            {question.isComprehension === true && (
+              <div
+                className="text-lg leading-relaxed text-foreground [&>img]:max-w-full [&>img]:rounded-lg [&>img]:border [&>img]:border-border [&>p]:mb-4"
+                dangerouslySetInnerHTML={{ __html: question.paragraph }}
+              />
+            )}
             <div
               className="text-lg leading-relaxed text-foreground [&>img]:max-w-full [&>img]:rounded-lg [&>img]:border [&>img]:border-border [&>p]:mb-4"
               dangerouslySetInnerHTML={{ __html: question.name }}
@@ -202,88 +377,98 @@ export const QuestionView: React.FC<QuestionViewProps> = ({
             </h3>
 
             {question.type === "multiple_choice" ? (
-              <div className="grid grid-cols-1 gap-4">
-                {question.options.map((opt, idx) => (
-                  <div key={opt._id} className={getOptionClass(opt)}>
-                    <div className="flex-shrink-0 mt-0.5">
-                      <div
-                        className={cn(
-                          "w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold border",
-                          opt.isCorrect
-                            ? "bg-emerald-500 border-emerald-600 text-white"
-                            : opt.isMarked
-                              ? "bg-rose-500 border-rose-600 text-white"
-                              : "bg-secondary border-border text-muted-foreground group-hover:border-primary/50",
-                        )}
-                      >
-                        {String.fromCharCode(65 + idx)}
-                      </div>
-                    </div>
-                    <div className="flex-1">
-                      <div
-                        className="prose dark:prose-invert max-w-none [&>p]:m-0 [&>img]:align-middle"
-                        dangerouslySetInnerHTML={{ __html: opt.name }}
-                      />
-                    </div>
-                    {opt.isMarked && (
-                      <div className="absolute -top-2.5 right-4">
-                        <Badge
-                          variant={opt.isCorrect ? "success" : "destructive"}
-                          className="shadow-sm border"
+              <>
+                <div className="grid grid-cols-1 gap-4">
+                  {question.options.map((opt, idx) => (
+                    <div key={opt._id} className={getOptionClass(opt)}>
+                      <div className="flex-shrink-0 mt-0.5">
+                        <div
+                          className={cn(
+                            "w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold border",
+                            opt.isCorrect
+                              ? "bg-emerald-500 border-emerald-600 text-white"
+                              : opt.isMarked
+                                ? "bg-rose-500 border-rose-600 text-white"
+                                : "bg-secondary border-border text-muted-foreground group-hover:border-primary/50",
+                          )}
                         >
-                          Your Answer
-                        </Badge>
+                          {String.fromCharCode(65 + idx)}
+                        </div>
                       </div>
-                    )}
-                  </div>
-                ))}
-              </div>
+                      <div className="flex-1">
+                        <div
+                          className="prose dark:prose-invert max-w-none [&>p]:m-0 [&>img]:align-middle"
+                          dangerouslySetInnerHTML={{ __html: opt.name }}
+                        />
+                      </div>
+                      {opt.isMarked && (
+                        <div className="absolute -top-2.5 right-4">
+                          <Badge
+                            variant={opt.isCorrect ? "success" : "destructive"}
+                            className="shadow-sm border"
+                          >
+                            Your Answer
+                          </Badge>
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </>
             ) : (
               <div className="bg-card border border-border rounded-lg p-6 flex flex-col gap-4">
                 {/* Integer Type Display */}
-                {question.options.map((opt) => (
-                  <div key={opt._id} className="space-y-4">
-                    <div className="flex items-center gap-4">
-                      <div className="flex-1 p-4 bg-secondary/30 rounded-md border border-border">
-                        <span className="text-xs text-muted-foreground uppercase font-bold block mb-1">
-                          Correct Answer
-                        </span>
-                        <span className="text-xl font-mono font-bold text-emerald-600 dark:text-emerald-400">
-                          {opt.solution || opt.nameText}
-                        </span>
-                      </div>
+                <div className="space-y-4">
+                  <div className="flex items-center gap-4">
+                    <div className="flex-1 p-4 bg-secondary/30 rounded-md border border-border">
+                      <span className="text-xs text-muted-foreground uppercase font-bold block mb-1">
+                        Correct Answer
+                      </span>
+                      <span className="text-xl font-mono font-bold text-emerald-600 dark:text-emerald-400">
+                        {question.options[0].solution ||
+                          question.options[0].nameText ||
+                          "--"}
+                      </span>
+                    </div>
 
-                      <div className="flex-1 p-4 bg-secondary/30 rounded-md border border-border relative">
-                        <span className="text-xs text-muted-foreground uppercase font-bold block mb-1">
-                          Your Answer
-                        </span>
-                        <span
-                          className={cn(
-                            "text-xl font-mono font-bold",
-                            opt.isMarked && opt.isCorrect
-                              ? "text-emerald-600 dark:text-emerald-400"
-                              : "text-rose-600 dark:text-rose-400",
-                          )}
-                        >
-                          {/* Logic to show user answer if marked, else unattempted */}
-                          {opt.isMarked ? opt.nameText : "--"}
-                        </span>
-                        {opt.isMarked && (
-                          <div className="absolute top-2 right-2">
-                            <Badge
-                              variant={
-                                opt.isCorrect ? "success" : "destructive"
-                              }
-                              className="text-[10px] px-1.5 h-5"
-                            >
-                              {opt.isCorrect ? "Correct" : "Wrong"}
-                            </Badge>
-                          </div>
+                    <div className="flex-1 p-4 bg-secondary/30 rounded-md border border-border relative">
+                      <span className="text-xs text-muted-foreground uppercase font-bold block mb-1">
+                        Your Answer
+                      </span>
+                      <span
+                        className={cn(
+                          "text-xl font-mono font-bold",
+                          question.options[0].isMarked && question.isCorrect
+                            ? "text-emerald-600 dark:text-emerald-400"
+                            : question.isAttempted
+                              ? "text-rose-600 dark:text-rose-400"
+                              : "text-yellow-600 dark:text-yellow-400",
                         )}
-                      </div>
+                      >
+                        {/* Logic to show user answer if marked, else unattempted */}
+                        {question.fillUpsAnswers
+                          ? question.fillUpsAnswers[0] || "Not attempted"
+                          : "--"}
+                      </span>
+                      {question.options[0].isMarked && (
+                        <div className="absolute top-2 right-2">
+                          <Badge
+                            variant={
+                              question.options[0].isCorrect
+                                ? "success"
+                                : "destructive"
+                            }
+                            className="text-[10px] px-1.5 h-5"
+                          >
+                            {question.options[0].isCorrect
+                              ? "Correct"
+                              : "Wrong"}
+                          </Badge>
+                        </div>
+                      )}
                     </div>
                   </div>
-                ))}
+                </div>
               </div>
             )}
           </div>
@@ -325,6 +510,67 @@ export const QuestionView: React.FC<QuestionViewProps> = ({
           Next <ChevronRight className="w-4 h-4" />
         </Button>
       </div>
+
+      {/* Key Update Dialog */}
+      <Dialog
+        isOpen={isUpdateOpen}
+        onClose={() => setIsUpdateOpen(false)}
+        title="Update Question Data"
+      >
+        <div className="space-y-6">
+          <div className="space-y-2">
+            <label className="text-sm font-medium flex items-center gap-2">
+              Question JSON
+              <span className="text-xs text-muted-foreground font-normal">
+                (Edit variables, answer keys, etc.)
+              </span>
+            </label>
+            <textarea
+              value={jsonQuestion}
+              onChange={(e) => setJsonQuestion(e.target.value)}
+              className="w-full h-96 font-mono text-sm p-4 rounded-md border border-input bg-muted/50 focus:ring-2 focus:ring-primary focus:outline-none"
+              spellCheck={false}
+            />
+          </div>
+
+          <div className="space-y-2">
+            <label className="text-sm font-medium flex items-center gap-2">
+              Section Stats JSON
+              <span className="text-xs text-muted-foreground font-normal">
+                (Update section totals if marks changed)
+              </span>
+            </label>
+            {sectionStats ? (
+              <textarea
+                value={jsonStats}
+                onChange={(e) => setJsonStats(e.target.value)}
+                className="w-full h-48 font-mono text-sm p-4 rounded-md border border-input bg-muted/50 focus:ring-2 focus:ring-primary focus:outline-none"
+                spellCheck={false}
+              />
+            ) : (
+              <div className="p-4 border border-dashed rounded-md text-muted-foreground text-sm">
+                No section stats available for this question's section.
+              </div>
+            )}
+          </div>
+
+          {jsonError && (
+            <div className="p-3 bg-destructive/10 text-destructive text-sm rounded-md flex items-center gap-2">
+              <AlertCircle className="w-4 h-4" />
+              {jsonError}
+            </div>
+          )}
+
+          <div className="flex justify-end gap-3 pt-4 border-t border-border">
+            <Button variant="ghost" onClick={() => setIsUpdateOpen(false)}>
+              Cancel
+            </Button>
+            <Button onClick={handleSaveJson} className="gap-2">
+              <Save className="w-4 h-4" /> Update & Export
+            </Button>
+          </div>
+        </div>
+      </Dialog>
     </div>
   );
 };
