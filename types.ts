@@ -24,6 +24,8 @@ export interface Question {
   timeTaken: number; // in milliseconds
   isAttempted: boolean;
   isCorrect: boolean;
+  isGraceMarked: boolean;
+  isReevaluated: boolean;
   isPartiallyCorrect: boolean;
   markForReview: boolean;
   sectionId: string;
