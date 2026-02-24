@@ -5,6 +5,7 @@ import Advp1_15_02_2026 from './tests/Advp1_15_02_2026.json'
 import Advp1_22_02_2026 from './tests/Advp1_22_02_2026.json'
 import module_4 from './tests/module_4.json'
 import Advp2_22_02_2026 from './tests/Advp2_22_02_2026.json'
+import module_5 from './tests/module_5.json' 
 
 export const TESTS: TestMetadata[] = [
   { id: '1', name: 'Testing 123', fileName: 'testing123.json' },
@@ -12,7 +13,8 @@ export const TESTS: TestMetadata[] = [
   { id: '3', name: 'Advp1_15_02_2026', fileName: 'Advp1_15_02_2026.json' },
   { id: '4', name: 'Advp1_22_02_2026', fileName: 'Advp1_22_02_2026.json' },
   { id: '5', name: 'Module 4', fileName: 'module_4.json' },
-  { id: '6', name: 'Advp2_22_02_2026', fileName: 'Advp2_22_02_2026.json' }
+  { id: '6', name: 'Advp2_22_02_2026', fileName: 'Advp2_22_02_2026.json' },
+  { id: '7', name: 'Module 5', fileName: 'module_5.json' }
 ];
 
 export const MOCK_TEST_DATA: Record<string, TestData> = {
@@ -21,5 +23,6 @@ export const MOCK_TEST_DATA: Record<string, TestData> = {
   'Advp1_15_02_2026.json': Advp1_15_02_2026 as TestData,
   'Advp1_22_02_2026.json': Advp1_22_02_2026 as TestData,
   'module_4.json': module_4 as TestData,
-  'Advp2_22_02_2026.json': Advp2_22_02_2026 as TestData
+  'Advp2_22_02_2026.json': Advp2_22_02_2026 as TestData,
+  'module_5.json': module_5 as TestData
 };
