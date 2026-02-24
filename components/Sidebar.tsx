@@ -29,13 +29,25 @@ export const Sidebar: React.FC<SidebarProps> = ({
   // Helper to determine the status color of a question button
   const getQuestionStatusClass = (q: Question, isSelected: boolean) => {
     // Reduced size: w-7 h-7 instead of w-8 h-8
-    const baseClasses =
+    let baseClasses =
       "relative aspect-square md:aspect-auto md:w-9 md:h-9 rounded-md flex items-center justify-center text-[10px] md:text-xs font-medium transition-all duration-200 border";
+
+    if (q.isReevaluated) {
+      baseClasses +=
+        " ring-1 ring-yellow-700 ring-primary ring-offset-1 ring-offset-pink-500";
+    }
 
     if (isSelected) {
       return cn(
         baseClasses,
         "ring-2 ring-primary ring-offset-2 ring-offset-background border-primary bg-primary text-primary-foreground font-bold shadow-md transform scale-105 z-10",
+      );
+    }
+
+    if (q.isGraceMarked) {
+      return cn(
+        baseClasses,
+        "bg-blue-400 text-blue-900 border-blue-500 hover:bg-blue-500",
       );
     }
 
@@ -57,7 +69,12 @@ export const Sidebar: React.FC<SidebarProps> = ({
     }
 
     // 3. Incorrect -> Red (Attempted but not correct and not partial)
-    if (q.isAttempted && !q.isCorrect && !q.isPartiallyCorrect) {
+    if (
+      q.isAttempted &&
+      !q.isCorrect &&
+      !q.isPartiallyCorrect &&
+      !q.isGraceMarked
+    ) {
       return cn(
         baseClasses,
         "bg-rose-500 text-white border-rose-600 hover:bg-rose-600",
@@ -164,8 +181,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
                     {starredQuestions.has(q._id) && (
                       <Star
                         className={cn(
-                          "absolute -top-1 -right-1 w-2.5 h-2.5 fill-yellow-400 text-yellow-600 drop-shadow-sm z-20",
-                          selectedQuestionId === q._id ? "text-yellow-300" : "",
+                          "absolute -top-1 -right-1 w-2.5 h-2.5 fill-blue-400 text-blue-600 drop-shadow-sm z-20 text-shadow-lg",
+                          selectedQuestionId === q._id ? "text-blue-300" : "",
                         )}
                       />
                     )}
