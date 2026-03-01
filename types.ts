@@ -1,7 +1,7 @@
 export interface Option {
   _id: string;
-  name: string; // HTML content
-  nameText?: string | number;
+  name?: string | number; // HTML content - can be number in JSON
+  nameText: string | number; // Text content - required in JSON
   isCorrect: boolean;
   isMarked: boolean;
   solution?: string | number;
@@ -16,7 +16,7 @@ export interface Question {
   _id: string;
   name: string; // HTML content
   nameText?: string;
-  type: 'multiple_choice' | 'integer';
+  type: 'multiple_choice' | 'integer' | string; // Allow string to match JSON data
   options: Option[];
   solution?: string; // HTML content
   fillUpsAnswers?: (string | number)[];
@@ -31,15 +31,28 @@ export interface Question {
   sectionId: string;
   order: number;
   questionSubmitOrder: number;
+  isComprehension?: boolean;
+  paragraph?: any;
+  paragraphText?: any;
+  hasMultipleAnswers?: boolean;
+  isGpscType?: boolean;
+  isSurrendered?: boolean;
+  difficultyLevel?: any;
 }
 
 export interface Section {
   _id: string;
   name: string;
   sectionMarks: number;
-  questions: Question[];
-  order: number;
+  sectionDuration?: number;
   isActive: boolean;
+  draftMode?: boolean;
+  sectionInstructions?: string;
+  hasOptionalQuestions?: boolean;
+  order: number;
+  createdAt?: string;
+  updatedAt?: string;
+  questions: Question[];
 }
 
 export interface SectionStats {
