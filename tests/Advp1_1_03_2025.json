@@ -1,0 +1,2436 @@
+{
+    "data": {
+        "test": {
+            "name": "01_03_2026_12th CRP Advanced Paper 1",
+            "testTotalDuration": 11100000,
+            "settings": {
+                "fonts": {
+                    "fonts": [
+                        {
+                            "face": "Calibri",
+                            "supported": true
+                        },
+                        {
+                            "face": "serif",
+                            "supported": true
+                        },
+                        {
+                            "face": "Cambria Math",
+                            "supported": true
+                        },
+                        {
+                            "face": "Symbol",
+                            "supported": true
+                        },
+                        {
+                            "face": "Arial Unicode MS",
+                            "supported": true
+                        },
+                        {
+                            "face": "Times New Roman",
+                            "supported": true
+                        },
+                        {
+                            "face": "Noto Sans",
+                            "supported": true
+                        }
+                    ],
+                    "include": "https://cms-gcp.classplusapp.com/parser/v3/css/combined?face=Calibri,serif,Cambria%20Math,Symbol,Arial%20Unicode%20MS,Times%20New%20Roman,Noto%20Sans"
+                },
+                "isSectionSwitchingEnabled": true
+            },
+            "practiceTestUrls": []
+        },
+        "filters": {
+            "incorrect": 1,
+            "correct": 1,
+            "partiallyMarked": 0,
+            "unattempted": 1,
+            "markForReview": 0,
+            "graceMarked": 0,
+            "revaluated": 0
+        },
+        "timeTaken": 11100000,
+        "showReportQuestion": true,
+        "sectionWiseStats": [
+            {
+                "marksScored": 12,
+                "sectionMarks": 20,
+                "accuracy": 100,
+                "_id": "69a3e2ddfad2c9307ec90d4d",
+                "totalQuestions": 5,
+                "attemptDuration": 1805000,
+                "correctAnswers": 3,
+                "inCorrectAnswers": 0,
+                "partiallyCorrectAnswers": 0,
+                "unAttempted": 2,
+                "name": "Physics_Integer Type",
+                "order": 1,
+                "sectionDuration": 0,
+                "sectionId": "69a2b0a4895d77e122744052"
+            },
+            {
+                "marksScored": -1,
+                "sectionMarks": 20,
+                "accuracy": 0,
+                "_id": "69a3e2ddfad2c9600cc90d4f",
+                "totalQuestions": 5,
+                "attemptDuration": 1112000,
+                "correctAnswers": 0,
+                "inCorrectAnswers": 1,
+                "partiallyCorrectAnswers": 0,
+                "unAttempted": 4,
+                "name": "Physics_Non-Negative Integer Type",
+                "order": 2,
+                "sectionDuration": 0,
+                "sectionId": "69a2b0a4895d77d56a744053"
+            },
+            {
+                "marksScored": 3,
+                "sectionMarks": 32,
+                "accuracy": 50,
+                "_id": "69a3e2ddfad2c9455dc90d51",
+                "totalQuestions": 8,
+                "attemptDuration": 2624000,
+                "correctAnswers": 1,
+                "inCorrectAnswers": 1,
+                "partiallyCorrectAnswers": 0,
+                "unAttempted": 6,
+                "name": "Physics_Single Integer Type",
+                "order": 3,
+                "sectionDuration": 0,
+                "sectionId": "69a2b0a4895d776623744054"
+            },
+            {
+                "marksScored": 0,
+                "sectionMarks": 20,
+                "accuracy": 0,
+                "_id": "69a3e2ddfad2c9fe0ac90d52",
+                "totalQuestions": 5,
+                "attemptDuration": 0,
+                "correctAnswers": 0,
+                "inCorrectAnswers": 0,
+                "partiallyCorrectAnswers": 0,
+                "unAttempted": 5,
+                "name": "Chemistry_Integer Type",
+                "order": 4,
+                "sectionDuration": 0,
+                "sectionId": "69a2b0a4895d77a9c5744055"
+            },
+            {
+                "marksScored": 0,
+                "sectionMarks": 20,
+                "accuracy": 0,
+                "_id": "69a3e2ddfad2c99da5c90d55",
+                "totalQuestions": 5,
+                "attemptDuration": 6000,
+                "correctAnswers": 0,
+                "inCorrectAnswers": 0,
+                "partiallyCorrectAnswers": 0,
+                "unAttempted": 5,
+                "name": "Chemistry_Non-Negative Integer Type",
+                "order": 5,
+                "sectionDuration": 0,
+                "sectionId": "69a2b0a4895d77143a744056"
+            },
+            {
+                "marksScored": 0,
+                "sectionMarks": 32,
+                "accuracy": 0,
+                "_id": "69a3e2ddfad2c9bb2fc90d53",
+                "totalQuestions": 8,
+                "attemptDuration": 1979000,
+                "correctAnswers": 0,
+                "inCorrectAnswers": 0,
+                "partiallyCorrectAnswers": 0,
+                "unAttempted": 8,
+                "name": "Chemistry_Single Integer Type",
+                "order": 6,
+                "sectionDuration": 0,
+                "sectionId": "69a2b0a4895d77a3cd744057"
+            },
+            {
+                "marksScored": 0,
+                "sectionMarks": 20,
+                "accuracy": 0,
+                "_id": "69a3e2ddfad2c94694c90d50",
+                "totalQuestions": 5,
+                "attemptDuration": 0,
+                "correctAnswers": 0,
+                "inCorrectAnswers": 0,
+                "partiallyCorrectAnswers": 0,
+                "unAttempted": 5,
+                "name": "Maths_Integer Type",
+                "order": 7,
+                "sectionDuration": 0,
+                "sectionId": "69a2b0a4895d77221c744058"
+            },
+            {
+                "marksScored": 4,
+                "sectionMarks": 20,
+                "accuracy": 100,
+                "_id": "69a3e2ddfad2c9a96ac90d54",
+                "totalQuestions": 5,
+                "attemptDuration": 407000,
+                "correctAnswers": 1,
+                "inCorrectAnswers": 0,
+                "partiallyCorrectAnswers": 0,
+                "unAttempted": 4,
+                "name": "Maths_Non-Negative Integer Type",
+                "order": 8,
+                "sectionDuration": 0,
+                "sectionId": "69a2b0a4895d77fc34744059"
+            },
+            {
+                "marksScored": 24,
+                "sectionMarks": 32,
+                "accuracy": 100,
+                "_id": "69a3e2ddfad2c91ca1c90d4e",
+                "totalQuestions": 8,
+                "attemptDuration": 2821000,
+                "correctAnswers": 6,
+                "inCorrectAnswers": 0,
+                "partiallyCorrectAnswers": 0,
+                "unAttempted": 2,
+                "name": "Maths_Single Integer Type",
+                "order": 9,
+                "sectionDuration": 0,
+                "sectionId": "69a2b0a4895d77921b74405a"
+            }
+        ],
+        "sections": [
+            {
+                "sectionDuration": 0,
+                "sectionMarks": 20,
+                "isActive": true,
+                "draftMode": false,
+                "sectionInstructions": " ",
+                "_id": "69a2b0a4895d77e122744052",
+                "hasOptionalQuestions": false,
+                "name": "Physics_Integer Type",
+                "order": 1,
+                "createdAt": "2026-03-01T03:50:24.283Z",
+                "updatedAt": "2026-03-01T03:50:24.283Z",
+                "questions": [
+                    {
+                        "_id": "69a2b0a4895d77b05b744066",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/cc6e82ec-45d6-4a3a-9b25-4a75b64efda9.png\" alt=\"\" width=\"588\" height=\"325\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "1"
+                        ],
+                        "nameText": " ",
+                        "sectionId": "69a2b0a4895d77e122744052",
+                        "order": 1,
+                        "questionSubmitOrder": 1,
+                        "options": [
+                            {
+                                "nameText": "1",
+                                "isCorrect": true,
+                                "_id": "680f86ab237b040638171c4d",
+                                "solution": "1",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 547000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d77d582744068",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/7513133e-2c16-4a6b-b1be-700b11318b4e.png\" alt=\"\" width=\"562\" height=\"227\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": " ",
+                        "sectionId": "69a2b0a4895d77e122744052",
+                        "order": 2,
+                        "questionSubmitOrder": 2,
+                        "options": [
+                            {
+                                "nameText": 150,
+                                "isCorrect": true,
+                                "_id": "680f897b0d8cf6221a30da49",
+                                "solution": 150,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 340000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d7746c4744065",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/ccfce864-bef6-474f-a35c-5ded51eb8af6.png\" alt=\"\" width=\"573\" height=\"306\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77e122744052",
+                        "order": 3,
+                        "questionSubmitOrder": 3,
+                        "options": [
+                            {
+                                "nameText": "0",
+                                "isCorrect": true,
+                                "_id": "680f67abbcb4a967f3b957db",
+                                "solution": "0",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 493000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d778053744067",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/319e9326-fb22-404e-8b5a-0556d67d20c7.png\" alt=\"\" width=\"582\" height=\"236\" /></p>\n<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/328491_1745840043372.png\" width=\"352\" height=\"307\" name=\"Image2\" align=\"bottom\" border=\"0\" /> </span></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "17"
+                        ],
+                        "nameText": "\n ",
+                        "sectionId": "69a2b0a4895d77e122744052",
+                        "order": 4,
+                        "questionSubmitOrder": 4,
+                        "options": [
+                            {
+                                "nameText": "17",
+                                "isCorrect": true,
+                                "_id": "680f67abbcb4a98fc7b957dd",
+                                "solution": "17",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 178000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d774edf744069",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/1c75c479-780b-4c55-a2f2-418433555c3d.png\" alt=\"\" width=\"528\" height=\"263\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "1"
+                        ],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77e122744052",
+                        "order": 5,
+                        "questionSubmitOrder": 5,
+                        "options": [
+                            {
+                                "nameText": "1",
+                                "isCorrect": true,
+                                "_id": "680f67abbcb4a9af95b957df",
+                                "solution": "1",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 247000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    }
+                ],
+                "numberOfQuestions": 5
+            },
+            {
+                "sectionDuration": 0,
+                "sectionMarks": 20,
+                "isActive": true,
+                "draftMode": false,
+                "sectionInstructions": " ",
+                "_id": "69a2b0a4895d77d56a744053",
+                "hasOptionalQuestions": false,
+                "name": "Physics_Non-Negative Integer Type",
+                "order": 2,
+                "createdAt": "2026-03-01T03:50:24.283Z",
+                "updatedAt": "2026-03-01T03:50:24.283Z",
+                "questions": [
+                    {
+                        "_id": "69a2b0a4895d77261c74406d",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><span lang=\"en-US\">A source of sound frequency 1000 Hz moves to the right with a speed of&nbsp;</span></span></span><span style=\"font-size: 16.0pt; font-family: 'Cambria Math','serif'; mso-fareast-font-family: 'Arial Unicode MS'; mso-bidi-font-family: 'Times New Roman'; border: none; mso-font-kerning: 0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">50 m/s</span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><span lang=\"en-US\">relative to the ground. To its right is a reflecting surface moving to the left with a speed of&nbsp;</span></span></span><span style=\"font-size: 16.0pt; font-family: 'Cambria Math','serif'; mso-fareast-font-family: 'Arial Unicode MS'; mso-bidi-font-family: 'Times New Roman'; border: none; mso-font-kerning: 0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">20 m/s</span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><span lang=\"en-US\">. There is a stationary observer to the left of the source as shown in figure. Speed of sound in air is&nbsp;</span></span></span><span style=\"font-size: 16.0pt; font-family: 'Cambria Math','serif'; mso-fareast-font-family: 'Arial Unicode MS'; mso-bidi-font-family: 'Times New Roman'; border: none; mso-font-kerning: 0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">330 m/s</span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><span lang=\"en-US\">. Then wavelength of reflected wave (in mm) is :-</span></span></span></span></span></p>\n<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/253626_1745840072047.png\" width=\"393\" height=\"239\" name=\"Picture 1\" align=\"bottom\" border=\"0\" /> </span></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "A source of sound frequency 1000 Hz moves to the right with a speed of 50 m/s relative to the ground. To its right is a reflecting surface moving to the left with a speed of 20 m/s . There is a stationary observer to the left of the source as shown in figure. Speed of sound in air is 330 m/s . Then wavelength of reflected wave (in mm) is :-\n ",
+                        "sectionId": "69a2b0a4895d77d56a744053",
+                        "order": 1,
+                        "questionSubmitOrder": 1,
+                        "options": [
+                            {
+                                "nameText": 248,
+                                "isCorrect": true,
+                                "_id": "680f67c9919a222bfd231db1",
+                                "solution": 248,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 477000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d77473174406b",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/55cbec5e-6d1b-4300-9ce0-bcd015e50b2a.png\" alt=\"\" width=\"581\" height=\"129\" /></p>\n<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/248236_1745840072300.png\" width=\"441\" height=\"248\" name=\"Image1\" align=\"bottom\" border=\"0\" /> </span></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n ",
+                        "sectionId": "69a2b0a4895d77d56a744053",
+                        "order": 2,
+                        "questionSubmitOrder": 2,
+                        "options": [
+                            {
+                                "nameText": 3,
+                                "isCorrect": true,
+                                "_id": "680f67c9919a2223c7231db3",
+                                "solution": 3,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 130000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d77f03d74406c",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/a3841538-f4fc-4034-ab83-caa48c04120e.png\" alt=\"\" width=\"599\" height=\"128\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77d56a744053",
+                        "order": 3,
+                        "questionSubmitOrder": 3,
+                        "options": [
+                            {
+                                "nameText": 5,
+                                "isCorrect": true,
+                                "_id": "680f67c9919a22bebf231db5",
+                                "solution": 5,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 196000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d7728fa74406e",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/5d525572-ccf5-442e-9410-009ad99edc09.png\" alt=\"\" width=\"567\" height=\"249\" /></p>\n<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/456690_1745840072593.png\" width=\"355\" height=\"213\" name=\"Image2\" align=\"bottom\" border=\"0\" /> </span></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "540"
+                        ],
+                        "nameText": "\n ",
+                        "sectionId": "69a2b0a4895d77d56a744053",
+                        "order": 4,
+                        "questionSubmitOrder": 4,
+                        "options": [
+                            {
+                                "nameText": 1800,
+                                "isCorrect": true,
+                                "_id": "680f67c9919a224dd4231db7",
+                                "solution": 1800,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 1
+                        },
+                        "timeTaken": 124000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d774b0a74406a",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/c0e1cb7e-c703-4174-bb43-31cf54f667e7.png\" alt=\"\" width=\"615\" height=\"131\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77d56a744053",
+                        "order": 5,
+                        "questionSubmitOrder": 5,
+                        "options": [
+                            {
+                                "nameText": 126,
+                                "isCorrect": true,
+                                "_id": "680f67c9919a22b37a231db9",
+                                "solution": 126,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 185000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    }
+                ],
+                "numberOfQuestions": 5
+            },
+            {
+                "sectionDuration": 0,
+                "sectionMarks": 32,
+                "isActive": true,
+                "draftMode": false,
+                "sectionInstructions": " ",
+                "_id": "69a2b0a4895d776623744054",
+                "hasOptionalQuestions": false,
+                "name": "Physics_Single Integer Type",
+                "order": 3,
+                "createdAt": "2026-03-01T03:50:24.284Z",
+                "updatedAt": "2026-03-01T03:50:24.284Z",
+                "questions": [
+                    {
+                        "_id": "69a2b0a4895d77703e744074",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/25e74671-dc8e-4e7a-b1ca-e00bc3f326f8.png\" alt=\"\" width=\"569\" height=\"220\" /></p>\n<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/704213_1745840099279.png\" width=\"158\" height=\"245\" name=\"Picture 1\" align=\"bottom\" border=\"0\" /> </span></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n ",
+                        "sectionId": "69a2b0a4895d776623744054",
+                        "order": 1,
+                        "questionSubmitOrder": 1,
+                        "options": [
+                            {
+                                "nameText": 8,
+                                "isCorrect": true,
+                                "_id": "680f67e549e18cff3024e04e",
+                                "solution": 8,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 200000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d7750d8744076",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/f9491c96-1b05-49f9-80b0-a6cbf984acc2.png\" alt=\"\" width=\"583\" height=\"115\" /></p>\n<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/698406_1745840099505.png\" width=\"217\" height=\"179\" name=\"Image1\" align=\"bottom\" border=\"0\" /> </span></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n ",
+                        "sectionId": "69a2b0a4895d776623744054",
+                        "order": 2,
+                        "questionSubmitOrder": 2,
+                        "options": [
+                            {
+                                "nameText": 3,
+                                "isCorrect": true,
+                                "_id": "680f67e549e18c3eae24e050",
+                                "solution": 3,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 203000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d7728a7744075",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/77ec279d-c419-4574-954d-e0f16ec98444.png\" alt=\"\" width=\"580\" height=\"185\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "2"
+                        ],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d776623744054",
+                        "order": 3,
+                        "questionSubmitOrder": 3,
+                        "options": [
+                            {
+                                "nameText": 3,
+                                "isCorrect": true,
+                                "_id": "680f67e549e18cec6124e052",
+                                "solution": 3,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 1
+                        },
+                        "timeTaken": 316000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d774baf744070",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/4e2dec20-3223-4134-8ba4-8b5cf44b2312.png\" alt=\"\" width=\"571\" height=\"110\" /></p>\n<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/660403_1745840099976.png\" width=\"424\" height=\"154\" name=\"Image2\" align=\"bottom\" border=\"0\" /> </span></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n ",
+                        "sectionId": "69a2b0a4895d776623744054",
+                        "order": 4,
+                        "questionSubmitOrder": 4,
+                        "options": [
+                            {
+                                "nameText": 3,
+                                "isCorrect": true,
+                                "_id": "680f67e549e18c7a8924e054",
+                                "solution": 3,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 102000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d77a682744072",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/ea605b94-09b1-4d3f-ba79-76e12c15e421.png\" alt=\"\" width=\"571\" height=\"169\" /></p>\n<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/124170_1745840100376.png\" width=\"293\" height=\"214\" name=\"Image3\" align=\"bottom\" border=\"0\" /> </span></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n ",
+                        "sectionId": "69a2b0a4895d776623744054",
+                        "order": 5,
+                        "questionSubmitOrder": 5,
+                        "options": [
+                            {
+                                "nameText": 5,
+                                "isCorrect": true,
+                                "_id": "680f67e549e18c4c0e24e056",
+                                "solution": 5,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 398000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d77cdb0744071",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/2cf9b777-c0cc-40dd-8a8d-6fd1e9bf1a0a.png\" alt=\"\" width=\"567\" height=\"221\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "4"
+                        ],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d776623744054",
+                        "order": 6,
+                        "questionSubmitOrder": 6,
+                        "options": [
+                            {
+                                "nameText": 4,
+                                "isCorrect": true,
+                                "_id": "680f67e549e18c2db024e058",
+                                "solution": 4,
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 182000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d7704e9744073",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/be4c5ea4-cbf8-484a-9378-9907f783f21e.png\" alt=\"\" width=\"573\" height=\"249\" /></p>\n<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/739879_1745840100912.png\" width=\"231\" height=\"206\" name=\"Image4\" align=\"bottom\" border=\"0\" /> </span></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n ",
+                        "sectionId": "69a2b0a4895d776623744054",
+                        "order": 7,
+                        "questionSubmitOrder": 7,
+                        "options": [
+                            {
+                                "nameText": 2,
+                                "isCorrect": true,
+                                "_id": "680f67e549e18c8bc624e05a",
+                                "solution": 2,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 744000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d77aae674406f",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/ceac5f67-ad81-402f-be5f-8bdc015c965e.png\" alt=\"\" width=\"584\" height=\"107\" /></p>\n<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/8e30ec34-ed7d-43f7-ab29-ae725e11cdb1.png\" alt=\"\" width=\"529\" height=\"147\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n",
+                        "sectionId": "69a2b0a4895d776623744054",
+                        "order": 8,
+                        "questionSubmitOrder": 8,
+                        "options": [
+                            {
+                                "nameText": 6,
+                                "isCorrect": true,
+                                "_id": "680f67e549e18cb89b24e05c",
+                                "solution": 6,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 479000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    }
+                ],
+                "numberOfQuestions": 8
+            },
+            {
+                "sectionDuration": 0,
+                "sectionMarks": 20,
+                "isActive": true,
+                "draftMode": false,
+                "sectionInstructions": " ",
+                "_id": "69a2b0a4895d77a9c5744055",
+                "hasOptionalQuestions": false,
+                "name": "Chemistry_Integer Type",
+                "order": 4,
+                "createdAt": "2026-03-01T03:50:24.284Z",
+                "updatedAt": "2026-03-01T03:50:24.284Z",
+                "questions": [
+                    {
+                        "_id": "69a2b0a4895d77fc99744078",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><span lang=\"en-US\">How\n many ether(s) will undergo cleavage on reaction with conc. HI?</span></span></span></span></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/732712_1745840321808.png\" name=\"Picture 1\" align=\"bottom\" width=\"594\" height=\"377\" border=\"0\">\n</img></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n How\n many ether(s) will undergo cleavage on reaction with conc. HI?\n \n\n ",
+                        "sectionId": "69a2b0a4895d77a9c5744055",
+                        "order": 1,
+                        "questionSubmitOrder": 1,
+                        "options": [
+                            {
+                                "nameText": 7,
+                                "isCorrect": true,
+                                "_id": "680f68c3e8d3e7c0b1650770",
+                                "solution": 7,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 0,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d77f22e74407a",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><span lang=\"en-US\">How\n many compounds are more reactive towards S</span></span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><span lang=\"en-US\">N</span></span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><span lang=\"en-US\">1\n as well as S</span></span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><span lang=\"en-US\">N</span></span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><span lang=\"en-US\">2\n than CH</span></span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><span lang=\"en-US\">3</span></span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><span lang=\"en-US\">—CH</span></span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><span lang=\"en-US\">2</span></span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><span lang=\"en-US\">—CH</span></span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><span lang=\"en-US\">2</span></span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><span lang=\"en-US\">—Cl\n :</span></span></span></span></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/131983_1745840322040.png\" name=\"Image1\" align=\"bottom\" width=\"594\" height=\"279\" border=\"0\">\n</img></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n How\n many compounds are more reactive towards SN1\n as well as SN2\n than CH3—CH2—CH2—Cl\n :\n \n\n ",
+                        "sectionId": "69a2b0a4895d77a9c5744055",
+                        "order": 2,
+                        "questionSubmitOrder": 2,
+                        "options": [
+                            {
+                                "nameText": 4,
+                                "isCorrect": true,
+                                "_id": "680f68c3e8d3e70098650772",
+                                "solution": 4,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 0,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d77c2e3744077",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/ffa8a1a6-fbfc-47c5-943c-60b8308388e8.png\" alt=\"\" width=\"574\" height=\"104\" /></p>\n<p style=\"text-decoration: none;\"></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n",
+                        "sectionId": "69a2b0a4895d77a9c5744055",
+                        "order": 3,
+                        "questionSubmitOrder": 3,
+                        "options": [
+                            {
+                                "nameText": "25",
+                                "isCorrect": true,
+                                "_id": "680f68c3e8d3e7e5d4650774",
+                                "solution": "25",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 0,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d7717ce744079",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/5f4bb9dc-7c21-4469-b193-224ccfc734d4.png\" alt=\"\" width=\"569\" height=\"99\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77a9c5744055",
+                        "order": 4,
+                        "questionSubmitOrder": 4,
+                        "options": [
+                            {
+                                "nameText": 45,
+                                "isCorrect": true,
+                                "_id": "680f68c3e8d3e731ea650776",
+                                "solution": 45,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 0,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d77367e74407b",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/d1c20d29-f5c4-4a52-9aeb-e74a583075af.png\" alt=\"\" width=\"572\" height=\"187\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77a9c5744055",
+                        "order": 5,
+                        "questionSubmitOrder": 5,
+                        "options": [
+                            {
+                                "nameText": 15,
+                                "isCorrect": true,
+                                "_id": "680f68c3e8d3e7b30c650778",
+                                "solution": 15,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 0,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    }
+                ],
+                "numberOfQuestions": 5
+            },
+            {
+                "sectionDuration": 0,
+                "sectionMarks": 20,
+                "isActive": true,
+                "draftMode": false,
+                "sectionInstructions": " ",
+                "_id": "69a2b0a4895d77143a744056",
+                "hasOptionalQuestions": false,
+                "name": "Chemistry_Non-Negative Integer Type",
+                "order": 5,
+                "createdAt": "2026-03-01T03:50:24.284Z",
+                "updatedAt": "2026-03-01T03:50:24.284Z",
+                "questions": [
+                    {
+                        "_id": "69a2b0a4895d77acd474407e",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/0f875a4a-c166-463b-a705-209a2c08ecb9.png\" alt=\"\" width=\"714\" height=\"159\" /></p>\n<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/d01e326a-4ed5-4962-90d7-cf83cedf5140.png\" alt=\"\" width=\"573\" height=\"92\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n",
+                        "sectionId": "69a2b0a4895d77143a744056",
+                        "order": 1,
+                        "questionSubmitOrder": 1,
+                        "options": [
+                            {
+                                "nameText": 73,
+                                "isCorrect": true,
+                                "_id": "680f68eca0ad286fe3eb5b49",
+                                "solution": 73,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 6000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d7746ba74407d",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><span lang=\"en-US\">How\n many of the following can be prepared by gabriel phthalimide\n synthesis in good yield.</span></span></span></span></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/914085_1745840362852.png\" name=\"Picture 1\" align=\"bottom\" width=\"594\" height=\"242\" border=\"0\">\n</img></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n How\n many of the following can be prepared by gabriel phthalimide\n synthesis in good yield.\n \n\n ",
+                        "sectionId": "69a2b0a4895d77143a744056",
+                        "order": 2,
+                        "questionSubmitOrder": 2,
+                        "options": [
+                            {
+                                "nameText": 3,
+                                "isCorrect": true,
+                                "_id": "680f68eca0ad2853bceb5b4b",
+                                "solution": 3,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 0,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d77056174407c",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/88cf0a8e-68fc-4c49-9a3e-f99c3b47f78f.png\" alt=\"\" width=\"573\" height=\"177\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77143a744056",
+                        "order": 3,
+                        "questionSubmitOrder": 3,
+                        "options": [
+                            {
+                                "nameText": 105,
+                                "isCorrect": true,
+                                "_id": "680f68eca0ad282bf9eb5b4d",
+                                "solution": 105,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 0,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d77337574407f",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/3984040c-71bb-42fb-bad5-c29563fdbd3e.png\" alt=\"\" width=\"575\" height=\"126\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77143a744056",
+                        "order": 4,
+                        "questionSubmitOrder": 4,
+                        "options": [
+                            {
+                                "nameText": 24,
+                                "isCorrect": true,
+                                "_id": "680f68eca0ad28cb3aeb5b4f",
+                                "solution": 24,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 0,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d7733ed744080",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><span lang=\"en-US\">Calculate total number of coloured compound (white/colourless not include) out of the following<br /><img src=\"https://cms-cdn.classplus.co/parserImages/0245d79a-cf1e-4c85-871d-1d55f6ad28ab.png\" alt=\"\" width=\"325\" height=\"361\" /></span></span></span></span></span></p>\n<p style=\"text-decoration: none;\"></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "Calculate total number of coloured compound (white/colourless not include) out of the following\n",
+                        "sectionId": "69a2b0a4895d77143a744056",
+                        "order": 5,
+                        "questionSubmitOrder": 5,
+                        "options": [
+                            {
+                                "nameText": 9,
+                                "isCorrect": true,
+                                "_id": "680f68eca0ad28115beb5b51",
+                                "solution": 9,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 0,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    }
+                ],
+                "numberOfQuestions": 5
+            },
+            {
+                "sectionDuration": 0,
+                "sectionMarks": 32,
+                "isActive": true,
+                "draftMode": false,
+                "sectionInstructions": " ",
+                "_id": "69a2b0a4895d77a3cd744057",
+                "hasOptionalQuestions": false,
+                "name": "Chemistry_Single Integer Type",
+                "order": 6,
+                "createdAt": "2026-03-01T03:50:24.284Z",
+                "updatedAt": "2026-03-01T03:50:24.284Z",
+                "questions": [
+                    {
+                        "_id": "69a2b0a4895d77c29c744086",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><span lang=\"en-US\">Number\n of Grignard reagent that can be consumed by given compound.</span></span></span></span></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/76096_1745840399575.png\" name=\"Picture 1\" align=\"bottom\" width=\"329\" height=\"157\" border=\"0\">\n</img></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Number\n of Grignard reagent that can be consumed by given compound.\n \n\n ",
+                        "sectionId": "69a2b0a4895d77a3cd744057",
+                        "order": 1,
+                        "questionSubmitOrder": 1,
+                        "options": [
+                            {
+                                "nameText": 7,
+                                "isCorrect": true,
+                                "_id": "680f691187d5647565c7bd5b",
+                                "solution": 7,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 376000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d770fcd744083",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><span lang=\"en-US\">Number\n of compounds which can be oxidised by Tollen's regent.</span></span></span></span></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/598286_1745840399676.png\" name=\"Image1\" align=\"bottom\" width=\"506\" height=\"560\" border=\"0\">\n</img></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Number\n of compounds which can be oxidised by Tollen's regent.\n \n\n ",
+                        "sectionId": "69a2b0a4895d77a3cd744057",
+                        "order": 2,
+                        "questionSubmitOrder": 2,
+                        "options": [
+                            {
+                                "nameText": 6,
+                                "isCorrect": true,
+                                "_id": "680f691187d56419d3c7bd5d",
+                                "solution": 6,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 391000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d77379b744085",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/d3ee32db-d3fb-48bf-ab24-fe3a3699fb58.png\" alt=\"\" width=\"570\" height=\"121\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77a3cd744057",
+                        "order": 3,
+                        "questionSubmitOrder": 3,
+                        "options": [
+                            {
+                                "nameText": 6,
+                                "isCorrect": true,
+                                "_id": "680f691187d5641923c7bd5f",
+                                "solution": 6,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 1212000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d770cea744088",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/bad2319e-be07-4c5c-ab22-dca74193b125.png\" alt=\"\" width=\"579\" height=\"98\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77a3cd744057",
+                        "order": 4,
+                        "questionSubmitOrder": 4,
+                        "options": [
+                            {
+                                "nameText": 2,
+                                "isCorrect": true,
+                                "_id": "680f691187d5649e04c7bd61",
+                                "solution": 2,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 0,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d771b59744082",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/d53cf11d-8322-4ead-bbea-161d3e40f68b.png\" alt=\"\" width=\"573\" height=\"76\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77a3cd744057",
+                        "order": 5,
+                        "questionSubmitOrder": 5,
+                        "options": [
+                            {
+                                "nameText": 4,
+                                "isCorrect": true,
+                                "_id": "680f691187d5643257c7bd63",
+                                "solution": 4,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 0,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d77c4b5744087",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/bda3e17f-2df0-4097-852b-721be7abe359.png\" alt=\"\" width=\"585\" height=\"53\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77a3cd744057",
+                        "order": 6,
+                        "questionSubmitOrder": 6,
+                        "options": [
+                            {
+                                "nameText": 3,
+                                "isCorrect": true,
+                                "_id": "680f691187d5648a7cc7bd65",
+                                "solution": 3,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 0,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d77f3b2744081",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/f108cbc3-7f0d-4a13-8a3c-33e1c3895b20.png\" alt=\"\" width=\"384\" height=\"157\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77a3cd744057",
+                        "order": 7,
+                        "questionSubmitOrder": 7,
+                        "options": [
+                            {
+                                "nameText": 9,
+                                "isCorrect": true,
+                                "_id": "680f691187d564e3ecc7bd67",
+                                "solution": 9,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 0,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d771687744084",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><span lang=\"en-US\">Anglesite\n ore + water </span></span></span><span style=\"font-family: Symbol,serif\"><span style=\"font-size: 21px\"><span lang=\"en-US\"></span></span></span><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><span lang=\"en-US\">\n insoluble</span></span></span></span></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/713581_1745840400666.png\" name=\"Image2\" align=\"bottom\" width=\"594\" height=\"66\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><span lang=\"en-US\">Write\n the number of oxygen atoms in water soluble metal containing\n compound X.</span></span></span></span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Anglesite\n ore + water \n insoluble\n \n\n Write\n the number of oxygen atoms in water soluble metal containing\n compound X.\n ",
+                        "sectionId": "69a2b0a4895d77a3cd744057",
+                        "order": 8,
+                        "questionSubmitOrder": 8,
+                        "options": [
+                            {
+                                "nameText": 8,
+                                "isCorrect": true,
+                                "_id": "680f691187d564ccf7c7bd69",
+                                "solution": 8,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 0,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    }
+                ],
+                "numberOfQuestions": 8
+            },
+            {
+                "sectionDuration": 0,
+                "sectionMarks": 20,
+                "isActive": true,
+                "draftMode": false,
+                "sectionInstructions": " ",
+                "_id": "69a2b0a4895d77221c744058",
+                "hasOptionalQuestions": false,
+                "name": "Maths_Integer Type",
+                "order": 7,
+                "createdAt": "2026-03-01T03:50:24.284Z",
+                "updatedAt": "2026-03-01T03:50:24.284Z",
+                "questions": [
+                    {
+                        "_id": "69a2b0a4895d77487a74408a",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/a3b954c1-f522-45a8-a3ce-3041d3df5474.png\" alt=\"\" width=\"524\" height=\"73\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77221c744058",
+                        "order": 1,
+                        "questionSubmitOrder": 1,
+                        "options": [
+                            {
+                                "nameText": "1",
+                                "isCorrect": true,
+                                "_id": "680f69896ccdf0209215a5e7",
+                                "solution": "1",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 0,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d7702d1744089",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/bfa0a4ae-96c5-47ab-b53f-ab02a13d22a3.png\" alt=\"\" width=\"570\" height=\"125\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77221c744058",
+                        "order": 2,
+                        "questionSubmitOrder": 2,
+                        "options": [
+                            {
+                                "nameText": "0",
+                                "isCorrect": true,
+                                "_id": "680f69896ccdf0ebcd15a5e9",
+                                "solution": "0",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 0,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d77f1b974408c",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/4511f7fd-be2f-4341-a33c-c45c44f2ba06.png\" alt=\"\" width=\"309\" height=\"70\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77221c744058",
+                        "order": 3,
+                        "questionSubmitOrder": 3,
+                        "options": [
+                            {
+                                "nameText": "0",
+                                "isCorrect": true,
+                                "_id": "680f69896ccdf08d7315a5eb",
+                                "solution": "0",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 0,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d77f4c374408b",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/4d6f2a26-5385-47a8-b15b-f35df5e1be6f.png\" alt=\"\" width=\"531\" height=\"49\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77221c744058",
+                        "order": 4,
+                        "questionSubmitOrder": 4,
+                        "options": [
+                            {
+                                "nameText": 2,
+                                "isCorrect": true,
+                                "_id": "680f69896ccdf04c0815a5ed",
+                                "solution": 2,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 0,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d775cb174408d",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/50b79970-b468-48e4-9f67-39b854ab2fe9.png\" alt=\"\" width=\"576\" height=\"60\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77221c744058",
+                        "order": 5,
+                        "questionSubmitOrder": 5,
+                        "options": [
+                            {
+                                "nameText": 2,
+                                "isCorrect": true,
+                                "_id": "680f69896ccdf07e5615a5ef",
+                                "solution": 2,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 0,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    }
+                ],
+                "numberOfQuestions": 5
+            },
+            {
+                "sectionDuration": 0,
+                "sectionMarks": 20,
+                "isActive": true,
+                "draftMode": false,
+                "sectionInstructions": " ",
+                "_id": "69a2b0a4895d77fc34744059",
+                "hasOptionalQuestions": false,
+                "name": "Maths_Non-Negative Integer Type",
+                "order": 8,
+                "createdAt": "2026-03-01T03:50:24.284Z",
+                "updatedAt": "2026-03-01T03:50:24.284Z",
+                "questions": [
+                    {
+                        "_id": "69a2b0a4895d77457b74408f",
+                        "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><span lang=\"en-US\">The remainder when&nbsp;</span></span></span><span style=\"font-size: 16.0pt; font-family: 'Cambria Math','serif'; mso-fareast-font-family: 'Arial Unicode MS'; mso-bidi-font-family: 'Times New Roman'; border: none; mso-font-kerning: 0pt; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">7<sup>103</sup></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><span lang=\"en-US\">is divided by 25 is :-</span></span></span></span></span></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "18"
+                        ],
+                        "nameText": "The remainder when 7103 is divided by 25 is :-",
+                        "sectionId": "69a2b0a4895d77fc34744059",
+                        "order": 1,
+                        "questionSubmitOrder": 1,
+                        "options": [
+                            {
+                                "nameText": 18,
+                                "isCorrect": true,
+                                "_id": "680f699d49e18cfe6224e259",
+                                "solution": 18,
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 98000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d772f10744091",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/fedd1381-51d5-4a35-be2a-99377b0cf6b3.png\" alt=\"\" width=\"569\" height=\"74\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77fc34744059",
+                        "order": 2,
+                        "questionSubmitOrder": 2,
+                        "options": [
+                            {
+                                "nameText": 17,
+                                "isCorrect": true,
+                                "_id": "680f699d49e18c091424e25b",
+                                "solution": 17,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 118000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d776671744092",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/076964bd-7568-4435-beeb-51a992f9d8fe.png\" alt=\"\" width=\"570\" height=\"113\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77fc34744059",
+                        "order": 3,
+                        "questionSubmitOrder": 3,
+                        "options": [
+                            {
+                                "nameText": 40,
+                                "isCorrect": true,
+                                "_id": "680f699d49e18cb00524e25d",
+                                "solution": 40,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 74000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d7707a2744090",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/69e423b8-74a8-449c-a116-c9bd8f22fa18.png\" alt=\"\" width=\"572\" height=\"132\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77fc34744059",
+                        "order": 4,
+                        "questionSubmitOrder": 4,
+                        "options": [
+                            {
+                                "nameText": 59,
+                                "isCorrect": true,
+                                "_id": "680f699d49e18c2e4b24e25f",
+                                "solution": 59,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 76000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d772df474408e",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/70383bff-8614-499e-a09a-c3649be0898d.png\" alt=\"\" width=\"570\" height=\"86\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77fc34744059",
+                        "order": 5,
+                        "questionSubmitOrder": 5,
+                        "options": [
+                            {
+                                "nameText": 36,
+                                "isCorrect": true,
+                                "_id": "680f699d49e18cdce024e261",
+                                "solution": 36,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 41000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    }
+                ],
+                "numberOfQuestions": 5
+            },
+            {
+                "sectionDuration": 0,
+                "sectionMarks": 32,
+                "isActive": true,
+                "draftMode": false,
+                "sectionInstructions": " ",
+                "_id": "69a2b0a4895d77921b74405a",
+                "hasOptionalQuestions": false,
+                "name": "Maths_Single Integer Type",
+                "order": 9,
+                "createdAt": "2026-03-01T03:50:24.284Z",
+                "updatedAt": "2026-03-01T03:50:24.284Z",
+                "questions": [
+                    {
+                        "_id": "69a2b0a4895d77a05c744094",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/83878f36-0380-453c-9b57-ad8f7d641f43.png\" alt=\"\" width=\"539\" height=\"51\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77921b74405a",
+                        "order": 1,
+                        "questionSubmitOrder": 1,
+                        "options": [
+                            {
+                                "nameText": 1,
+                                "isCorrect": true,
+                                "_id": "680f69b410053a7a5356d8a9",
+                                "solution": 1,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 351000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d775894744093",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/ff53e4c8-72a2-4a8a-bdf7-81cc3f34f947.png\" alt=\"\" width=\"562\" height=\"75\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "1"
+                        ],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77921b74405a",
+                        "order": 2,
+                        "questionSubmitOrder": 2,
+                        "options": [
+                            {
+                                "nameText": 1,
+                                "isCorrect": true,
+                                "_id": "680f69b410053a6ddf56d8ab",
+                                "solution": 1,
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 1375000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d776ca2744096",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/bc53cd14-c605-4ea0-9b79-68bd71f211cb.png\" alt=\"\" width=\"570\" height=\"54\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77921b74405a",
+                        "order": 3,
+                        "questionSubmitOrder": 3,
+                        "options": [
+                            {
+                                "nameText": 1,
+                                "isCorrect": true,
+                                "_id": "680f69b410053ac5a056d8ad",
+                                "solution": 1,
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 267000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d7728d374409a",
+                        "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><span lang=\"en-US\">The shortest distance between z</span></span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><span lang=\"en-US\">-axis and the line&nbsp;</span></span></span><img src=\"https://cms-cdn.classplus.co/parserImages/eb9f66be-ce0d-4f85-8a18-f56d1775b1e9.png\" alt=\"\" width=\"330\" height=\"26\" />&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><span lang=\"en-US\">is</span></span></span></span></span></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "2"
+                        ],
+                        "nameText": "The shortest distance between z -axis and the line  is",
+                        "sectionId": "69a2b0a4895d77921b74405a",
+                        "order": 4,
+                        "questionSubmitOrder": 4,
+                        "options": [
+                            {
+                                "nameText": 2,
+                                "isCorrect": true,
+                                "_id": "680f69b410053aee5256d8af",
+                                "solution": 2,
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 373000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d77689d744095",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/dae5ec18-d0b6-42c1-a13b-e3fa17ab7a30.png\" alt=\"\" width=\"566\" height=\"81\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "1"
+                        ],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77921b74405a",
+                        "order": 5,
+                        "questionSubmitOrder": 5,
+                        "options": [
+                            {
+                                "nameText": 1,
+                                "isCorrect": true,
+                                "_id": "680f69b410053a5d9556d8b1",
+                                "solution": 1,
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 108000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d776805744099",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/36184123-aabf-45d4-aef4-273a8eaeb7bc.png\" alt=\"\" width=\"222\" height=\"112\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "1"
+                        ],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77921b74405a",
+                        "order": 6,
+                        "questionSubmitOrder": 6,
+                        "options": [
+                            {
+                                "nameText": 1,
+                                "isCorrect": true,
+                                "_id": "680f69b410053a5c6a56d8b3",
+                                "solution": 1,
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 29000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d77898e744097",
+                        "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><span lang=\"en-US\"><img style=\"font-size: 16px; color: #333333; font-family: 'Noto Sans';\" src=\"https://cms-cdn.classplus.co/parserImages/8c5c3884-9609-4021-8a45-4cac184141e4.png\" alt=\"\" width=\"579\" height=\"45\" /></span></span></span><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><span lang=\"en-US\">is</span></span></span></span></span></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "2"
+                        ],
+                        "nameText": "is",
+                        "sectionId": "69a2b0a4895d77921b74405a",
+                        "order": 7,
+                        "questionSubmitOrder": 7,
+                        "options": [
+                            {
+                                "nameText": 2,
+                                "isCorrect": true,
+                                "_id": "680f69b410053af15556d8b5",
+                                "solution": 2,
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 68000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69a2b0a4895d77939c744098",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/7777cf33-7f40-425f-bed5-7a98e860ba34.png\" alt=\"\" width=\"572\" height=\"87\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "1"
+                        ],
+                        "nameText": "",
+                        "sectionId": "69a2b0a4895d77921b74405a",
+                        "order": 8,
+                        "questionSubmitOrder": 8,
+                        "options": [
+                            {
+                                "nameText": 1,
+                                "isCorrect": true,
+                                "_id": "680f69b410053a30e956d8b7",
+                                "solution": 1,
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 250000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    }
+                ],
+                "numberOfQuestions": 8
+            }
+        ],
+        "userDetails": {
+            "name": "Santhosh Sivaraman",
+            "userId": 146218653,
+            "orgId": 320937
+        },
+        "sts": 1772371836377,
+        "region": {
+            "timeFormat": "hh:mm a",
+            "dateTimeStamp": "yyyy/MM/dd"
+        }
+    }
+}
