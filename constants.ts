@@ -10,6 +10,8 @@ import Advp1_1_03_2026 from './tests/Advp1_1_03_2026.json'
 import Advp2_1_03_2026 from './tests/Advp2_1_03_2026.json'
 import module_6 from './tests/module_6.json'
 import module_7 from './tests/module_7.json'
+import module_8 from './tests/module_8.json'
+
 
 export const TESTS: TestMetadata[] = [
   { id: '1', name: 'Testing 123', fileName: 'testing123.json' },
@@ -22,7 +24,8 @@ export const TESTS: TestMetadata[] = [
   { id: '8', name: 'Advp1_1_03_2026', fileName: 'Advp1_1_03_2026.json' },
   { id: '9', name: 'Advp2_1_03_2026', fileName: 'Advp2_1_03_2026.json' },
   { id: '10', name: 'Module 6', fileName: 'module_6.json' },
-  { id: '11', name: 'Module 7', fileName: 'module_7.json' } 
+  { id: '11', name: 'Module 7', fileName: 'module_7.json' },
+  { id: '12', name: 'Module 8', fileName: 'module_8.json' } 
 ];
 
 export const MOCK_TEST_DATA: Record<string, TestData> = {
@@ -37,4 +40,5 @@ export const MOCK_TEST_DATA: Record<string, TestData> = {
   'Advp2_1_03_2026.json': Advp2_1_03_2026 as TestData,
   'module_6.json': module_6 as TestData,
   'module_7.json': module_7 as TestData,
+  'module_8.json': module_8 as TestData,
 };
