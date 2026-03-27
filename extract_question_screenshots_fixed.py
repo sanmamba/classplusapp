@@ -85,6 +85,7 @@ class QuestionScreenshotExtractor:
         is_correct = self.safe_get(question, 'isCorrect', True)
         is_attempted = self.safe_get(question, 'isAttempted', False)
         is_partially_correct = self.safe_get(question, 'isPartiallyCorrect', False)
+        is_comprehension = self.safe_get(question, 'isComprehension', False)
         
         # Determine status and color
         if is_correct:
@@ -102,8 +103,47 @@ class QuestionScreenshotExtractor:
         
         # Get question text and options
         question_text = self.safe_get(question, 'name', '')
+        paragraph_text = self.safe_get(question, 'paragraph', '')
         options = self.safe_get(question, 'options', [])
         question_type = self.safe_get(question, 'type', 'multiple_choice')
+        
+        # Build question content
+        question_content = ""
+        
+        # Add comprehension paragraph/image first if it exists
+        if is_comprehension and paragraph_text:
+            question_content += f'''
+            <div class="comprehension" style="
+                margin-bottom: 20px;
+                padding: 16px;
+                background: #f8fafc;
+                border-left: 4px solid #3b82f6;
+                border-radius: 8px;
+            ">
+                <div style="
+                    font-size: 12px;
+                    font-weight: 600;
+                    color: #3b82f6;
+                    margin-bottom: 8px;
+                    text-transform: uppercase;
+                    letter-spacing: 0.05em;
+                ">Comprehension</div>
+                <div style="line-height: 1.6;">
+                    {paragraph_text}
+                </div>
+            </div>'''
+        
+        # Add the actual question
+        question_content += f'''
+        <div class="question-text" style="
+            margin-bottom: 20px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.6;
+            color: #111827;
+        ">
+            {question_text}
+        </div>'''
         
         # Create HTML for options
         options_html = ""
@@ -304,9 +344,43 @@ class QuestionScreenshotExtractor:
                     line-height: 1.7;
                 }}
                 
+                .question-content {{
+                    margin-bottom: 24px;
+                }}
+                
+                .comprehension {{
+                    margin-bottom: 20px;
+                    padding: 16px;
+                    background: #f8fafc;
+                    border-left: 4px solid #3b82f6;
+                    border-radius: 8px;
+                }}
+                
+                .comprehension-title {{
+                    font-size: 12px;
+                    font-weight: 600;
+                    color: #3b82f6;
+                    margin-bottom: 8px;
+                    text-transform: uppercase;
+                    letter-spacing: 0.05em;
+                }}
+                
                 .question-text img {{
                     max-width: 100%;
                     height: auto;
+                    border-radius: 4px;
+                    margin: 8px 0;
+                }}
+                
+                .comprehension img {{
+                    max-width: 100%;
+                    height: auto;
+                    border-radius: 4px;
+                    margin: 8px 0;
+                }}
+                
+                .answer-box {{
+                    padding: 12px;
                     border-radius: 8px;
                     border: 1px solid #e5e7eb;
                     margin: 8px 0;
@@ -365,8 +439,8 @@ class QuestionScreenshotExtractor:
                 <div class="status">{status_text}</div>
             </div>
             
-            <div class="question-text">
-                {question_text}
+            <div class="question-content">
+                {question_content}
             </div>
             
             <div class="options-title">Options</div>
