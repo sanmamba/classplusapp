@@ -66,7 +66,7 @@
         "sectionId": "69c631d418769aa3f546fd63"
       },
       {
-        "marksScored": 14,
+        "marksScored": 20,
         "sectionMarks": 20,
         "accuracy": 66.67,
         "_id": "69c7e894a822c29908212f74",
@@ -1038,11 +1038,11 @@
             "isAttempted": true,
             "isPartiallyCorrect": false,
             "isCorrect": false,
-            "isGraceMarked": false,
+            "isGraceMarked": true,
             "isReevaluated": false,
             "marks": {
-              "positive": 0,
-              "negative": 2
+              "positive": 4,
+              "negative": 0
             },
             "timeTaken": 362000,
             "markForReview": true,
