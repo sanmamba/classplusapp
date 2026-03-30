@@ -174,7 +174,7 @@
         "sectionId": "69b8fbc825c21ca2660ae1e0"
       },
       {
-        "marksScored": 8,
+        "marksScored": 14,
         "sectionMarks": 24,
         "accuracy": 60,
         "_id": "69ba4c716e6c9f1c4d82dff1",
@@ -2413,14 +2413,14 @@
               {
                 "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/22a7b7b9-28ab-4d87-9b1f-5afe5c43cded.png\" alt=\"\" width=\"252\" height=\"49\" /></p>",
                 "nameText": "",
-                "isCorrect": true,
+                "isCorrect": false,
                 "_id": "681c5cd7e206895ae90aaa91",
                 "isMarked": false
               },
               {
                 "name": "<p lang=\"en-US\" class=\"western\"><img src=\"https://cms-cdn.classplus.co/parserImages/9f727250-f980-4fa7-bb51-d4f31be1dfdf.png\" alt=\"\" width=\"223\" height=\"48\" /></p>",
                 "nameText": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "_id": "681c5cd7e2068940ad0aaa92",
                 "isMarked": true
               }
@@ -2434,8 +2434,8 @@
             "isGraceMarked": false,
             "isReevaluated": false,
             "marks": {
-              "positive": 0,
-              "negative": 2
+              "positive": 4,
+              "negative": 0
             },
             "timeTaken": 271000,
             "markForReview": false,
