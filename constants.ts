@@ -19,6 +19,8 @@ import module_11 from './tests/module_11.json'
 import module_12 from './tests/module_12.json' 
 import CFT_2 from './tests/CFT-2.json'
 import module_13 from './tests/module_13.json'
+import CFT_3 from './tests/CFT-3.json'
+import CFT_4 from './tests/CFT-4.json'
 
 export const TESTS: TestMetadata[] = [
   { id: '1', name: 'Testing 123', fileName: 'testing123.json' },
@@ -40,7 +42,9 @@ export const TESTS: TestMetadata[] = [
   { id: '17', name: 'Module 11', fileName: 'module_11.json' },
   { id: '18', name: 'Module 12', fileName: 'module_12.json' },
   { id: '19', name: 'CFT-2', fileName: 'CFT-2.json' },
-  { id: '20', name: 'Module 13', fileName: 'module_13.json' }
+  { id: '20', name: 'Module 13', fileName: 'module_13.json' },
+  { id: '21', name: 'CFT-3', fileName: 'CFT-3.json' },
+  { id: '22', name: 'CFT-4', fileName: 'CFT-4.json' }
 ];
 
 export const MOCK_TEST_DATA: Record<string, TestData> = {
@@ -63,5 +67,7 @@ export const MOCK_TEST_DATA: Record<string, TestData> = {
   'module_11.json': module_11 as TestData,
   'module_12.json': module_12 as TestData,
   'CFT-2.json': CFT_2 as TestData,
-  'module_13.json': module_13 as TestData
+  'module_13.json': module_13 as TestData,
+  'CFT-3.json': CFT_3 as TestData,
+  'CFT-4.json': CFT_4 as TestData
 };
