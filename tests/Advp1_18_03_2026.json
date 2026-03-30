@@ -873,10 +873,10 @@
             "questionSubmitOrder": 1,
             "options": [
               {
-                "nameText": 0,
+                "nameText": 111,
                 "isCorrect": true,
                 "_id": "681c482cb7527a9742c16b5d",
-                "solution": 0,
+                "solution": 111,
                 "isMarked": false
               }
             ],
@@ -887,7 +887,7 @@
             "isPartiallyCorrect": false,
             "isCorrect": false,
             "isGraceMarked": false,
-            "isReevaluated": false,
+            "isReevaluated": true,
             "marks": {
               "positive": 0,
               "negative": 1
@@ -2354,14 +2354,14 @@
               {
                 "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/162201bd-ff8f-4225-8822-d92fa41d7a24.png\" alt=\"\" width=\"177\" height=\"24\" /></p>",
                 "nameText": "",
-                "isCorrect": true,
+                "isCorrect": false,
                 "_id": "681c5cd7e20689ed8b0aaa8c",
                 "isMarked": false
               },
               {
                 "name": "<p lang=\"en-US\" class=\"western\"><img src=\"https://cms-cdn.classplus.co/parserImages/1babd866-8005-42c4-892d-4787949324cf.png\" alt=\"\" width=\"187\" height=\"26\" /></p>",
                 "nameText": "",
-                "isCorrect": false,
+                "isCorrect": true,
                 "_id": "681c5cd7e2068981810aaa8d",
                 "isMarked": false
               }
