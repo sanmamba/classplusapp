@@ -584,9 +584,16 @@ class QuestionScreenshotExtractor:
                     # Check if question was answered incorrectly or partially correct
                     is_correct = self.safe_get(question, 'isCorrect', True)
                     is_partially_correct = self.safe_get(question, 'isPartiallyCorrect', False)
+                    is_grace_marked = self.safe_get(question, 'isGraceMarked', False)
                     
                     # Debug: show question status
-                    print(f"    Question {question_counter}: isCorrect = {is_correct}, isPartiallyCorrect = {is_partially_correct}")
+                    print(f"    Question {question_counter}: isCorrect = {is_correct}, isPartiallyCorrect = {is_partially_correct}, isGraceMarked = {is_grace_marked}")
+                    
+                    # Skip grace marked questions regardless of correctness
+                    if is_grace_marked:
+                        print(f"    Skipping Question {question_counter} (grace marked)")
+                        question_counter += 1
+                        continue
                     
                     # Capture questions where isCorrect is explicitly false OR isPartiallyCorrect is true
                     if is_correct is False or is_partially_correct is True:
