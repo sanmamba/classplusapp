@@ -1,0 +1,877 @@
+{
+    "data": {
+        "test": {
+            "name": "30_03_2026 12th CRP Chemistry Practise_test - 4",
+            "testTotalDuration": 3600000,
+            "settings": {
+                "fonts": {
+                    "fonts": [
+                        {
+                            "face": "Calibri",
+                            "supported": true
+                        },
+                        {
+                            "face": "serif",
+                            "supported": true
+                        },
+                        {
+                            "face": "Cambria Math",
+                            "supported": true
+                        }
+                    ],
+                    "include": "https://cms-gcp.classplusapp.com/parser/v3/css/combined?face=Calibri,serif,Cambria%20Math"
+                },
+                "isSectionSwitchingEnabled": true
+            },
+            "practiceTestUrls": []
+        },
+        "filters": {
+            "incorrect": 1,
+            "correct": 1,
+            "partiallyMarked": 1,
+            "unattempted": 1,
+            "markForReview": 1,
+            "graceMarked": 0,
+            "revaluated": 0
+        },
+        "timeTaken": 3518000,
+        "showReportQuestion": true,
+        "sectionWiseStats": [
+            {
+                "marksScored": 23,
+                "sectionMarks": 64,
+                "accuracy": 51.79,
+                "_id": "69d11ea21e86bc42dae9dc7a",
+                "totalQuestions": 16,
+                "attemptDuration": 3518000,
+                "correctAnswers": 7,
+                "inCorrectAnswers": 6,
+                "partiallyCorrectAnswers": 1,
+                "unAttempted": 2,
+                "name": "Chemistry",
+                "order": 1,
+                "sectionDuration": 0,
+                "sectionId": "69ca7999e89db85c5bf133dd"
+            }
+        ],
+        "sections": [
+            {
+                "sectionDuration": 0,
+                "sectionMarks": 64,
+                "isActive": true,
+                "draftMode": false,
+                "sectionInstructions": " ",
+                "_id": "69ca7999e89db85c5bf133dd",
+                "hasOptionalQuestions": false,
+                "name": "Chemistry",
+                "order": 1,
+                "createdAt": "2026-03-30T16:27:59.246Z",
+                "updatedAt": "2026-03-30T16:27:59.246Z",
+                "questions": [
+                    {
+                        "_id": "69ca79b9c55620b814e11883",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/2c655ffc-e53f-46c4-9faf-72cf122117b7.png\" alt=\"\" width=\"566\" height=\"347\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69ca7999e89db85c5bf133dd",
+                        "order": 1,
+                        "questionSubmitOrder": 1,
+                        "options": [
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/284268_1774877107358.gif\" width=\"329\" height=\"21\" align=\"absmiddle\" /> </span></p>",
+                                "nameText": " ",
+                                "isCorrect": false,
+                                "_id": "69ca7add97160843ffb931ca",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/162840_1774877107426.gif\" width=\"329\" height=\"21\" align=\"absmiddle\" /> </span></p>",
+                                "nameText": " ",
+                                "isCorrect": false,
+                                "_id": "69ca7add971608229eb931cb",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/11941_1774877107492.gif\" width=\"328\" height=\"21\" align=\"absmiddle\" /> </span></p>",
+                                "nameText": " ",
+                                "isCorrect": true,
+                                "_id": "69ca7add971608259fb931cc",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/305255_1774877107607.gif\" width=\"328\" height=\"21\" align=\"absmiddle\" /> </span></p>",
+                                "nameText": " ",
+                                "isCorrect": false,
+                                "_id": "69ca7add9716086f0db931cd",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/203798_1774877107811.png\" width=\"514\" height=\"812\" name=\"Picture 1\" align=\"bottom\" border=\"0\" /> </span></p>",
+                        "hasMultipleAnswers": false,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 186000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca79b9c5562055d6e11888",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Consider\n the following reaction sequence.</span></span></span></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/678044_1774877107892.png\" name=\"Image1\" align=\"bottom\" width=\"463\" height=\"73\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">The\n structure of compound D is</span></span></span></span></p>\n <p style=\"text-decoration: none\"><br>\n\n </p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Consider\n the following reaction sequence.\n \n\n The\n structure of compound D is\n \n\n \n ",
+                        "sectionId": "69ca7999e89db85c5bf133dd",
+                        "order": 2,
+                        "questionSubmitOrder": 2,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/832684_1774877108188.png\" name=\"Image2\" align=\"bottom\" width=\"157\" height=\"99\" border=\"0\">\n</img></span></p>\n ",
+                                "nameText": "\n \n\n ",
+                                "isCorrect": false,
+                                "_id": "69ca7add9716087c3db931bb",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/126207_1774877108455.png\" name=\"Image3\" align=\"bottom\" width=\"97\" height=\"127\" border=\"0\">\n</img></span></p>\n ",
+                                "nameText": "\n \n\n ",
+                                "isCorrect": true,
+                                "_id": "69ca7add97160889a8b931bc",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/105685_1774877108523.png\" name=\"Image4\" align=\"bottom\" width=\"98\" height=\"115\" border=\"0\">\n</img></span></p>\n ",
+                                "nameText": "\n \n\n ",
+                                "isCorrect": false,
+                                "_id": "69ca7add9716081166b931bd",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/819398_1774877108586.png\" name=\"Image5\" align=\"bottom\" width=\"159\" height=\"100\" border=\"0\">\n</img></span></p>\n ",
+                                "nameText": "\n \n\n ",
+                                "isCorrect": false,
+                                "_id": "69ca7add971608f309b931be",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/783584_1774877108646.png\" name=\"Image6\" align=\"bottom\" width=\"336\" height=\"93\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><span style=\"color: #000000\">\n                   \n <img src=\"https://cms-cdn.classplus.co/parserImages/production/287451_1774877108713.png\" name=\"Image7\" align=\"bottom\" width=\"238\" height=\"30\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/448278_1774877108779.png\" name=\"Image8\" align=\"bottom\" width=\"286\" height=\"137\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 260000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca79b9c5562065e1e1188d",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Which\n of the following statement is incorrect regarding the product of\n reaction mentioned?</span></span></span></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/211845_1774877108843.png\" name=\"Image9\" align=\"bottom\" width=\"408\" height=\"156\" border=\"0\">\n</img></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Which\n of the following statement is incorrect regarding the product of\n reaction mentioned?\n \n\n ",
+                        "sectionId": "69ca7999e89db85c5bf133dd",
+                        "order": 3,
+                        "questionSubmitOrder": 3,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">X is acetanilide formed by protecting </span></span> <img src=\"https://cms-cdn.classplus.co/parserImages/production/107604_1774877108908.gif\" align=\"absmiddle\" /> <span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"> group.</span></span></span></span></p>",
+                                "nameText": "X is acetanilide formed by protecting    group.",
+                                "isCorrect": false,
+                                "_id": "69ca7add9716086a1eb931d4",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: 'Cambria Math', serif; font-size: 21px;\">Y</span>&nbsp;<span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is p</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">-bromo acetanilide</span></span></span></span></p>",
+                                "nameText": "Y is p -bromo acetanilide",
+                                "isCorrect": false,
+                                "_id": "69ca7add971608ba74b931d5",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: 'Cambria Math', serif; font-size: 21px;\">Z</span>&nbsp;<span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is p</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">-bromoaniline, formed by hydrolysis of the amide.</span></span></span></span></p>",
+                                "nameText": "Z is p -bromoaniline, formed by hydrolysis of the amide.",
+                                "isCorrect": false,
+                                "_id": "69ca7add971608394eb931d6",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Br enters at meta-position in </span></span> <img src=\"https://cms-cdn.classplus.co/parserImages/production/448825_1774877109608.gif\" align=\"absmiddle\" /> <span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"> due to deactivating effect of </span></span> <img src=\"https://cms-cdn.classplus.co/parserImages/production/96872_1774877109675.gif\" width=\"100\" height=\"23\" align=\"absmiddle\" /> <span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"> group.</span></span></span></span></p>",
+                                "nameText": "Br enters at meta-position in    due to deactivating effect of    group.",
+                                "isCorrect": true,
+                                "_id": "69ca7add9716085029b931d7",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/821029_1774877109724.gif\" align=\"bottom\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 48000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca79b9c5562052ede11892",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Consider the following reaction sequence.</span></span></span></span></p>\n<p style=\"margin-bottom: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/387303_1774877109782.png\" width=\"423\" height=\"120\" name=\"Image10\" align=\"bottom\" border=\"0\" /> </span></p>\n<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">The total number of&nbsp;</span></span><img src=\"https://cms-cdn.classplus.co/parserImages/fdf4b8c1-9f81-421f-84d4-0d9b49df8d5d.png\" alt=\"\" width=\"33\" height=\"27\" />&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">-hybridised C -atom in product S</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is</span></span></span></span></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "Consider the following reaction sequence.\n \nThe total number of  -hybridised C -atom in product S is",
+                        "sectionId": "69ca7999e89db85c5bf133dd",
+                        "order": 4,
+                        "questionSubmitOrder": 4,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">1</span></span></span></span></p>\n ",
+                                "nameText": "\n 1\n ",
+                                "isCorrect": false,
+                                "_id": "69ca7add97160818aab931c1",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">4</span></span></span></span></p>\n ",
+                                "nameText": "\n 4\n ",
+                                "isCorrect": true,
+                                "_id": "69ca7add971608e840b931c2",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">3</span></span></span></span></p>\n ",
+                                "nameText": "\n 3\n ",
+                                "isCorrect": false,
+                                "_id": "69ca7add97160810e5b931c3",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">2</span></span></span></span></p>\n ",
+                                "nameText": "\n 2\n ",
+                                "isCorrect": false,
+                                "_id": "69ca7add971608c9d9b931c4",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/357896_1774877109969.png\" name=\"Image11\" align=\"bottom\" width=\"391\" height=\"268\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 76000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca79b9c556209f1fe11897",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Consider\n the structure of given alcohol.</span></span></span></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/222102_1774877110037.png\" name=\"Image12\" align=\"bottom\" width=\"196\" height=\"136\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">This\n alcohol can be prepared from</span></span></span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Consider\n the structure of given alcohol.\n \n\n This\n alcohol can be prepared from\n ",
+                        "sectionId": "69ca7999e89db85c5bf133dd",
+                        "order": 5,
+                        "questionSubmitOrder": 5,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/888874_1774877110100.png\" name=\"Image13\" align=\"bottom\" width=\"330\" height=\"84\" border=\"0\">\n</img></span></p>\n ",
+                                "nameText": "\n \n\n ",
+                                "isCorrect": true,
+                                "_id": "69ca7add971608fcc2b931dd",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/616619_1774877110162.png\" name=\"Image14\" align=\"bottom\" width=\"442\" height=\"86\" border=\"0\">\n</img></span></p>\n ",
+                                "nameText": "\n \n\n ",
+                                "isCorrect": true,
+                                "_id": "69ca7add9716087948b931de",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/343078_1774877110229.png\" name=\"Image15\" align=\"bottom\" width=\"337\" height=\"88\" border=\"0\">\n</img></span></p>\n ",
+                                "nameText": "\n \n\n ",
+                                "isCorrect": true,
+                                "_id": "69ca7add971608e65fb931df",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/329173_1774877110277.png\" name=\"Image16\" align=\"bottom\" width=\"410\" height=\"85\" border=\"0\">\n</img></span></p>\n ",
+                                "nameText": "\n \n\n ",
+                                "isCorrect": false,
+                                "_id": "69ca7add971608d4a8b931e0",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/638495_1774877110348.png\" name=\"Image17\" align=\"bottom\" width=\"395\" height=\"442\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": true,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": true,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 1,
+                            "negative": 0
+                        },
+                        "timeTaken": 135000,
+                        "markForReview": true,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca79b9c556203bcbe1189c",
+                        "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">One of the most general reaction exhibited by coordination compounds is that of substitution or replacement of one ligand by another. When tetrachloridoplatinate (II) ion reacted with ammonia yield X and tetrammineplatinum (II) ion, which react with 2 moles of chloride ion yield Y. Which of the given options does not represent X and Y correctly?</span></span></span></span></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "One of the most general reaction exhibited by coordination compounds is that of substitution or replacement of one ligand by another. When tetrachloridoplatinate (II) ion reacted with ammonia yield X and tetrammineplatinum (II) ion, which react with 2 moles of chloride ion yield Y. Which of the given options does not represent X and Y correctly?",
+                        "sectionId": "69ca7999e89db85c5bf133dd",
+                        "order": 6,
+                        "questionSubmitOrder": 6,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: 'Cambria Math', serif; font-size: 21px;\">X</span>&nbsp;<span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is cis-diamminedichloridoplatinum (II)&nbsp;</span></span><span style=\"font-family: 'Cambria Math', serif; font-size: 21px;\">Y</span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is trans-diamminedichloridoplatinum (II).</span></span></span></span></p>",
+                                "nameText": "X is cis-diamminedichloridoplatinum (II) Y is trans-diamminedichloridoplatinum (II).",
+                                "isCorrect": false,
+                                "_id": "69ca7add9716082297b931ce",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: 'Cambria Math', serif; font-size: 21px;\">X</span>&nbsp;<span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is trans-diamminedichloridoplatinum (II)&nbsp;</span></span><span style=\"font-family: 'Cambria Math', serif; font-size: 21px;\">Y</span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is cis-diamminedichloridoplatinum (II).</span></span></span></span></p>",
+                                "nameText": "X is trans-diamminedichloridoplatinum (II) Y is cis-diamminedichloridoplatinum (II).",
+                                "isCorrect": true,
+                                "_id": "69ca7add971608f33bb931cf",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: 'Cambria Math', serif; font-size: 21px;\">Y</span>&nbsp;<span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is trans-diamminedichloridoplatinum (II)&nbsp;</span></span><span style=\"font-family: 'Cambria Math', serif; font-size: 21px;\">X</span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is triamminechloridoplatinum (II).</span></span></span></span></p>",
+                                "nameText": "Y is trans-diamminedichloridoplatinum (II) X is triamminechloridoplatinum (II).",
+                                "isCorrect": true,
+                                "_id": "69ca7add9716083cc9b931d0",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: 'Cambria Math', serif; font-size: 21px;\">Y</span>&nbsp;<span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is cis-diamminedichloridoplatinum (III)&nbsp;</span></span><span style=\"font-family: 'Cambria Math', serif; font-size: 21px;\">X</span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is triamminechloridoplatinum (II).</span></span></span></span></p>",
+                                "nameText": "Y is cis-diamminedichloridoplatinum (III) X is triamminechloridoplatinum (II).",
+                                "isCorrect": true,
+                                "_id": "69ca7add97160875fdb931d1",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/588901_1774877110909.png\" name=\"Image18\" align=\"bottom\" width=\"451\" height=\"408\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": true,
+                        "type": "multiple_choice",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 323000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca79b9c556202f42e118a1",
+                        "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Which\n of the following statement is/are correct?</span></span></span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Which\n of the following statement is/are correct?\n ",
+                        "sectionId": "69ca7999e89db85c5bf133dd",
+                        "order": 7,
+                        "questionSubmitOrder": 7,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Positive\n Tollen’s test is not observed for </span></span>\n <img src=\"https://cms-cdn.classplus.co/parserImages/production/66853_1774877110984.png\" name=\"Image19\" align=\"bottom\" width=\"343\" height=\"91\" border=\"0\">\n</img></span></span></p>\n ",
+                                "nameText": "\n Positive\n Tollen’s test is not observed for \n \n\n ",
+                                "isCorrect": false,
+                                "_id": "69ca7add9716085138b931d8",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">A\n new carbon-carbon bond formation is possible in Friedel-Craft’s\n and Reimer-Tiemann reaction.</span></span></span></span></p>\n ",
+                                "nameText": "\n A\n new carbon-carbon bond formation is possible in Friedel-Craft’s\n and Reimer-Tiemann reaction.\n ",
+                                "isCorrect": true,
+                                "_id": "69ca7add9716087c84b931d9",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Trideuteroacetaldehyde\n and benzaldehyde will undergo self aldol condensation</span></span></span></span></p>\n ",
+                                "nameText": "\n Trideuteroacetaldehyde\n and benzaldehyde will undergo self aldol condensation\n ",
+                                "isCorrect": false,
+                                "_id": "69ca7add9716082530b931da",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Base\n catalysed aldol condensation can occur with propionaldehyde and\n 2-methyl propionaldehyde.</span></span></span></span></p>\n ",
+                                "nameText": "\n Base\n catalysed aldol condensation can occur with propionaldehyde and\n 2-methyl propionaldehyde.\n ",
+                                "isCorrect": true,
+                                "_id": "69ca7add971608b201b931db",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/989021_1774877111068.png\" name=\"Image20\" align=\"bottom\" width=\"397\" height=\"295\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": true,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 186000,
+                        "markForReview": true,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca79b9c5562060b5e118a6",
+                        "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Which\n of the following </span></span><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><i>f-</i></span></span><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">orbitals\n is/are not half-filled respectively in their lanthanide ions?</span></span></span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Which\n of the following f-orbitals\n is/are not half-filled respectively in their lanthanide ions?\n ",
+                        "sectionId": "69ca7999e89db85c5bf133dd",
+                        "order": 8,
+                        "questionSubmitOrder": 8,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/67a9c9f6-e126-4876-b5f6-97bf1b21f581.png\" alt=\"\" width=\"141\" height=\"29\" /></p>",
+                                "nameText": "",
+                                "isCorrect": false,
+                                "_id": "69ca7add97160805e1b931c5",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/d3f73424-e85f-4015-bbe3-bf5411b19ec9.png\" alt=\"\" width=\"146\" height=\"29\" /></p>",
+                                "nameText": "",
+                                "isCorrect": true,
+                                "_id": "69ca7add9716082721b931c6",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/8a3fa25f-27fc-4f3f-9c41-9d8dedda8993.png\" alt=\"\" width=\"156\" height=\"30\" /></p>",
+                                "nameText": "",
+                                "isCorrect": true,
+                                "_id": "69ca7add97160823deb931c7",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/83c7ee8a-eaac-4e9e-80d7-644aa4186bf4.png\" alt=\"\" width=\"152\" height=\"32\" /></p>",
+                                "nameText": "",
+                                "isCorrect": true,
+                                "_id": "69ca7add971608213db931c8",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/813089_1774877111378.gif\" align=\"bottom\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": true,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 172000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca79b9c55620aca3e118a8",
+                        "name": "<p style=\"orphans: 0; widows: 0; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">In\n an electrochemical cell, dichromate ions in aqueous acidic medium\n are reduced to Cr</span></span><sup><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">3+.</span></span></sup><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">\n The current (in amperes) that flows through the cell for 50\n minutes to produce 1 mole of Cr</span></span><sup><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">3+\n </span></span></sup><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">is______.</span></span></span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "97"
+                        ],
+                        "nameText": "\n In\n an electrochemical cell, dichromate ions in aqueous acidic medium\n are reduced to Cr3+.\n The current (in amperes) that flows through the cell for 50\n minutes to produce 1 mole of Cr3+\n is______.\n ",
+                        "sectionId": "69ca7999e89db85c5bf133dd",
+                        "order": 9,
+                        "questionSubmitOrder": 9,
+                        "options": [
+                            {
+                                "nameText": 96,
+                                "isCorrect": true,
+                                "solution": 96,
+                                "_id": "69ca7add9716086d37b931e1",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"orphans: 0; widows: 0; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/963605_1774877111445.png\" name=\"Image21\" align=\"bottom\" width=\"382\" height=\"273\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 1
+                        },
+                        "timeTaken": 227000,
+                        "markForReview": true,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca79b9c556209f7ae118aa",
+                        "name": "<p style=\"margin-bottom: 0px; orphans: 0; widows: 0; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Among\n the following the total number of reaction(s) that will give\n N-ethylcyclopentylamine as major product</span></span></span></span></p>\n <p style=\"orphans: 0; widows: 0; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/136321_1774877111510.png\" name=\"Image22\" align=\"bottom\" width=\"458\" height=\"368\" border=\"0\">\n</img></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "2"
+                        ],
+                        "nameText": "\n Among\n the following the total number of reaction(s) that will give\n N-ethylcyclopentylamine as major product\n \n\n ",
+                        "sectionId": "69ca7999e89db85c5bf133dd",
+                        "order": 10,
+                        "questionSubmitOrder": 10,
+                        "options": [
+                            {
+                                "nameText": 3,
+                                "isCorrect": true,
+                                "solution": 3,
+                                "_id": "69ca7add97160802cdb931bf",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"orphans: 0; widows: 0; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/228712_1774877111579.gif\" align=\"bottom\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 1
+                        },
+                        "timeTaken": 140000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca79b9c556204867e118ac",
+                        "name": "<p style=\"orphans: 0; widows: 0; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Liquids\n A and B form ideal solution for all compositions of A and B at\n 25</span></span><span style=\"font-family: Symbol,serif\"><span style=\"font-size: 21px\"></span></span><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">C.\n Two such solutions with 0.45 and 0.60 mole fractions of A have the\n total vapour pressure of 0.5 and 0.6 bar, respectively. What is\n the vapour pressure of pure liquid A in bar?</span></span></span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "1"
+                        ],
+                        "nameText": "\n Liquids\n A and B form ideal solution for all compositions of A and B at\n 25C.\n Two such solutions with 0.45 and 0.60 mole fractions of A have the\n total vapour pressure of 0.5 and 0.6 bar, respectively. What is\n the vapour pressure of pure liquid A in bar?\n ",
+                        "sectionId": "69ca7999e89db85c5bf133dd",
+                        "order": 11,
+                        "questionSubmitOrder": 11,
+                        "options": [
+                            {
+                                "nameText": 0,
+                                "isCorrect": true,
+                                "solution": 0,
+                                "_id": "69ca7add97160805aab931d2",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; orphans: 0; widows: 0; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/737896_1774877111642.gif\" align=\"bottom\">\n</img></span></p>\n <p style=\"orphans: 0; widows: 0; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/810762_1774877111711.png\" name=\"Image23\" align=\"bottom\" width=\"429\" height=\"99\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 1
+                        },
+                        "timeTaken": 131000,
+                        "markForReview": true,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca79b9c5562084bee118ae",
+                        "name": "<p style=\"orphans: 0; widows: 0; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">A\n cube shaped crystal of a sodium metal, 1.60mm on an edge, was\n vaporised in a500.00 mL flask. The pressure of the resulting\n vapour was 12mm at 800</span></span><span style=\"font-family: Symbol,serif\"><span style=\"font-size: 21px\"></span></span><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">C.\n The structure of the solid metal is known to be body centred\n cubic. The atomic radius of the metal atom is picometre is_____\n (nearest integer)</span></span></span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n A\n cube shaped crystal of a sodium metal, 1.60mm on an edge, was\n vaporised in a500.00 mL flask. The pressure of the resulting\n vapour was 12mm at 800C.\n The structure of the solid metal is known to be body centred\n cubic. The atomic radius of the metal atom is picometre is_____\n (nearest integer)\n ",
+                        "sectionId": "69ca7999e89db85c5bf133dd",
+                        "order": 12,
+                        "questionSubmitOrder": 12,
+                        "options": [
+                            {
+                                "nameText": 230,
+                                "isCorrect": true,
+                                "solution": 230,
+                                "_id": "69ca7add971608025bb931dc",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"orphans: 0; widows: 0; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/755642_1774877111786.png\" name=\"Image24\" align=\"bottom\" width=\"380\" height=\"435\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 621000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca79b9c556206ae1e118b0",
+                        "name": "<p style=\"margin-bottom: 0px; orphans: 0; widows: 0; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Among\n P, Q, R and S total number of aromatic compound(s) is</span></span></span></span></p>\n <p style=\"orphans: 0; widows: 0; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/370496_1774877111845.png\" name=\"Image25\" align=\"bottom\" width=\"452\" height=\"193\" border=\"0\">\n</img></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "4"
+                        ],
+                        "nameText": "\n Among\n P, Q, R and S total number of aromatic compound(s) is\n \n\n ",
+                        "sectionId": "69ca7999e89db85c5bf133dd",
+                        "order": 13,
+                        "questionSubmitOrder": 13,
+                        "options": [
+                            {
+                                "nameText": 4,
+                                "isCorrect": true,
+                                "solution": 4,
+                                "_id": "69ca7add9716080f5db931c9",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"orphans: 0; widows: 0; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/544596_1774877111899.png\" name=\"Image26\" align=\"bottom\" width=\"378\" height=\"569\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 63000,
+                        "markForReview": true,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca79b9c55620b7d4e118b2",
+                        "name": "<p style=\"orphans: 0; widows: 0; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">An\n aqueous solution containing 0.20g KIO</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">3\n </span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(formula\n weight = 214.0) was treated with an excess of KI solution. The\n solution was acidified with HCl. The liberated, I</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">2\n </span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">consumed\n 45.0 mL of thiosulphate solution to decolourise the blue starch\n iodine complex. The molarity of the sodium thiosulphate solution\n is_______ </span></span><span style=\"font-family: Symbol,serif\"><span style=\"font-size: 21px\"></span></span><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">10</span></span><sup><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">-3\n </span></span></sup><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">M</span></span></span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "84"
+                        ],
+                        "nameText": "\n An\n aqueous solution containing 0.20g KIO3\n (formula\n weight = 214.0) was treated with an excess of KI solution. The\n solution was acidified with HCl. The liberated, I2\n consumed\n 45.0 mL of thiosulphate solution to decolourise the blue starch\n iodine complex. The molarity of the sodium thiosulphate solution\n is_______ 10-3\n M\n ",
+                        "sectionId": "69ca7999e89db85c5bf133dd",
+                        "order": 14,
+                        "questionSubmitOrder": 14,
+                        "options": [
+                            {
+                                "nameText": 124,
+                                "isCorrect": true,
+                                "solution": 124,
+                                "_id": "69ca7add971608a8b6b931e2",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; orphans: 0; widows: 0; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/349336_1774877111967.gif\" align=\"bottom\">\n</img></span></p>\n <p style=\"orphans: 0; widows: 0; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/645163_1774877112030.png\" name=\"Image27\" align=\"bottom\" width=\"387\" height=\"371\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 1
+                        },
+                        "timeTaken": 553000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca79b9c55620adcfe118b4",
+                        "name": "<p style=\"margin-bottom: 0px; orphans: 0; widows: 0; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">The\n figure given below shows the unit cell of compound which is a\n mixed oxide of zirconium, calcium and nickel. The formula of mixed\n oxide is Zr</span></span><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><i>\n </i></span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><i>a</i></span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">\n Ca </span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><i>b</i></span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">\n Ni </span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><i>c</i></span></span></sub><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">\n </span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">O\n </span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><i>d</i></span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">.\n The value of [d-(a+b+c)] is _____</span></span></span></span></p>\n <p style=\"orphans: 0; widows: 0; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/395326_1774877112104.png\" name=\"Image28\" align=\"bottom\" width=\"383\" height=\"273\" border=\"0\">\n</img></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "2"
+                        ],
+                        "nameText": "\n The\n figure given below shows the unit cell of compound which is a\n mixed oxide of zirconium, calcium and nickel. The formula of mixed\n oxide is Zr\n a\n Ca b\n Ni c\n O\n d.\n The value of [d-(a+b+c)] is _____\n \n\n ",
+                        "sectionId": "69ca7999e89db85c5bf133dd",
+                        "order": 15,
+                        "questionSubmitOrder": 15,
+                        "options": [
+                            {
+                                "nameText": 1,
+                                "isCorrect": true,
+                                "solution": 1,
+                                "_id": "69ca7add971608809ab931c0",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"orphans: 0; widows: 0; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/365434_1774877112175.png\" name=\"Image29\" align=\"bottom\" width=\"420\" height=\"407\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 1
+                        },
+                        "timeTaken": 245000,
+                        "markForReview": true,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca79b9c55620df1ce118b6",
+                        "name": "<p style=\"margin-bottom: 0px; orphans: 0; widows: 0; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Consider the following complexes, the total number of diamagnetic species is _____.</span></span></span></span></p>\n<p lang=\"en-US\" class=\"western\"><img src=\"https://cms-cdn.classplus.co/parserImages/f3871192-a789-4614-b20d-56d93ffe65c6.png\" alt=\"\" width=\"413\" height=\"56\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "2"
+                        ],
+                        "nameText": "Consider the following complexes, the total number of diamagnetic species is _____.\n",
+                        "sectionId": "69ca7999e89db85c5bf133dd",
+                        "order": 16,
+                        "questionSubmitOrder": 16,
+                        "options": [
+                            {
+                                "nameText": 1,
+                                "isCorrect": true,
+                                "solution": 1,
+                                "_id": "69ca7add971608e4feb931d3",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"margin-left: 0.2400px; margin-bottom: 0px; orphans: 0; widows: 0; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/694304_1774877112333.png\" name=\"Image30\" align=\"bottom\" width=\"43\" height=\"45\" border=\"0\">\n<img src=\"https://cms-cdn.classplus.co/parserImages/production/684189_1774877112394.png\" name=\"Image31\" align=\"bottom\" width=\"289\" height=\"94\" border=\"0\">\n</img></img></span></p>\n <p style=\"orphans: 0; widows: 0; text-decoration: none\"><span style=\"color: #000000\">\n <img src=\"https://cms-cdn.classplus.co/parserImages/production/858743_1774877112620.png\" name=\"Image32\" align=\"bottom\" width=\"464\" height=\"403\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 1
+                        },
+                        "timeTaken": 152000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    }
+                ],
+                "numberOfQuestions": 16
+            }
+        ],
+        "userDetails": {
+            "name": "Santhosh Sivaraman",
+            "userId": 146218653,
+            "orgId": 320937
+        },
+        "sts": 1775348594576,
+        "region": {
+            "timeFormat": "hh:mm a",
+            "dateTimeStamp": "yyyy/MM/dd"
+        }
+    },
+
+}
