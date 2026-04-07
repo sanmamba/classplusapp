@@ -1,914 +1,914 @@
 {
-    "data": {
-        "test": {
-            "name": "31_03_2026 12th CRP Chemistry Practise_test - 5",
-            "testTotalDuration": 3600000,
-            "settings": {
-                "fonts": {
-                    "fonts": [
-                        {
-                            "face": "Calibri",
-                            "supported": true
-                        },
-                        {
-                            "face": "serif",
-                            "supported": true
-                        },
-                        {
-                            "face": "Cambria Math",
-                            "supported": true
-                        }
-                    ],
-                    "include": "https://cms-gcp.classplusapp.com/parser/v3/css/combined?face=Calibri,serif,Cambria%20Math"
-                },
-                "isSectionSwitchingEnabled": true
+  "data": {
+    "test": {
+      "name": "31_03_2026 12th CRP Chemistry Practise_test - 5",
+      "testTotalDuration": 3600000,
+      "settings": {
+        "fonts": {
+          "fonts": [
+            {
+              "face": "Calibri",
+              "supported": true
             },
-            "practiceTestUrls": []
-        },
-        "filters": {
-            "incorrect": 1,
-            "correct": 1,
-            "partiallyMarked": 1,
-            "unattempted": 1,
-            "markForReview": 1,
-            "graceMarked": 0,
-            "revaluated": 0
-        },
-        "timeTaken": 3498000,
-        "showReportQuestion": true,
-        "sectionWiseStats": [
             {
-                "marksScored": 26,
-                "sectionMarks": 64,
-                "accuracy": 53.33,
-                "_id": "69d3d97ff4be2354c64018c9",
-                "totalQuestions": 16,
-                "attemptDuration": 3498000,
-                "correctAnswers": 7,
-                "inCorrectAnswers": 6,
-                "partiallyCorrectAnswers": 2,
-                "unAttempted": 1,
-                "name": "Chemistry",
-                "order": 1,
-                "sectionDuration": 0,
-                "sectionId": "69ca80799e8f8781e7a5802d"
-            }
-        ],
-        "sections": [
+              "face": "serif",
+              "supported": true
+            },
             {
-                "sectionDuration": 0,
-                "sectionMarks": 64,
-                "isActive": true,
-                "draftMode": false,
-                "sectionInstructions": " ",
-                "_id": "69ca80799e8f8781e7a5802d",
-                "hasOptionalQuestions": false,
-                "name": "Chemistry",
-                "order": 1,
-                "createdAt": "2026-03-31T16:20:43.218Z",
-                "updatedAt": "2026-03-31T16:20:43.218Z",
-                "questions": [
-                    {
-                        "_id": "69ca808caf142d59b7f72f7c",
-                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Bicyclic compounds A, B, C and D are the major products formed in the reaction sequence given below.</span></span></span></span></p>\n<p style=\"margin-bottom: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/782586_1774878852727.png\" width=\"347\" height=\"384\" name=\"Picture 1\" align=\"bottom\" border=\"0\" /> </span></p>\n<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">The product having maximum sp&sup3;-hybridised C-atom is</span></span></span></span></p>",
-                        "isComprehension": false,
-                        "paragraph": null,
-                        "paragraphText": null,
-                        "fillUpsAnswers": [],
-                        "nameText": "Bicyclic compounds A, B, C and D are the major products formed in the reaction sequence given below.\n \nThe product having maximum sp³-hybridised C-atom is",
-                        "sectionId": "69ca80799e8f8781e7a5802d",
-                        "order": 1,
-                        "questionSubmitOrder": 1,
-                        "options": [
-                            {
-                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">C</span></span></span></span></p>\n ",
-                                "nameText": "\n C\n ",
-                                "isCorrect": false,
-                                "_id": "69ca8460e5caaea56045a965",
-                                "isMarked": false
-                            },
-                            {
-                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">D</span></span></span></span></p>\n ",
-                                "nameText": "\n D\n ",
-                                "isCorrect": false,
-                                "_id": "69ca8460e5caae4f9a45a966",
-                                "isMarked": false
-                            },
-                            {
-                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">A</span></span></span></span></p>\n ",
-                                "nameText": "\n A\n ",
-                                "isCorrect": true,
-                                "_id": "69ca8460e5caae757545a967",
-                                "isMarked": false
-                            },
-                            {
-                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">B</span></span></span></span></p>\n ",
-                                "nameText": "\n B\n ",
-                                "isCorrect": false,
-                                "_id": "69ca8460e5caae2a3345a968",
-                                "isMarked": true
-                            }
-                        ],
-                        "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/782574_1774878852837.png\" name=\"Image1\" align=\"bottom\" width=\"238\" height=\"291\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/605983_1774878852919.png\" name=\"Image2\" align=\"bottom\" width=\"255\" height=\"173\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/979998_1774878852983.png\" name=\"Image3\" align=\"bottom\" width=\"347\" height=\"304\" border=\"0\">\n</img></span></p>\n ",
-                        "hasMultipleAnswers": false,
-                        "type": "multiple_choice",
-                        "isAttempted": true,
-                        "isPartiallyCorrect": false,
-                        "isCorrect": false,
-                        "isGraceMarked": false,
-                        "isReevaluated": false,
-                        "marks": {
-                            "positive": 0,
-                            "negative": 1
-                        },
-                        "timeTaken": 223000,
-                        "markForReview": true,
-                        "isGpscType": false,
-                        "isSurrendered": false,
-                        "difficultyLevel": null
-                    },
-                    {
-                        "_id": "69ca808caf142d65fdf72f81",
-                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/1c74e159-ffbe-4a14-9d10-794ac2c92d4f.png\" alt=\"\" width=\"551\" height=\"95\" /></p>",
-                        "isComprehension": false,
-                        "paragraph": null,
-                        "paragraphText": null,
-                        "fillUpsAnswers": [],
-                        "nameText": "",
-                        "sectionId": "69ca80799e8f8781e7a5802d",
-                        "order": 2,
-                        "questionSubmitOrder": 2,
-                        "options": [
-                            {
-                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/f57dae71-08d4-44b3-91a8-48fa7a0c5a9e.png\" alt=\"\" width=\"208\" height=\"51\" /></p>",
-                                "nameText": "",
-                                "isCorrect": true,
-                                "_id": "69ca8460e5caae76e745a95d",
-                                "isMarked": true
-                            },
-                            {
-                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/d6842f06-f514-4fce-b0cc-bd7d81c866d0.png\" alt=\"\" width=\"218\" height=\"55\" /></p>",
-                                "nameText": "",
-                                "isCorrect": false,
-                                "_id": "69ca8460e5caae726d45a95e",
-                                "isMarked": false
-                            },
-                            {
-                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/59a4640e-9139-4926-838f-af4d5e182a6e.png\" alt=\"\" width=\"200\" height=\"58\" /></p>",
-                                "nameText": "",
-                                "isCorrect": false,
-                                "_id": "69ca8460e5caae069145a95f",
-                                "isMarked": false
-                            },
-                            {
-                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/c0d29658-78d2-4d29-8cdb-3d78ab479b38.png\" alt=\"\" width=\"215\" height=\"53\" /></p>",
-                                "nameText": "",
-                                "isCorrect": false,
-                                "_id": "69ca8460e5caaed9e645a960",
-                                "isMarked": false
-                            }
-                        ],
-                        "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/442402_1774878853761.png\" name=\"Image4\" align=\"bottom\" width=\"341\" height=\"126\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/419652_1774878853829.png\" name=\"Image5\" align=\"bottom\" width=\"392\" height=\"294\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/517536_1774878853900.png\" name=\"Image6\" align=\"bottom\" width=\"404\" height=\"277\" border=\"0\">\n</img></span></p>\n ",
-                        "hasMultipleAnswers": false,
-                        "type": "multiple_choice",
-                        "isAttempted": true,
-                        "isPartiallyCorrect": false,
-                        "isCorrect": true,
-                        "isGraceMarked": false,
-                        "isReevaluated": false,
-                        "marks": {
-                            "positive": 4,
-                            "negative": 0
-                        },
-                        "timeTaken": 145000,
-                        "markForReview": false,
-                        "isGpscType": false,
-                        "isSurrendered": false,
-                        "difficultyLevel": null
-                    },
-                    {
-                        "_id": "69ca808caf142debdaf72f86",
-                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Consider the following reactions:</span></span></span></span></p>\n<p style=\"margin-bottom: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/181839_1774878853966.png\" width=\"339\" height=\"221\" name=\"Image7\" align=\"bottom\" border=\"0\" /> </span></p>\n<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Product P. and R respectively are</span></span></span></span></p>",
-                        "isComprehension": false,
-                        "paragraph": null,
-                        "paragraphText": null,
-                        "fillUpsAnswers": [],
-                        "nameText": "Consider the following reactions:\n \nProduct P. and R respectively are",
-                        "sectionId": "69ca80799e8f8781e7a5802d",
-                        "order": 3,
-                        "questionSubmitOrder": 3,
-                        "options": [
-                            {
-                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/703246_1774878854036.png\" name=\"Image8\" align=\"bottom\" width=\"293\" height=\"67\" border=\"0\">\n</img></span></p>\n ",
-                                "nameText": "\n \n\n ",
-                                "isCorrect": false,
-                                "_id": "69ca8460e5caae050b45a981",
-                                "isMarked": false
-                            },
-                            {
-                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/360542_1774878854105.png\" name=\"Image9\" align=\"bottom\" width=\"301\" height=\"68\" border=\"0\">\n</img></span></p>\n ",
-                                "nameText": "\n \n\n ",
-                                "isCorrect": true,
-                                "_id": "69ca8460e5caae578c45a982",
-                                "isMarked": true
-                            },
-                            {
-                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/286396_1774878854182.png\" name=\"Image10\" align=\"bottom\" width=\"308\" height=\"71\" border=\"0\">\n</img></span></p>\n ",
-                                "nameText": "\n \n\n ",
-                                "isCorrect": false,
-                                "_id": "69ca8460e5caae355945a983",
-                                "isMarked": false
-                            },
-                            {
-                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/948492_1774878854244.png\" name=\"Image11\" align=\"bottom\" width=\"308\" height=\"71\" border=\"0\">\n</img></span></p>\n ",
-                                "nameText": "\n \n\n ",
-                                "isCorrect": false,
-                                "_id": "69ca8460e5caae87a845a984",
-                                "isMarked": false
-                            }
-                        ],
-                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/728744_1774878854307.png\" name=\"Image12\" align=\"bottom\" width=\"395\" height=\"307\" border=\"0\">\n</img></span></p>\n ",
-                        "hasMultipleAnswers": false,
-                        "type": "multiple_choice",
-                        "isAttempted": true,
-                        "isPartiallyCorrect": false,
-                        "isCorrect": true,
-                        "isGraceMarked": false,
-                        "isReevaluated": false,
-                        "marks": {
-                            "positive": 4,
-                            "negative": 0
-                        },
-                        "timeTaken": 24000,
-                        "markForReview": false,
-                        "isGpscType": false,
-                        "isSurrendered": false,
-                        "difficultyLevel": null
-                    },
-                    {
-                        "_id": "69ca808caf142d4a3cf72f8b",
-                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">How many of the following sequences produce a carboxylic acid as the major product?</span></span></span></span></p>\n<p style=\"margin-bottom: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/749650_1774878854368.png\" width=\"312\" height=\"109\" name=\"Image13\" align=\"bottom\" border=\"0\" /> </span></p>\n<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/934058_1774878854441.png\" width=\"368\" height=\"444\" name=\"Image14\" align=\"bottom\" border=\"0\" /> </span></p>",
-                        "isComprehension": false,
-                        "paragraph": null,
-                        "paragraphText": null,
-                        "fillUpsAnswers": [],
-                        "nameText": "How many of the following sequences produce a carboxylic acid as the major product?\n \n ",
-                        "sectionId": "69ca80799e8f8781e7a5802d",
-                        "order": 4,
-                        "questionSubmitOrder": 4,
-                        "options": [
-                            {
-                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">1</span></span></span></span></p>\n ",
-                                "nameText": "\n 1\n ",
-                                "isCorrect": true,
-                                "_id": "69ca8460e5caaeea6245a96f",
-                                "isMarked": false
-                            },
-                            {
-                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">2</span></span></span></span></p>\n ",
-                                "nameText": "\n 2\n ",
-                                "isCorrect": false,
-                                "_id": "69ca8460e5caae520b45a970",
-                                "isMarked": false
-                            },
-                            {
-                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">3</span></span></span></span></p>\n ",
-                                "nameText": "\n 3\n ",
-                                "isCorrect": false,
-                                "_id": "69ca8460e5caaed34a45a971",
-                                "isMarked": true
-                            },
-                            {
-                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">4</span></span></span></span></p>\n ",
-                                "nameText": "\n 4\n ",
-                                "isCorrect": false,
-                                "_id": "69ca8460e5caaeb83b45a972",
-                                "isMarked": false
-                            }
-                        ],
-                        "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/306547_1774878854510.png\" name=\"Image15\" align=\"bottom\" width=\"392\" height=\"223\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/521455_1774878854571.png\" name=\"Image16\" align=\"bottom\" width=\"363\" height=\"265\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/689611_1774878854629.png\" name=\"Image17\" align=\"bottom\" width=\"382\" height=\"202\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/601666_1774878854699.png\" name=\"Image18\" align=\"bottom\" width=\"428\" height=\"209\" border=\"0\">\n</img></span></p>\n ",
-                        "hasMultipleAnswers": false,
-                        "type": "multiple_choice",
-                        "isAttempted": true,
-                        "isPartiallyCorrect": false,
-                        "isCorrect": false,
-                        "isGraceMarked": false,
-                        "isReevaluated": false,
-                        "marks": {
-                            "positive": 0,
-                            "negative": 1
-                        },
-                        "timeTaken": 96000,
-                        "markForReview": false,
-                        "isGpscType": false,
-                        "isSurrendered": false,
-                        "difficultyLevel": null
-                    },
-                    {
-                        "_id": "69ca808caf142d369ff72f90",
-                        "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Among\n the following the correct statement(s) is/are</span></span></span></span></p>\n ",
-                        "isComprehension": false,
-                        "paragraph": null,
-                        "paragraphText": null,
-                        "fillUpsAnswers": [],
-                        "nameText": "\n Among\n the following the correct statement(s) is/are\n ",
-                        "sectionId": "69ca80799e8f8781e7a5802d",
-                        "order": 5,
-                        "questionSubmitOrder": 5,
-                        "options": [
-                            {
-                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">For the given value of n</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(principal quantum number of excited state), the total number of spectral lines can be calculated by </span></span> <img src=\"https://cms-cdn.classplus.co/parserImages/production/118331_1774878854821.gif\" align=\"absmiddle\" /> <span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">.</span></span></span></span></p>",
-                                "nameText": "For the given value of n (principal quantum number of excited state), the total number of spectral lines can be calculated by   .",
-                                "isCorrect": true,
-                                "_id": "69ca8460e5caae69c045a978",
-                                "isMarked": true
-                            },
-                            {
-                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Bohr's\n model could not explain the geometry and shapes of molecules.</span></span></span></span></p>\n ",
-                                "nameText": "\n Bohr's\n model could not explain the geometry and shapes of molecules.\n ",
-                                "isCorrect": true,
-                                "_id": "69ca8460e5caae5c8d45a979",
-                                "isMarked": true
-                            },
-                            {
-                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">The ratio of the wavelengths of the first and the ultimate line of the Balmer series of&nbsp;</span></span><img src=\"https://cms-cdn.classplus.co/parserImages/f70fbbf8-ebfe-4cb3-8435-4082e0723354.png\" alt=\"\" width=\"37\" height=\"21\" />&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is 9:5.</span></span></span></span></p>",
-                                "nameText": "The ratio of the wavelengths of the first and the ultimate line of the Balmer series of  is 9:5.",
-                                "isCorrect": true,
-                                "_id": "69ca8460e5caae293945a97a",
-                                "isMarked": true
-                            },
-                            {
-                                "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">According to Bohr's model of hydrogen atom, the </span></span><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">angular momentum of an electron in a given stationary state is quantised.</span></span></p>",
-                                "nameText": "According to Bohr's model of hydrogen atom, the angular momentum of an electron in a given stationary state is quantised.",
-                                "isCorrect": true,
-                                "_id": "69ca8460e5caae033645a97b",
-                                "isMarked": true
-                            }
-                        ],
-                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/168398_1774878854943.png\" name=\"Image19\" align=\"bottom\" width=\"415\" height=\"363\" border=\"0\">\n</img></span></p>\n ",
-                        "hasMultipleAnswers": true,
-                        "type": "multiple_choice",
-                        "isAttempted": true,
-                        "isPartiallyCorrect": false,
-                        "isCorrect": true,
-                        "isGraceMarked": false,
-                        "isReevaluated": false,
-                        "marks": {
-                            "positive": 4,
-                            "negative": 0
-                        },
-                        "timeTaken": 88000,
-                        "markForReview": false,
-                        "isGpscType": false,
-                        "isSurrendered": false,
-                        "difficultyLevel": null
-                    },
-                    {
-                        "_id": "69ca808caf142d6b6af72f95",
-                        "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Which\n of the following reaction(s) complete with racemisation?</span></span></span></span></p>\n ",
-                        "isComprehension": false,
-                        "paragraph": null,
-                        "paragraphText": null,
-                        "fillUpsAnswers": [],
-                        "nameText": "\n Which\n of the following reaction(s) complete with racemisation?\n ",
-                        "sectionId": "69ca80799e8f8781e7a5802d",
-                        "order": 6,
-                        "questionSubmitOrder": 6,
-                        "options": [
-                            {
-                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/676837_1774878855013.png\" name=\"Image20\" align=\"bottom\" width=\"178\" height=\"60\" border=\"0\">\n</img></span></p>\n ",
-                                "nameText": "\n \n\n ",
-                                "isCorrect": true,
-                                "_id": "69ca8460e5caae832745a969",
-                                "isMarked": true
-                            },
-                            {
-                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/782530_1774878855074.png\" name=\"Image21\" align=\"bottom\" width=\"184\" height=\"51\" border=\"0\">\n</img></span></p>\n ",
-                                "nameText": "\n \n\n ",
-                                "isCorrect": true,
-                                "_id": "69ca8460e5caae113245a96a",
-                                "isMarked": true
-                            },
-                            {
-                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/944042_1774878855133.png\" name=\"Image22\" align=\"bottom\" width=\"199\" height=\"60\" border=\"0\">\n</img></span></p>\n ",
-                                "nameText": "\n \n\n ",
-                                "isCorrect": true,
-                                "_id": "69ca8460e5caae360845a96b",
-                                "isMarked": false
-                            },
-                            {
-                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/120669_1774878855191.png\" name=\"Image23\" align=\"bottom\" width=\"211\" height=\"103\" border=\"0\">\n</img></span></p>\n ",
-                                "nameText": "\n \n\n ",
-                                "isCorrect": false,
-                                "_id": "69ca8460e5caae7a5645a96c",
-                                "isMarked": false
-                            }
-                        ],
-                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/654149_1774878855248.png\" name=\"Image24\" align=\"bottom\" width=\"381\" height=\"421\" border=\"0\">\n</img></span></p>\n ",
-                        "hasMultipleAnswers": true,
-                        "type": "multiple_choice",
-                        "isAttempted": true,
-                        "isPartiallyCorrect": true,
-                        "isCorrect": false,
-                        "isGraceMarked": false,
-                        "isReevaluated": false,
-                        "marks": {
-                            "positive": 2,
-                            "negative": 0
-                        },
-                        "timeTaken": 89000,
-                        "markForReview": true,
-                        "isGpscType": false,
-                        "isSurrendered": false,
-                        "difficultyLevel": null
-                    },
-                    {
-                        "_id": "69ca808caf142d1298f72f9a",
-                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">The correct statement(s) regarding the coordination </span></span></span></span><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">compounds is (are)</span></span></span></span></p>",
-                        "isComprehension": false,
-                        "paragraph": null,
-                        "paragraphText": null,
-                        "fillUpsAnswers": [],
-                        "nameText": "The correct statement(s) regarding the coordination compounds is (are)",
-                        "sectionId": "69ca80799e8f8781e7a5802d",
-                        "order": 7,
-                        "questionSubmitOrder": 7,
-                        "options": [
-                            {
-                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/4fa74f35-4bf4-4a6f-84f2-005496cf2bbb.png\" alt=\"\" width=\"436\" height=\"50\" /></p>",
-                                "nameText": "",
-                                "isCorrect": true,
-                                "_id": "69ca8460e5caae22e745a973",
-                                "isMarked": true
-                            },
-                            {
-                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/f9bfa291-dc1d-4ce9-84cc-a170feda24da.png\" alt=\"\" width=\"480\" height=\"53\" /></p>",
-                                "nameText": "",
-                                "isCorrect": true,
-                                "_id": "69ca8460e5caae68c545a974",
-                                "isMarked": true
-                            },
-                            {
-                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/6ce6a69c-6f88-4bd4-930b-0128d10228db.png\" alt=\"\" width=\"406\" height=\"53\" /></p>",
-                                "nameText": "",
-                                "isCorrect": false,
-                                "_id": "69ca8460e5caae9cb245a975",
-                                "isMarked": false
-                            },
-                            {
-                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">bis\n (Benzoylacetonato) beryllium (II) complex exhibits optical\n isomerism.</span></span></span></span></p>\n ",
-                                "nameText": "\n bis\n (Benzoylacetonato) beryllium (II) complex exhibits optical\n isomerism.\n ",
-                                "isCorrect": true,
-                                "_id": "69ca8460e5caae194845a976",
-                                "isMarked": false
-                            }
-                        ],
-                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/433487_1774878855636.png\" name=\"Image25\" align=\"bottom\" width=\"298\" height=\"474\" border=\"0\">\n</img></span></p>\n ",
-                        "hasMultipleAnswers": true,
-                        "type": "multiple_choice",
-                        "isAttempted": true,
-                        "isPartiallyCorrect": true,
-                        "isCorrect": false,
-                        "isGraceMarked": false,
-                        "isReevaluated": false,
-                        "marks": {
-                            "positive": 2,
-                            "negative": 0
-                        },
-                        "timeTaken": 128000,
-                        "markForReview": false,
-                        "isGpscType": false,
-                        "isSurrendered": false,
-                        "difficultyLevel": null
-                    },
-                    {
-                        "_id": "69ca808caf142d4b98f72f9c",
-                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/b2893ff5-bc98-4309-867b-c97120b6b69d.png\" alt=\"\" width=\"544\" height=\"73\" /></p>\n<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/187258_1774878855881.png\" width=\"277\" height=\"98\" name=\"Image26\" align=\"bottom\" border=\"0\" /> </span></p>",
-                        "isComprehension": false,
-                        "paragraph": null,
-                        "paragraphText": null,
-                        "fillUpsAnswers": [
-                            "1"
-                        ],
-                        "nameText": "\n ",
-                        "sectionId": "69ca80799e8f8781e7a5802d",
-                        "order": 8,
-                        "questionSubmitOrder": 8,
-                        "options": [
-                            {
-                                "nameText": 12,
-                                "isCorrect": true,
-                                "solution": 12,
-                                "_id": "69ca8460e5caae79a245a96d",
-                                "isMarked": false
-                            }
-                        ],
-                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/20795_1774878855944.png\" name=\"Image27\" align=\"bottom\" width=\"370\" height=\"443\" border=\"0\">\n</img></span></p>\n ",
-                        "hasMultipleAnswers": false,
-                        "type": "integer",
-                        "isAttempted": true,
-                        "isPartiallyCorrect": false,
-                        "isCorrect": false,
-                        "isGraceMarked": false,
-                        "isReevaluated": false,
-                        "marks": {
-                            "positive": 0,
-                            "negative": 1
-                        },
-                        "timeTaken": 653000,
-                        "markForReview": false,
-                        "isGpscType": false,
-                        "isSurrendered": false,
-                        "difficultyLevel": null
-                    },
-                    {
-                        "_id": "69ca808caf142d16b6f72f9e",
-                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/55c0f06b-8d12-4dd4-b927-5d6a9d94419c.png\" alt=\"\" width=\"534\" height=\"186\" /></p>",
-                        "isComprehension": false,
-                        "paragraph": null,
-                        "paragraphText": null,
-                        "fillUpsAnswers": [
-                            "3"
-                        ],
-                        "nameText": "",
-                        "sectionId": "69ca80799e8f8781e7a5802d",
-                        "order": 9,
-                        "questionSubmitOrder": 9,
-                        "options": [
-                            {
-                                "nameText": 3,
-                                "isCorrect": true,
-                                "solution": 3,
-                                "_id": "69ca8460e5caae627745a977",
-                                "isMarked": true
-                            }
-                        ],
-                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/595800_1774878856261.png\" name=\"Image28\" align=\"bottom\" width=\"393\" height=\"517\" border=\"0\">\n</img></span></p>\n ",
-                        "hasMultipleAnswers": false,
-                        "type": "integer",
-                        "isAttempted": true,
-                        "isPartiallyCorrect": false,
-                        "isCorrect": true,
-                        "isGraceMarked": false,
-                        "isReevaluated": false,
-                        "marks": {
-                            "positive": 4,
-                            "negative": 0
-                        },
-                        "timeTaken": 240000,
-                        "markForReview": false,
-                        "isGpscType": false,
-                        "isSurrendered": false,
-                        "difficultyLevel": null
-                    },
-                    {
-                        "_id": "69ca808caf142d5f63f72fa0",
-                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0.768px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Consider the following graph plotted between vapour pressure of two volatile liquids against their respective mole fraction.</span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0.768px; border: none; padding: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/607083_1774878856315.png\" width=\"338\" height=\"210\" name=\"Image29\" align=\"bottom\" border=\"0\" /></p>\n<p lang=\"en-US\" class=\"western\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">The total number of correct statement(s) is<br /><img src=\"https://cms-cdn.classplus.co/parserImages/60bafccc-93d7-4f14-9743-04ca948d1cdd.png\" alt=\"\" width=\"374\" height=\"98\" /></span></span></p>",
-                        "isComprehension": false,
-                        "paragraph": null,
-                        "paragraphText": null,
-                        "fillUpsAnswers": [
-                            "4"
-                        ],
-                        "nameText": "Consider the following graph plotted between vapour pressure of two volatile liquids against their respective mole fraction.\n\nThe total number of correct statement(s) is",
-                        "sectionId": "69ca80799e8f8781e7a5802d",
-                        "order": 10,
-                        "questionSubmitOrder": 10,
-                        "options": [
-                            {
-                                "nameText": 2,
-                                "isCorrect": true,
-                                "solution": 2,
-                                "_id": "69ca8460e5caae822345a989",
-                                "isMarked": false
-                            }
-                        ],
-                        "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/904041_1774878857145.png\" name=\"Image30\" align=\"bottom\" width=\"437\" height=\"98\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/793516_1774878857204.png\" name=\"Image31\" align=\"bottom\" width=\"442\" height=\"131\" border=\"0\">\n</img></span></p>\n ",
-                        "hasMultipleAnswers": false,
-                        "type": "integer",
-                        "isAttempted": true,
-                        "isPartiallyCorrect": false,
-                        "isCorrect": false,
-                        "isGraceMarked": false,
-                        "isReevaluated": false,
-                        "marks": {
-                            "positive": 0,
-                            "negative": 1
-                        },
-                        "timeTaken": 36000,
-                        "markForReview": false,
-                        "isGpscType": false,
-                        "isSurrendered": false,
-                        "difficultyLevel": null
-                    },
-                    {
-                        "_id": "69ca808caf142d2400f72fa2",
-                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">For a first order process </span></span> <img src=\"https://cms-cdn.classplus.co/parserImages/production/98078_1774878857272.gif\" align=\"absmiddle\" /> <span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">, the following activation energy diagram applies appropriately. </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/427135_1774878857336.png\" width=\"317\" height=\"212\" name=\"Image32\" align=\"bottom\" border=\"0\" /></p>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"></p>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/fcb4f27c-7319-4ed7-ba45-eb5af0be70c2.png\" alt=\"\" width=\"556\" height=\"216\" /></p>",
-                        "isComprehension": false,
-                        "paragraph": null,
-                        "paragraphText": null,
-                        "fillUpsAnswers": [
-                            "8"
-                        ],
-                        "nameText": "For a first order process   , the following activation energy diagram applies appropriately. \n\n\n",
-                        "sectionId": "69ca80799e8f8781e7a5802d",
-                        "order": 11,
-                        "questionSubmitOrder": 11,
-                        "options": [
-                            {
-                                "nameText": 4,
-                                "isCorrect": true,
-                                "solution": 4,
-                                "_id": "69ca8460e5caae386d45a98a",
-                                "isMarked": false
-                            }
-                        ],
-                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/499506_1774878857649.png\" name=\"Image33\" align=\"bottom\" width=\"241\" height=\"368\" border=\"0\">\n</img></span></p>\n ",
-                        "hasMultipleAnswers": false,
-                        "type": "integer",
-                        "isAttempted": true,
-                        "isPartiallyCorrect": false,
-                        "isCorrect": false,
-                        "isGraceMarked": false,
-                        "isReevaluated": false,
-                        "marks": {
-                            "positive": 0,
-                            "negative": 1
-                        },
-                        "timeTaken": 760000,
-                        "markForReview": false,
-                        "isGpscType": false,
-                        "isSurrendered": false,
-                        "difficultyLevel": null
-                    },
-                    {
-                        "_id": "69ca808caf142d6b91f72fa4",
-                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0.768px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Consider the following reaction sequence:</span></span></p>\n<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/828814_1774878857716.png\" width=\"438\" height=\"192\" name=\"Image34\" align=\"bottom\" border=\"0\" /> <span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><br />The sum of total number of&nbsp;</span></span><img src=\"https://cms-cdn.classplus.co/parserImages/25c410b1-096b-4eaf-ac28-4ec4cbf5abde.png\" alt=\"\" width=\"28\" height=\"26\" />&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">-hybridised C -atom present in product P</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">and Q</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is</span></span></span></span></p>",
-                        "isComprehension": false,
-                        "paragraph": null,
-                        "paragraphText": null,
-                        "fillUpsAnswers": [],
-                        "nameText": "Consider the following reaction sequence:\n The sum of total number of  -hybridised C -atom present in product P and Q is",
-                        "sectionId": "69ca80799e8f8781e7a5802d",
-                        "order": 12,
-                        "questionSubmitOrder": 12,
-                        "options": [
-                            {
-                                "nameText": 12,
-                                "isCorrect": true,
-                                "solution": 12,
-                                "_id": "69ca8460e5caaec5d945a980",
-                                "isMarked": false
-                            }
-                        ],
-                        "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/568746_1774878857969.png\" name=\"Image35\" align=\"bottom\" width=\"398\" height=\"412\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/38322_1774878858031.png\" name=\"Image36\" align=\"bottom\" width=\"510\" height=\"94\" border=\"0\">\n</img></span></p>\n ",
-                        "hasMultipleAnswers": false,
-                        "type": "integer",
-                        "isAttempted": false,
-                        "isPartiallyCorrect": false,
-                        "isCorrect": false,
-                        "isGraceMarked": false,
-                        "isReevaluated": false,
-                        "marks": {
-                            "positive": 0,
-                            "negative": 0
-                        },
-                        "timeTaken": 300000,
-                        "markForReview": false,
-                        "isGpscType": false,
-                        "isSurrendered": false,
-                        "difficultyLevel": null
-                    },
-                    {
-                        "_id": "69ca808caf142de9fcf72fa6",
-                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/b38a6e86-1d98-45ea-b02f-fcc3d081a33c.png\" alt=\"\" width=\"464\" height=\"107\" /></p>",
-                        "isComprehension": false,
-                        "paragraph": null,
-                        "paragraphText": null,
-                        "fillUpsAnswers": [
-                            "4"
-                        ],
-                        "nameText": "",
-                        "sectionId": "69ca80799e8f8781e7a5802d",
-                        "order": 13,
-                        "questionSubmitOrder": 13,
-                        "options": [
-                            {
-                                "nameText": 5,
-                                "isCorrect": true,
-                                "solution": 5,
-                                "_id": "69ca8460e5caae7d6445a96e",
-                                "isMarked": false
-                            }
-                        ],
-                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/824457_1774878858217.png\" name=\"Image37\" align=\"bottom\" width=\"419\" height=\"500\" border=\"0\">\n</img></span></p>\n ",
-                        "hasMultipleAnswers": false,
-                        "type": "integer",
-                        "isAttempted": true,
-                        "isPartiallyCorrect": false,
-                        "isCorrect": false,
-                        "isGraceMarked": false,
-                        "isReevaluated": false,
-                        "marks": {
-                            "positive": 0,
-                            "negative": 1
-                        },
-                        "timeTaken": 115000,
-                        "markForReview": false,
-                        "isGpscType": false,
-                        "isSurrendered": false,
-                        "difficultyLevel": null
-                    },
-                    {
-                        "_id": "69ca808caf142d13f4f72fab",
-                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Match\n the mixture of solution given in List-I with its characterisation\n in List-II and choose the correct answer from the options given\n below.</span></span></span></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><br>\n\n </p>\n <table width=\"580\" cellpadding=\"7\" cellspacing=\"0\">\n \n\n <tbody><tr valign=\"top\">\n <td width=\"36\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none\">\n <br>\n\n </p>\n </td>\n <td width=\"279\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>List\n - I</b></span></span></span></span></p>\n </td>\n <td width=\"33\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none\">\n <br>\n\n </p>\n </td>\n <td width=\"174\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>List\n - II</b></span></span></span></span></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"36\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(P)</b></span></span></span></span></p>\n </td>\n <td width=\"279\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">300\n mL of 0.1M CH</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">3</span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">COONa\n + </span></span>\n </p>\n <p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">100\n mL of 0.1M HCl </span></span>\n </p>\n <p lang=\"en-US\" class=\"western\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(pK</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">b</span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">\n = 4.74)</span></span></p>\n </td>\n <td width=\"33\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(1)</b></span></span></span></span></p>\n </td>\n <td width=\"174\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">pH\n &lt; 7 at 298K</span></span></span></span></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"36\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(Q)</b></span></span></span></span></p>\n </td>\n <td width=\"279\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"margin-bottom: 0px; border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">0.1\n M CH</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">3</span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">COOH\n (pK</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">a</span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">\n = 4.74)</span></span></span></span></p>\n <p style=\"border: none; padding: 0px; text-decoration: none\"><span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">+\n 0.1 M NH</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">4</span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">OH\n (pK</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">b</span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">\n = 4.74)</span></span></span></span></p>\n </td>\n <td width=\"33\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(2)</b></span></span></span></span></p>\n </td>\n <td width=\"174\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">pH\n = 5.04</span></span></span></span></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"36\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(R)</b></span></span></span></span></p>\n </td>\n <td width=\"279\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"margin-bottom: 0px; border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">0.1M\n CH</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">3</span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">COOH\n (pK</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">a\n </span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">=\n 4.74) </span></span></span></span>\n </p>\n <p style=\"border: none; padding: 0px; text-decoration: none\"><span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">+\n 0.1MCH</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">3</span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">COONa</span></span></span></span></p>\n </td>\n <td width=\"33\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(3)</b></span></span></span></span></p>\n </td>\n <td width=\"174\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">pH\n = 7 at 298 K</span></span></span></span></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"36\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(S)</b></span></span></span></span></p>\n </td>\n <td width=\"279\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">0.1M\n CH</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">3</span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">COOH\n + 0.1 MHCl</span></span></span></span></p>\n </td>\n <td width=\"33\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(4)</b></span></span></span></span></p>\n </td>\n <td width=\"174\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Basic\n buffer at its minimum capacity.</span></span></span></span></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"36\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <br>\n\n </p>\n </td>\n <td width=\"279\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <br>\n\n </p>\n </td>\n <td width=\"33\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(5)</b></span></span></span></span></p>\n </td>\n <td width=\"174\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Acidic\n buffer at its maximum apacity.</span></span></span></span></p>\n </td>\n </tr>\n </tbody></table>\n <p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <br>\n\n </p>\n ",
-                        "isComprehension": false,
-                        "paragraph": null,
-                        "paragraphText": null,
-                        "fillUpsAnswers": [],
-                        "nameText": "\n Match\n the mixture of solution given in List-I with its characterisation\n in List-II and choose the correct answer from the options given\n below.\n \n\n \n \n group width=\"36\"\n\n  width=\"279\"\n\n  width=\"33\"\n\n  width=\"174\"\n\n \n \n \n\n \n \n \n List\n - I\n \n \n \n\n \n \n \n List\n - II\n \n \n \n \n (P)\n \n \n 300\n mL of 0.1M CH3COONa\n + \n \n 100\n mL of 0.1M HCl \n \n (pKb\n = 4.74)\n \n \n (1)\n \n \n pH\n &lt; 7 at 298K\n \n \n \n \n (Q)\n \n \n 0.1\n M CH3COOH\n (pKa\n = 4.74)\n +\n 0.1 M NH4OH\n (pKb\n = 4.74)\n \n \n (2)\n \n \n pH\n = 5.04\n \n \n \n \n (R)\n \n \n 0.1M\n CH3COOH\n (pKa\n =\n 4.74) \n \n +\n 0.1MCH3COONa\n \n \n (3)\n \n \n pH\n = 7 at 298 K\n \n \n \n \n (S)\n \n \n 0.1M\n CH3COOH\n + 0.1 MHCl\n \n \n (4)\n \n \n Basic\n buffer at its minimum capacity.\n \n \n \n \n \n\n \n \n \n \n\n \n \n \n (5)\n \n \n Acidic\n buffer at its maximum apacity.\n \n \n \n \n \n\n \n ",
-                        "sectionId": "69ca80799e8f8781e7a5802d",
-                        "order": 14,
-                        "questionSubmitOrder": 14,
-                        "options": [
-                            {
-                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(2),\n Q-(3), R-(5), S-(1)</span></span></span></span></p>\n ",
-                                "nameText": "\n P-(2),\n Q-(3), R-(5), S-(1)\n ",
-                                "isCorrect": true,
-                                "_id": "69ca8460e5caae633645a985",
-                                "isMarked": true
-                            },
-                            {
-                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(3),\n Q-(4), R-(2), S-(1)</span></span></span></span></p>\n ",
-                                "nameText": "\n P-(3),\n Q-(4), R-(2), S-(1)\n ",
-                                "isCorrect": false,
-                                "_id": "69ca8460e5caae0eb145a986",
-                                "isMarked": false
-                            },
-                            {
-                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(4),\n Q-(1), R-(2), S-(3)</span></span></span></span></p>\n ",
-                                "nameText": "\n P-(4),\n Q-(1), R-(2), S-(3)\n ",
-                                "isCorrect": false,
-                                "_id": "69ca8460e5caae811845a987",
-                                "isMarked": false
-                            },
-                            {
-                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(2),\n Q-(5), R-(1), S-(4)</span></span></span></span></p>\n ",
-                                "nameText": "\n P-(2),\n Q-(5), R-(1), S-(4)\n ",
-                                "isCorrect": false,
-                                "_id": "69ca8460e5caae008645a988",
-                                "isMarked": false
-                            }
-                        ],
-                        "solution": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/608006_1774878858294.png\" name=\"Image38\" align=\"bottom\" width=\"396\" height=\"452\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/63608_1774878858358.png\" name=\"Image39\" align=\"bottom\" width=\"405\" height=\"401\" border=\"0\">\n</img></span></p>\n ",
-                        "hasMultipleAnswers": false,
-                        "type": "multiple_choice",
-                        "isAttempted": true,
-                        "isPartiallyCorrect": false,
-                        "isCorrect": true,
-                        "isGraceMarked": false,
-                        "isReevaluated": false,
-                        "marks": {
-                            "positive": 4,
-                            "negative": 0
-                        },
-                        "timeTaken": 80000,
-                        "markForReview": false,
-                        "isGpscType": false,
-                        "isSurrendered": false,
-                        "difficultyLevel": null
-                    },
-                    {
-                        "_id": "69ca808caf142d7d24f72fb0",
-                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Match\n the four starting materials (P, Q, R, S) given in List-I with the\n corresponding reactions provided in List-II and choose the correct\n answer from the options given below.</span></span></span></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><br>\n\n </p>\n <table width=\"571\" cellpadding=\"7\" cellspacing=\"0\">\n \n\n <tbody><tr valign=\"top\">\n <td width=\"45\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none\">\n <br>\n\n </p>\n </td>\n <td width=\"128\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>List\n - I</b></span></span></span></span></p>\n </td>\n <td width=\"52\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none\">\n <br>\n\n </p>\n </td>\n <td width=\"288\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>List\n - II</b></span></span></span></span></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"45\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(P)</b></span></span></span></span></p>\n </td>\n <td width=\"128\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\">\n <img src=\"https://cms-cdn.classplus.co/parserImages/production/238447_1774878858436.png\" name=\"Image40\" align=\"bottom\" width=\"72\" height=\"122\" border=\"0\">\n</img></p>\n </td>\n <td width=\"52\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(1)</b></span></span></span></span></p>\n </td>\n <td width=\"288\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/160824_1774878858500.png\" name=\"Image41\" align=\"bottom\" width=\"240\" height=\"96\" border=\"0\">\n</img></span></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"45\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(Q)</b></span></span></span></span></p>\n </td>\n <td width=\"128\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/741043_1774878858559.png\" name=\"Image42\" align=\"bottom\" width=\"65\" height=\"163\" border=\"0\">\n</img></span></p>\n </td>\n <td width=\"52\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(2)</b></span></span></span></span></p>\n </td>\n <td width=\"288\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/557347_1774878858620.png\" name=\"Image43\" align=\"bottom\" width=\"253\" height=\"121\" border=\"0\">\n</img></span></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"45\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(R)</b></span></span></span></span></p>\n </td>\n <td width=\"128\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/793944_1774878858688.png\" name=\"Image44\" align=\"bottom\" width=\"79\" height=\"132\" border=\"0\">\n</img></span></p>\n </td>\n <td width=\"52\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(3)</b></span></span></span></span></p>\n </td>\n <td width=\"288\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/964799_1774878858754.png\" name=\"Image45\" align=\"bottom\" width=\"262\" height=\"102\" border=\"0\">\n</img></span></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"45\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(S)</b></span></span></span></span></p>\n </td>\n <td width=\"128\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/833655_1774878858820.png\" name=\"Image46\" align=\"bottom\" width=\"73\" height=\"179\" border=\"0\">\n</img></span></p>\n </td>\n <td width=\"52\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(4)</b></span></span></span></span></p>\n </td>\n <td width=\"288\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/635516_1774878858882.png\" name=\"Image47\" align=\"bottom\" width=\"273\" height=\"90\" border=\"0\">\n</img></span></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"45\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <br>\n\n </p>\n </td>\n <td width=\"128\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <br>\n\n </p>\n </td>\n <td width=\"52\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(5)</b></span></span></span></span></p>\n </td>\n <td width=\"288\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/332847_1774878858944.png\" name=\"Image48\" align=\"bottom\" width=\"285\" height=\"82\" border=\"0\">\n</img></span></p>\n </td>\n </tr>\n </tbody></table>\n <p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <br>\n\n </p>\n ",
-                        "isComprehension": false,
-                        "paragraph": null,
-                        "paragraphText": null,
-                        "fillUpsAnswers": [],
-                        "nameText": "\n Match\n the four starting materials (P, Q, R, S) given in List-I with the\n corresponding reactions provided in List-II and choose the correct\n answer from the options given below.\n \n\n \n \n group width=\"45\"\n\n  width=\"128\"\n\n  width=\"52\"\n\n  width=\"288\"\n\n \n \n \n\n \n \n \n List\n - I\n \n \n \n\n \n \n \n List\n - II\n \n \n \n \n (P)\n \n \n \n\n \n \n (1)\n \n \n \n\n \n \n \n \n (Q)\n \n \n \n\n \n \n (2)\n \n \n \n\n \n \n \n \n (R)\n \n \n \n\n \n \n (3)\n \n \n \n\n \n \n \n \n (S)\n \n \n \n\n \n \n (4)\n \n \n \n\n \n \n \n \n \n\n \n \n \n \n\n \n \n \n (5)\n \n \n \n\n \n \n \n \n \n\n \n ",
-                        "sectionId": "69ca80799e8f8781e7a5802d",
-                        "order": 15,
-                        "questionSubmitOrder": 15,
-                        "options": [
-                            {
-                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(1),\n Q-(4), R-(2), S-(5)</span></span></span></span></p>\n ",
-                                "nameText": "\n P-(1),\n Q-(4), R-(2), S-(5)\n ",
-                                "isCorrect": false,
-                                "_id": "69ca8460e5caaedce045a961",
-                                "isMarked": false
-                            },
-                            {
-                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(3),\n Q-(1), R-(4), S-(2)</span></span></span></span></p>\n ",
-                                "nameText": "\n P-(3),\n Q-(1), R-(4), S-(2)\n ",
-                                "isCorrect": false,
-                                "_id": "69ca8460e5caae117b45a962",
-                                "isMarked": false
-                            },
-                            {
-                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(3),\n Q-(4), R-(2), S-(1)</span></span></span></span></p>\n ",
-                                "nameText": "\n P-(3),\n Q-(4), R-(2), S-(1)\n ",
-                                "isCorrect": true,
-                                "_id": "69ca8460e5caae2c2645a963",
-                                "isMarked": true
-                            },
-                            {
-                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(4),\n Q-(5), R-(3), S-(2)</span></span></span></span></p>\n ",
-                                "nameText": "\n P-(4),\n Q-(5), R-(3), S-(2)\n ",
-                                "isCorrect": false,
-                                "_id": "69ca8460e5caae82f545a964",
-                                "isMarked": false
-                            }
-                        ],
-                        "solution": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/604989_1774878859004.png\" name=\"Image49\" align=\"bottom\" width=\"342\" height=\"298\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/231912_1774878859066.png\" name=\"Image50\" align=\"bottom\" width=\"327\" height=\"308\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/195672_1774878859129.png\" name=\"Image51\" align=\"bottom\" width=\"378\" height=\"366\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/487632_1774878859184.png\" name=\"Image52\" align=\"bottom\" width=\"418\" height=\"301\" border=\"0\">\n</img></span></p>\n ",
-                        "hasMultipleAnswers": false,
-                        "type": "multiple_choice",
-                        "isAttempted": true,
-                        "isPartiallyCorrect": false,
-                        "isCorrect": true,
-                        "isGraceMarked": false,
-                        "isReevaluated": false,
-                        "marks": {
-                            "positive": 4,
-                            "negative": 0
-                        },
-                        "timeTaken": 290000,
-                        "markForReview": false,
-                        "isGpscType": false,
-                        "isSurrendered": false,
-                        "difficultyLevel": null
-                    },
-                    {
-                        "_id": "69ca808caf142d581bf72fb5",
-                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">List-I contains various reaction sequences and List-II contains the possible products. Match each entry in List-I with the appropriate entry in List-II and choose the correct option.</span></span></span></span></p>\n<p style=\"margin-bottom: 0px; text-decoration: none;\"></p>\n<table width=\"561\" cellspacing=\"0\" cellpadding=\"7\">\n<tbody>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"36\">\n<p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"222\">\n<p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>List - I</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"212\">\n<p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>List - II</strong></span></span></span></span></p>\n</td>\n</tr>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"36\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>(P)</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"222\">\n<p lang=\"en-US\" class=\"western\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/334982_1774878859254.png\" width=\"213\" height=\"61\" name=\"Image53\" align=\"bottom\" border=\"0\" /></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>(1)</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"212\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/160302_1774878859314.png\" width=\"115\" height=\"91\" name=\"Image54\" align=\"bottom\" border=\"0\" /> </span></p>\n</td>\n</tr>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"36\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>(Q)</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"222\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/524279_1774878859375.png\" width=\"264\" height=\"127\" name=\"Image55\" align=\"bottom\" border=\"0\" /> </span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>(2)</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"212\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/11534_1774878859432.png\" width=\"123\" height=\"100\" name=\"Image56\" align=\"bottom\" border=\"0\" /> </span></p>\n</td>\n</tr>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"36\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>(R)</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"222\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/488636_1774878859494.png\" width=\"263\" height=\"121\" name=\"Image57\" align=\"bottom\" border=\"0\" /> </span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>(3)</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"212\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/889561_1774878859567.png\" width=\"135\" height=\"76\" name=\"Image58\" align=\"bottom\" border=\"0\" /> </span></p>\n</td>\n</tr>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"36\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>(S)</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"222\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/147356_1774878859630.png\" width=\"153\" height=\"118\" name=\"Image59\" align=\"bottom\" border=\"0\" /> </span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>(4)</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"212\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/992477_1774878859695.png\" width=\"149\" height=\"111\" name=\"Image60\" align=\"bottom\" border=\"0\" /> </span></p>\n</td>\n</tr>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"36\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"222\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>(5)</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"212\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/427748_1774878859764.png\" width=\"156\" height=\"132\" name=\"Image61\" align=\"bottom\" border=\"0\" /> </span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none;\"></p>",
-                        "isComprehension": false,
-                        "paragraph": null,
-                        "paragraphText": null,
-                        "fillUpsAnswers": [],
-                        "nameText": "List-I contains various reaction sequences and List-II contains the possible products. Match each entry in List-I with the appropriate entry in List-II and choose the correct option.\n\n\n\n\n\n\n\n\nList - I\n\n\n\n\n\nList - II\n\n\n\n\n(P)\n\n\n\n\n\n(1)\n\n\n \n\n\n\n\n(Q)\n\n\n \n\n\n(2)\n\n\n \n\n\n\n\n(R)\n\n\n \n\n\n(3)\n\n\n \n\n\n\n\n(S)\n\n\n \n\n\n(4)\n\n\n \n\n\n\n\n\n\n\n\n\n\n(5)\n\n\n \n\n\n\n\n",
-                        "sectionId": "69ca80799e8f8781e7a5802d",
-                        "order": 16,
-                        "questionSubmitOrder": 16,
-                        "options": [
-                            {
-                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(3),\n Q-(5), R-(4), S-(1)</span></span></span></span></p>\n ",
-                                "nameText": "\n P-(3),\n Q-(5), R-(4), S-(1)\n ",
-                                "isCorrect": true,
-                                "_id": "69ca8460e5caae342545a97c",
-                                "isMarked": true
-                            },
-                            {
-                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(3),\n Q-(2), R-(4), S-(1)</span></span></span></span></p>\n ",
-                                "nameText": "\n P-(3),\n Q-(2), R-(4), S-(1)\n ",
-                                "isCorrect": false,
-                                "_id": "69ca8460e5caae4c3745a97d",
-                                "isMarked": false
-                            },
-                            {
-                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(3),\n Q-(5), R-(1), S-(4)</span></span></span></span></p>\n ",
-                                "nameText": "\n P-(3),\n Q-(5), R-(1), S-(4)\n ",
-                                "isCorrect": false,
-                                "_id": "69ca8460e5caae812745a97e",
-                                "isMarked": false
-                            },
-                            {
-                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(5),\n Q-(2), R-(4), S-(1)</span></span></span></span></p>\n ",
-                                "nameText": "\n P-(5),\n Q-(2), R-(4), S-(1)\n ",
-                                "isCorrect": false,
-                                "_id": "69ca8460e5caae1e7345a97f",
-                                "isMarked": false
-                            }
-                        ],
-                        "solution": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/437172_1774878859841.png\" name=\"Image62\" align=\"bottom\" width=\"276\" height=\"219\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/75992_1774878859906.png\" name=\"Image63\" align=\"bottom\" width=\"286\" height=\"324\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/468139_1774878859981.png\" name=\"Image64\" align=\"bottom\" width=\"245\" height=\"361\" border=\"0\">\n</img></span></p>\n ",
-                        "hasMultipleAnswers": false,
-                        "type": "multiple_choice",
-                        "isAttempted": true,
-                        "isPartiallyCorrect": false,
-                        "isCorrect": true,
-                        "isGraceMarked": false,
-                        "isReevaluated": false,
-                        "marks": {
-                            "positive": 4,
-                            "negative": 0
-                        },
-                        "timeTaken": 231000,
-                        "markForReview": false,
-                        "isGpscType": false,
-                        "isSurrendered": false,
-                        "difficultyLevel": null
-                    }
-                ],
-                "numberOfQuestions": 16
+              "face": "Cambria Math",
+              "supported": true
             }
-        ],
-        "userDetails": {
-            "name": "Santhosh Sivaraman",
-            "userId": 146218653,
-            "orgId": 320937
+          ],
+          "include": "https://cms-gcp.classplusapp.com/parser/v3/css/combined?face=Calibri,serif,Cambria%20Math"
         },
-        "sts": 1775529674892,
-        "region": {
-            "timeFormat": "hh:mm a",
-            "dateTimeStamp": "yyyy/MM/dd"
-        }
+        "isSectionSwitchingEnabled": true
+      },
+      "practiceTestUrls": []
+    },
+    "filters": {
+      "incorrect": 1,
+      "correct": 1,
+      "partiallyMarked": 1,
+      "unattempted": 1,
+      "markForReview": 1,
+      "graceMarked": 0,
+      "revaluated": 0
+    },
+    "timeTaken": 3498000,
+    "showReportQuestion": true,
+    "sectionWiseStats": [
+      {
+        "marksScored": 31,
+        "sectionMarks": 64,
+        "accuracy": 53.33,
+        "_id": "69d3d97ff4be2354c64018c9",
+        "totalQuestions": 16,
+        "attemptDuration": 3498000,
+        "correctAnswers": 7,
+        "inCorrectAnswers": 6,
+        "partiallyCorrectAnswers": 2,
+        "unAttempted": 1,
+        "name": "Chemistry",
+        "order": 1,
+        "sectionDuration": 0,
+        "sectionId": "69ca80799e8f8781e7a5802d"
+      }
+    ],
+    "sections": [
+      {
+        "sectionDuration": 0,
+        "sectionMarks": 64,
+        "isActive": true,
+        "draftMode": false,
+        "sectionInstructions": " ",
+        "_id": "69ca80799e8f8781e7a5802d",
+        "hasOptionalQuestions": false,
+        "name": "Chemistry",
+        "order": 1,
+        "createdAt": "2026-03-31T16:20:43.218Z",
+        "updatedAt": "2026-03-31T16:20:43.218Z",
+        "questions": [
+          {
+            "_id": "69ca808caf142d59b7f72f7c",
+            "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Bicyclic compounds A, B, C and D are the major products formed in the reaction sequence given below.</span></span></span></span></p>\n<p style=\"margin-bottom: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/782586_1774878852727.png\" width=\"347\" height=\"384\" name=\"Picture 1\" align=\"bottom\" border=\"0\" /> </span></p>\n<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">The product having maximum sp&sup3;-hybridised C-atom is</span></span></span></span></p>",
+            "isComprehension": false,
+            "paragraph": null,
+            "paragraphText": null,
+            "fillUpsAnswers": [],
+            "nameText": "Bicyclic compounds A, B, C and D are the major products formed in the reaction sequence given below.\n \nThe product having maximum sp³-hybridised C-atom is",
+            "sectionId": "69ca80799e8f8781e7a5802d",
+            "order": 1,
+            "questionSubmitOrder": 1,
+            "options": [
+              {
+                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">C</span></span></span></span></p>\n ",
+                "nameText": "\n C\n ",
+                "isCorrect": false,
+                "_id": "69ca8460e5caaea56045a965",
+                "isMarked": false
+              },
+              {
+                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">D</span></span></span></span></p>\n ",
+                "nameText": "\n D\n ",
+                "isCorrect": false,
+                "_id": "69ca8460e5caae4f9a45a966",
+                "isMarked": false
+              },
+              {
+                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">A</span></span></span></span></p>\n ",
+                "nameText": "\n A\n ",
+                "isCorrect": true,
+                "_id": "69ca8460e5caae757545a967",
+                "isMarked": false
+              },
+              {
+                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">B</span></span></span></span></p>\n ",
+                "nameText": "\n B\n ",
+                "isCorrect": false,
+                "_id": "69ca8460e5caae2a3345a968",
+                "isMarked": true
+              }
+            ],
+            "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/782574_1774878852837.png\" name=\"Image1\" align=\"bottom\" width=\"238\" height=\"291\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/605983_1774878852919.png\" name=\"Image2\" align=\"bottom\" width=\"255\" height=\"173\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/979998_1774878852983.png\" name=\"Image3\" align=\"bottom\" width=\"347\" height=\"304\" border=\"0\">\n</img></span></p>\n ",
+            "hasMultipleAnswers": false,
+            "type": "multiple_choice",
+            "isAttempted": true,
+            "isPartiallyCorrect": false,
+            "isCorrect": false,
+            "isGraceMarked": false,
+            "isReevaluated": false,
+            "marks": {
+              "positive": 0,
+              "negative": 1
+            },
+            "timeTaken": 223000,
+            "markForReview": true,
+            "isGpscType": false,
+            "isSurrendered": false,
+            "difficultyLevel": null
+          },
+          {
+            "_id": "69ca808caf142d65fdf72f81",
+            "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/1c74e159-ffbe-4a14-9d10-794ac2c92d4f.png\" alt=\"\" width=\"551\" height=\"95\" /></p>",
+            "isComprehension": false,
+            "paragraph": null,
+            "paragraphText": null,
+            "fillUpsAnswers": [],
+            "nameText": "",
+            "sectionId": "69ca80799e8f8781e7a5802d",
+            "order": 2,
+            "questionSubmitOrder": 2,
+            "options": [
+              {
+                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/f57dae71-08d4-44b3-91a8-48fa7a0c5a9e.png\" alt=\"\" width=\"208\" height=\"51\" /></p>",
+                "nameText": "",
+                "isCorrect": true,
+                "_id": "69ca8460e5caae76e745a95d",
+                "isMarked": true
+              },
+              {
+                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/d6842f06-f514-4fce-b0cc-bd7d81c866d0.png\" alt=\"\" width=\"218\" height=\"55\" /></p>",
+                "nameText": "",
+                "isCorrect": false,
+                "_id": "69ca8460e5caae726d45a95e",
+                "isMarked": false
+              },
+              {
+                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/59a4640e-9139-4926-838f-af4d5e182a6e.png\" alt=\"\" width=\"200\" height=\"58\" /></p>",
+                "nameText": "",
+                "isCorrect": false,
+                "_id": "69ca8460e5caae069145a95f",
+                "isMarked": false
+              },
+              {
+                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/c0d29658-78d2-4d29-8cdb-3d78ab479b38.png\" alt=\"\" width=\"215\" height=\"53\" /></p>",
+                "nameText": "",
+                "isCorrect": false,
+                "_id": "69ca8460e5caaed9e645a960",
+                "isMarked": false
+              }
+            ],
+            "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/442402_1774878853761.png\" name=\"Image4\" align=\"bottom\" width=\"341\" height=\"126\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/419652_1774878853829.png\" name=\"Image5\" align=\"bottom\" width=\"392\" height=\"294\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/517536_1774878853900.png\" name=\"Image6\" align=\"bottom\" width=\"404\" height=\"277\" border=\"0\">\n</img></span></p>\n ",
+            "hasMultipleAnswers": false,
+            "type": "multiple_choice",
+            "isAttempted": true,
+            "isPartiallyCorrect": false,
+            "isCorrect": true,
+            "isGraceMarked": false,
+            "isReevaluated": false,
+            "marks": {
+              "positive": 4,
+              "negative": 0
+            },
+            "timeTaken": 145000,
+            "markForReview": false,
+            "isGpscType": false,
+            "isSurrendered": false,
+            "difficultyLevel": null
+          },
+          {
+            "_id": "69ca808caf142debdaf72f86",
+            "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Consider the following reactions:</span></span></span></span></p>\n<p style=\"margin-bottom: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/181839_1774878853966.png\" width=\"339\" height=\"221\" name=\"Image7\" align=\"bottom\" border=\"0\" /> </span></p>\n<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Product P. and R respectively are</span></span></span></span></p>",
+            "isComprehension": false,
+            "paragraph": null,
+            "paragraphText": null,
+            "fillUpsAnswers": [],
+            "nameText": "Consider the following reactions:\n \nProduct P. and R respectively are",
+            "sectionId": "69ca80799e8f8781e7a5802d",
+            "order": 3,
+            "questionSubmitOrder": 3,
+            "options": [
+              {
+                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/703246_1774878854036.png\" name=\"Image8\" align=\"bottom\" width=\"293\" height=\"67\" border=\"0\">\n</img></span></p>\n ",
+                "nameText": "\n \n\n ",
+                "isCorrect": false,
+                "_id": "69ca8460e5caae050b45a981",
+                "isMarked": false
+              },
+              {
+                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/360542_1774878854105.png\" name=\"Image9\" align=\"bottom\" width=\"301\" height=\"68\" border=\"0\">\n</img></span></p>\n ",
+                "nameText": "\n \n\n ",
+                "isCorrect": true,
+                "_id": "69ca8460e5caae578c45a982",
+                "isMarked": true
+              },
+              {
+                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/286396_1774878854182.png\" name=\"Image10\" align=\"bottom\" width=\"308\" height=\"71\" border=\"0\">\n</img></span></p>\n ",
+                "nameText": "\n \n\n ",
+                "isCorrect": false,
+                "_id": "69ca8460e5caae355945a983",
+                "isMarked": false
+              },
+              {
+                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/948492_1774878854244.png\" name=\"Image11\" align=\"bottom\" width=\"308\" height=\"71\" border=\"0\">\n</img></span></p>\n ",
+                "nameText": "\n \n\n ",
+                "isCorrect": false,
+                "_id": "69ca8460e5caae87a845a984",
+                "isMarked": false
+              }
+            ],
+            "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/728744_1774878854307.png\" name=\"Image12\" align=\"bottom\" width=\"395\" height=\"307\" border=\"0\">\n</img></span></p>\n ",
+            "hasMultipleAnswers": false,
+            "type": "multiple_choice",
+            "isAttempted": true,
+            "isPartiallyCorrect": false,
+            "isCorrect": true,
+            "isGraceMarked": false,
+            "isReevaluated": false,
+            "marks": {
+              "positive": 4,
+              "negative": 0
+            },
+            "timeTaken": 24000,
+            "markForReview": false,
+            "isGpscType": false,
+            "isSurrendered": false,
+            "difficultyLevel": null
+          },
+          {
+            "_id": "69ca808caf142d4a3cf72f8b",
+            "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">How many of the following sequences produce a carboxylic acid as the major product?</span></span></span></span></p>\n<p style=\"margin-bottom: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/749650_1774878854368.png\" width=\"312\" height=\"109\" name=\"Image13\" align=\"bottom\" border=\"0\" /> </span></p>\n<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/934058_1774878854441.png\" width=\"368\" height=\"444\" name=\"Image14\" align=\"bottom\" border=\"0\" /> </span></p>",
+            "isComprehension": false,
+            "paragraph": null,
+            "paragraphText": null,
+            "fillUpsAnswers": [],
+            "nameText": "How many of the following sequences produce a carboxylic acid as the major product?\n \n ",
+            "sectionId": "69ca80799e8f8781e7a5802d",
+            "order": 4,
+            "questionSubmitOrder": 4,
+            "options": [
+              {
+                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">1</span></span></span></span></p>\n ",
+                "nameText": "\n 1\n ",
+                "isCorrect": true,
+                "_id": "69ca8460e5caaeea6245a96f",
+                "isMarked": false
+              },
+              {
+                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">2</span></span></span></span></p>\n ",
+                "nameText": "\n 2\n ",
+                "isCorrect": false,
+                "_id": "69ca8460e5caae520b45a970",
+                "isMarked": false
+              },
+              {
+                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">3</span></span></span></span></p>\n ",
+                "nameText": "\n 3\n ",
+                "isCorrect": false,
+                "_id": "69ca8460e5caaed34a45a971",
+                "isMarked": true
+              },
+              {
+                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">4</span></span></span></span></p>\n ",
+                "nameText": "\n 4\n ",
+                "isCorrect": false,
+                "_id": "69ca8460e5caaeb83b45a972",
+                "isMarked": false
+              }
+            ],
+            "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/306547_1774878854510.png\" name=\"Image15\" align=\"bottom\" width=\"392\" height=\"223\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/521455_1774878854571.png\" name=\"Image16\" align=\"bottom\" width=\"363\" height=\"265\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/689611_1774878854629.png\" name=\"Image17\" align=\"bottom\" width=\"382\" height=\"202\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/601666_1774878854699.png\" name=\"Image18\" align=\"bottom\" width=\"428\" height=\"209\" border=\"0\">\n</img></span></p>\n ",
+            "hasMultipleAnswers": false,
+            "type": "multiple_choice",
+            "isAttempted": true,
+            "isPartiallyCorrect": false,
+            "isCorrect": false,
+            "isGraceMarked": false,
+            "isReevaluated": false,
+            "marks": {
+              "positive": 0,
+              "negative": 1
+            },
+            "timeTaken": 96000,
+            "markForReview": false,
+            "isGpscType": false,
+            "isSurrendered": false,
+            "difficultyLevel": null
+          },
+          {
+            "_id": "69ca808caf142d369ff72f90",
+            "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Among\n the following the correct statement(s) is/are</span></span></span></span></p>\n ",
+            "isComprehension": false,
+            "paragraph": null,
+            "paragraphText": null,
+            "fillUpsAnswers": [],
+            "nameText": "\n Among\n the following the correct statement(s) is/are\n ",
+            "sectionId": "69ca80799e8f8781e7a5802d",
+            "order": 5,
+            "questionSubmitOrder": 5,
+            "options": [
+              {
+                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">For the given value of n</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(principal quantum number of excited state), the total number of spectral lines can be calculated by </span></span> <img src=\"https://cms-cdn.classplus.co/parserImages/production/118331_1774878854821.gif\" align=\"absmiddle\" /> <span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">.</span></span></span></span></p>",
+                "nameText": "For the given value of n (principal quantum number of excited state), the total number of spectral lines can be calculated by   .",
+                "isCorrect": true,
+                "_id": "69ca8460e5caae69c045a978",
+                "isMarked": true
+              },
+              {
+                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Bohr's\n model could not explain the geometry and shapes of molecules.</span></span></span></span></p>\n ",
+                "nameText": "\n Bohr's\n model could not explain the geometry and shapes of molecules.\n ",
+                "isCorrect": true,
+                "_id": "69ca8460e5caae5c8d45a979",
+                "isMarked": true
+              },
+              {
+                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">The ratio of the wavelengths of the first and the ultimate line of the Balmer series of&nbsp;</span></span><img src=\"https://cms-cdn.classplus.co/parserImages/f70fbbf8-ebfe-4cb3-8435-4082e0723354.png\" alt=\"\" width=\"37\" height=\"21\" />&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is 9:5.</span></span></span></span></p>",
+                "nameText": "The ratio of the wavelengths of the first and the ultimate line of the Balmer series of  is 9:5.",
+                "isCorrect": true,
+                "_id": "69ca8460e5caae293945a97a",
+                "isMarked": true
+              },
+              {
+                "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">According to Bohr's model of hydrogen atom, the </span></span><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">angular momentum of an electron in a given stationary state is quantised.</span></span></p>",
+                "nameText": "According to Bohr's model of hydrogen atom, the angular momentum of an electron in a given stationary state is quantised.",
+                "isCorrect": true,
+                "_id": "69ca8460e5caae033645a97b",
+                "isMarked": true
+              }
+            ],
+            "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/168398_1774878854943.png\" name=\"Image19\" align=\"bottom\" width=\"415\" height=\"363\" border=\"0\">\n</img></span></p>\n ",
+            "hasMultipleAnswers": true,
+            "type": "multiple_choice",
+            "isAttempted": true,
+            "isPartiallyCorrect": false,
+            "isCorrect": true,
+            "isGraceMarked": false,
+            "isReevaluated": false,
+            "marks": {
+              "positive": 4,
+              "negative": 0
+            },
+            "timeTaken": 88000,
+            "markForReview": false,
+            "isGpscType": false,
+            "isSurrendered": false,
+            "difficultyLevel": null
+          },
+          {
+            "_id": "69ca808caf142d6b6af72f95",
+            "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Which\n of the following reaction(s) complete with racemisation?</span></span></span></span></p>\n ",
+            "isComprehension": false,
+            "paragraph": null,
+            "paragraphText": null,
+            "fillUpsAnswers": [],
+            "nameText": "\n Which\n of the following reaction(s) complete with racemisation?\n ",
+            "sectionId": "69ca80799e8f8781e7a5802d",
+            "order": 6,
+            "questionSubmitOrder": 6,
+            "options": [
+              {
+                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/676837_1774878855013.png\" name=\"Image20\" align=\"bottom\" width=\"178\" height=\"60\" border=\"0\">\n</img></span></p>\n ",
+                "nameText": "\n \n\n ",
+                "isCorrect": true,
+                "_id": "69ca8460e5caae832745a969",
+                "isMarked": true
+              },
+              {
+                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/782530_1774878855074.png\" name=\"Image21\" align=\"bottom\" width=\"184\" height=\"51\" border=\"0\">\n</img></span></p>\n ",
+                "nameText": "\n \n\n ",
+                "isCorrect": true,
+                "_id": "69ca8460e5caae113245a96a",
+                "isMarked": true
+              },
+              {
+                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/944042_1774878855133.png\" name=\"Image22\" align=\"bottom\" width=\"199\" height=\"60\" border=\"0\">\n</img></span></p>\n ",
+                "nameText": "\n \n\n ",
+                "isCorrect": true,
+                "_id": "69ca8460e5caae360845a96b",
+                "isMarked": false
+              },
+              {
+                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/120669_1774878855191.png\" name=\"Image23\" align=\"bottom\" width=\"211\" height=\"103\" border=\"0\">\n</img></span></p>\n ",
+                "nameText": "\n \n\n ",
+                "isCorrect": false,
+                "_id": "69ca8460e5caae7a5645a96c",
+                "isMarked": false
+              }
+            ],
+            "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/654149_1774878855248.png\" name=\"Image24\" align=\"bottom\" width=\"381\" height=\"421\" border=\"0\">\n</img></span></p>\n ",
+            "hasMultipleAnswers": true,
+            "type": "multiple_choice",
+            "isAttempted": true,
+            "isPartiallyCorrect": true,
+            "isCorrect": false,
+            "isGraceMarked": false,
+            "isReevaluated": false,
+            "marks": {
+              "positive": 2,
+              "negative": 0
+            },
+            "timeTaken": 89000,
+            "markForReview": true,
+            "isGpscType": false,
+            "isSurrendered": false,
+            "difficultyLevel": null
+          },
+          {
+            "_id": "69ca808caf142d1298f72f9a",
+            "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">The correct statement(s) regarding the coordination </span></span></span></span><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">compounds is (are)</span></span></span></span></p>",
+            "isComprehension": false,
+            "paragraph": null,
+            "paragraphText": null,
+            "fillUpsAnswers": [],
+            "nameText": "The correct statement(s) regarding the coordination compounds is (are)",
+            "sectionId": "69ca80799e8f8781e7a5802d",
+            "order": 7,
+            "questionSubmitOrder": 7,
+            "options": [
+              {
+                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/4fa74f35-4bf4-4a6f-84f2-005496cf2bbb.png\" alt=\"\" width=\"436\" height=\"50\" /></p>",
+                "nameText": "",
+                "isCorrect": true,
+                "_id": "69ca8460e5caae22e745a973",
+                "isMarked": true
+              },
+              {
+                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/f9bfa291-dc1d-4ce9-84cc-a170feda24da.png\" alt=\"\" width=\"480\" height=\"53\" /></p>",
+                "nameText": "",
+                "isCorrect": true,
+                "_id": "69ca8460e5caae68c545a974",
+                "isMarked": true
+              },
+              {
+                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/6ce6a69c-6f88-4bd4-930b-0128d10228db.png\" alt=\"\" width=\"406\" height=\"53\" /></p>",
+                "nameText": "",
+                "isCorrect": false,
+                "_id": "69ca8460e5caae9cb245a975",
+                "isMarked": false
+              },
+              {
+                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">bis\n (Benzoylacetonato) beryllium (II) complex exhibits optical\n isomerism.</span></span></span></span></p>\n ",
+                "nameText": "\n bis\n (Benzoylacetonato) beryllium (II) complex exhibits optical\n isomerism.\n ",
+                "isCorrect": true,
+                "_id": "69ca8460e5caae194845a976",
+                "isMarked": false
+              }
+            ],
+            "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/433487_1774878855636.png\" name=\"Image25\" align=\"bottom\" width=\"298\" height=\"474\" border=\"0\">\n</img></span></p>\n ",
+            "hasMultipleAnswers": true,
+            "type": "multiple_choice",
+            "isAttempted": true,
+            "isPartiallyCorrect": true,
+            "isCorrect": false,
+            "isGraceMarked": false,
+            "isReevaluated": false,
+            "marks": {
+              "positive": 2,
+              "negative": 0
+            },
+            "timeTaken": 128000,
+            "markForReview": false,
+            "isGpscType": false,
+            "isSurrendered": false,
+            "difficultyLevel": null
+          },
+          {
+            "_id": "69ca808caf142d4b98f72f9c",
+            "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/b2893ff5-bc98-4309-867b-c97120b6b69d.png\" alt=\"\" width=\"544\" height=\"73\" /></p>\n<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/187258_1774878855881.png\" width=\"277\" height=\"98\" name=\"Image26\" align=\"bottom\" border=\"0\" /> </span></p>",
+            "isComprehension": false,
+            "paragraph": null,
+            "paragraphText": null,
+            "fillUpsAnswers": [
+              "1"
+            ],
+            "nameText": "\n ",
+            "sectionId": "69ca80799e8f8781e7a5802d",
+            "order": 8,
+            "questionSubmitOrder": 8,
+            "options": [
+              {
+                "nameText": 0,
+                "isCorrect": true,
+                "solution": 0,
+                "_id": "69ca8460e5caae79a245a96d",
+                "isMarked": false
+              }
+            ],
+            "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/20795_1774878855944.png\" name=\"Image27\" align=\"bottom\" width=\"370\" height=\"443\" border=\"0\">\n</img></span></p>\n ",
+            "hasMultipleAnswers": false,
+            "type": "integer",
+            "isAttempted": true,
+            "isPartiallyCorrect": false,
+            "isCorrect": false,
+            "isGraceMarked": false,
+            "isReevaluated": false,
+            "marks": {
+              "positive": 0,
+              "negative": 1
+            },
+            "timeTaken": 653000,
+            "markForReview": false,
+            "isGpscType": false,
+            "isSurrendered": false,
+            "difficultyLevel": null
+          },
+          {
+            "_id": "69ca808caf142d16b6f72f9e",
+            "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/55c0f06b-8d12-4dd4-b927-5d6a9d94419c.png\" alt=\"\" width=\"534\" height=\"186\" /></p>",
+            "isComprehension": false,
+            "paragraph": null,
+            "paragraphText": null,
+            "fillUpsAnswers": [
+              "3"
+            ],
+            "nameText": "",
+            "sectionId": "69ca80799e8f8781e7a5802d",
+            "order": 9,
+            "questionSubmitOrder": 9,
+            "options": [
+              {
+                "nameText": 3,
+                "isCorrect": true,
+                "solution": 3,
+                "_id": "69ca8460e5caae627745a977",
+                "isMarked": true
+              }
+            ],
+            "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/595800_1774878856261.png\" name=\"Image28\" align=\"bottom\" width=\"393\" height=\"517\" border=\"0\">\n</img></span></p>\n ",
+            "hasMultipleAnswers": false,
+            "type": "integer",
+            "isAttempted": true,
+            "isPartiallyCorrect": false,
+            "isCorrect": true,
+            "isGraceMarked": false,
+            "isReevaluated": false,
+            "marks": {
+              "positive": 4,
+              "negative": 0
+            },
+            "timeTaken": 240000,
+            "markForReview": false,
+            "isGpscType": false,
+            "isSurrendered": false,
+            "difficultyLevel": null
+          },
+          {
+            "_id": "69ca808caf142d5f63f72fa0",
+            "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0.768px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Consider the following graph plotted between vapour pressure of two volatile liquids against their respective mole fraction.</span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0.768px; border: none; padding: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/607083_1774878856315.png\" width=\"338\" height=\"210\" name=\"Image29\" align=\"bottom\" border=\"0\" /></p>\n<p lang=\"en-US\" class=\"western\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">The total number of correct statement(s) is<br /><img src=\"https://cms-cdn.classplus.co/parserImages/60bafccc-93d7-4f14-9743-04ca948d1cdd.png\" alt=\"\" width=\"374\" height=\"98\" /></span></span></p>",
+            "isComprehension": false,
+            "paragraph": null,
+            "paragraphText": null,
+            "fillUpsAnswers": [
+              "4"
+            ],
+            "nameText": "Consider the following graph plotted between vapour pressure of two volatile liquids against their respective mole fraction.\n\nThe total number of correct statement(s) is",
+            "sectionId": "69ca80799e8f8781e7a5802d",
+            "order": 10,
+            "questionSubmitOrder": 10,
+            "options": [
+              {
+                "nameText": 4,
+                "isCorrect": true,
+                "solution": 4,
+                "_id": "69ca8460e5caae822345a989",
+                "isMarked": true
+              }
+            ],
+            "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/904041_1774878857145.png\" name=\"Image30\" align=\"bottom\" width=\"437\" height=\"98\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/793516_1774878857204.png\" name=\"Image31\" align=\"bottom\" width=\"442\" height=\"131\" border=\"0\">\n</img></span></p>\n ",
+            "hasMultipleAnswers": false,
+            "type": "integer",
+            "isAttempted": true,
+            "isPartiallyCorrect": false,
+            "isCorrect": false,
+            "isGraceMarked": false,
+            "isReevaluated": true,
+            "marks": {
+              "positive": 4,
+              "negative": 0
+            },
+            "timeTaken": 36000,
+            "markForReview": false,
+            "isGpscType": false,
+            "isSurrendered": false,
+            "difficultyLevel": null
+          },
+          {
+            "_id": "69ca808caf142d2400f72fa2",
+            "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">For a first order process </span></span> <img src=\"https://cms-cdn.classplus.co/parserImages/production/98078_1774878857272.gif\" align=\"absmiddle\" /> <span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">, the following activation energy diagram applies appropriately. </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/427135_1774878857336.png\" width=\"317\" height=\"212\" name=\"Image32\" align=\"bottom\" border=\"0\" /></p>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"></p>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/fcb4f27c-7319-4ed7-ba45-eb5af0be70c2.png\" alt=\"\" width=\"556\" height=\"216\" /></p>",
+            "isComprehension": false,
+            "paragraph": null,
+            "paragraphText": null,
+            "fillUpsAnswers": [
+              "8"
+            ],
+            "nameText": "For a first order process   , the following activation energy diagram applies appropriately. \n\n\n",
+            "sectionId": "69ca80799e8f8781e7a5802d",
+            "order": 11,
+            "questionSubmitOrder": 11,
+            "options": [
+              {
+                "nameText": 4,
+                "isCorrect": true,
+                "solution": 4,
+                "_id": "69ca8460e5caae386d45a98a",
+                "isMarked": false
+              }
+            ],
+            "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/499506_1774878857649.png\" name=\"Image33\" align=\"bottom\" width=\"241\" height=\"368\" border=\"0\">\n</img></span></p>\n ",
+            "hasMultipleAnswers": false,
+            "type": "integer",
+            "isAttempted": true,
+            "isPartiallyCorrect": false,
+            "isCorrect": false,
+            "isGraceMarked": false,
+            "isReevaluated": false,
+            "marks": {
+              "positive": 0,
+              "negative": 1
+            },
+            "timeTaken": 760000,
+            "markForReview": false,
+            "isGpscType": false,
+            "isSurrendered": false,
+            "difficultyLevel": null
+          },
+          {
+            "_id": "69ca808caf142d6b91f72fa4",
+            "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0.768px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Consider the following reaction sequence:</span></span></p>\n<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/828814_1774878857716.png\" width=\"438\" height=\"192\" name=\"Image34\" align=\"bottom\" border=\"0\" /> <span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><br />The sum of total number of&nbsp;</span></span><img src=\"https://cms-cdn.classplus.co/parserImages/25c410b1-096b-4eaf-ac28-4ec4cbf5abde.png\" alt=\"\" width=\"28\" height=\"26\" />&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">-hybridised C -atom present in product P</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">and Q</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is</span></span></span></span></p>",
+            "isComprehension": false,
+            "paragraph": null,
+            "paragraphText": null,
+            "fillUpsAnswers": [],
+            "nameText": "Consider the following reaction sequence:\n The sum of total number of  -hybridised C -atom present in product P and Q is",
+            "sectionId": "69ca80799e8f8781e7a5802d",
+            "order": 12,
+            "questionSubmitOrder": 12,
+            "options": [
+              {
+                "nameText": 12,
+                "isCorrect": true,
+                "solution": 12,
+                "_id": "69ca8460e5caaec5d945a980",
+                "isMarked": false
+              }
+            ],
+            "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/568746_1774878857969.png\" name=\"Image35\" align=\"bottom\" width=\"398\" height=\"412\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/38322_1774878858031.png\" name=\"Image36\" align=\"bottom\" width=\"510\" height=\"94\" border=\"0\">\n</img></span></p>\n ",
+            "hasMultipleAnswers": false,
+            "type": "integer",
+            "isAttempted": false,
+            "isPartiallyCorrect": false,
+            "isCorrect": false,
+            "isGraceMarked": false,
+            "isReevaluated": false,
+            "marks": {
+              "positive": 0,
+              "negative": 0
+            },
+            "timeTaken": 300000,
+            "markForReview": false,
+            "isGpscType": false,
+            "isSurrendered": false,
+            "difficultyLevel": null
+          },
+          {
+            "_id": "69ca808caf142de9fcf72fa6",
+            "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/b38a6e86-1d98-45ea-b02f-fcc3d081a33c.png\" alt=\"\" width=\"464\" height=\"107\" /></p>",
+            "isComprehension": false,
+            "paragraph": null,
+            "paragraphText": null,
+            "fillUpsAnswers": [
+              "4"
+            ],
+            "nameText": "",
+            "sectionId": "69ca80799e8f8781e7a5802d",
+            "order": 13,
+            "questionSubmitOrder": 13,
+            "options": [
+              {
+                "nameText": 5,
+                "isCorrect": true,
+                "solution": 5,
+                "_id": "69ca8460e5caae7d6445a96e",
+                "isMarked": false
+              }
+            ],
+            "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/824457_1774878858217.png\" name=\"Image37\" align=\"bottom\" width=\"419\" height=\"500\" border=\"0\">\n</img></span></p>\n ",
+            "hasMultipleAnswers": false,
+            "type": "integer",
+            "isAttempted": true,
+            "isPartiallyCorrect": false,
+            "isCorrect": false,
+            "isGraceMarked": false,
+            "isReevaluated": false,
+            "marks": {
+              "positive": 0,
+              "negative": 1
+            },
+            "timeTaken": 115000,
+            "markForReview": false,
+            "isGpscType": false,
+            "isSurrendered": false,
+            "difficultyLevel": null
+          },
+          {
+            "_id": "69ca808caf142d13f4f72fab",
+            "name": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Match\n the mixture of solution given in List-I with its characterisation\n in List-II and choose the correct answer from the options given\n below.</span></span></span></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><br>\n\n </p>\n <table width=\"580\" cellpadding=\"7\" cellspacing=\"0\">\n \n\n <tbody><tr valign=\"top\">\n <td width=\"36\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none\">\n <br>\n\n </p>\n </td>\n <td width=\"279\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>List\n - I</b></span></span></span></span></p>\n </td>\n <td width=\"33\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none\">\n <br>\n\n </p>\n </td>\n <td width=\"174\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>List\n - II</b></span></span></span></span></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"36\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(P)</b></span></span></span></span></p>\n </td>\n <td width=\"279\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">300\n mL of 0.1M CH</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">3</span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">COONa\n + </span></span>\n </p>\n <p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">100\n mL of 0.1M HCl </span></span>\n </p>\n <p lang=\"en-US\" class=\"western\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(pK</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">b</span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">\n = 4.74)</span></span></p>\n </td>\n <td width=\"33\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(1)</b></span></span></span></span></p>\n </td>\n <td width=\"174\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">pH\n &lt; 7 at 298K</span></span></span></span></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"36\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(Q)</b></span></span></span></span></p>\n </td>\n <td width=\"279\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"margin-bottom: 0px; border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">0.1\n M CH</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">3</span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">COOH\n (pK</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">a</span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">\n = 4.74)</span></span></span></span></p>\n <p style=\"border: none; padding: 0px; text-decoration: none\"><span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">+\n 0.1 M NH</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">4</span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">OH\n (pK</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">b</span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">\n = 4.74)</span></span></span></span></p>\n </td>\n <td width=\"33\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(2)</b></span></span></span></span></p>\n </td>\n <td width=\"174\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">pH\n = 5.04</span></span></span></span></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"36\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(R)</b></span></span></span></span></p>\n </td>\n <td width=\"279\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"margin-bottom: 0px; border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">0.1M\n CH</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">3</span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">COOH\n (pK</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">a\n </span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">=\n 4.74) </span></span></span></span>\n </p>\n <p style=\"border: none; padding: 0px; text-decoration: none\"><span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">+\n 0.1MCH</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">3</span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">COONa</span></span></span></span></p>\n </td>\n <td width=\"33\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(3)</b></span></span></span></span></p>\n </td>\n <td width=\"174\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">pH\n = 7 at 298 K</span></span></span></span></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"36\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(S)</b></span></span></span></span></p>\n </td>\n <td width=\"279\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">0.1M\n CH</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">3</span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">COOH\n + 0.1 MHCl</span></span></span></span></p>\n </td>\n <td width=\"33\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(4)</b></span></span></span></span></p>\n </td>\n <td width=\"174\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Basic\n buffer at its minimum capacity.</span></span></span></span></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"36\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <br>\n\n </p>\n </td>\n <td width=\"279\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <br>\n\n </p>\n </td>\n <td width=\"33\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(5)</b></span></span></span></span></p>\n </td>\n <td width=\"174\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Acidic\n buffer at its maximum apacity.</span></span></span></span></p>\n </td>\n </tr>\n </tbody></table>\n <p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <br>\n\n </p>\n ",
+            "isComprehension": false,
+            "paragraph": null,
+            "paragraphText": null,
+            "fillUpsAnswers": [],
+            "nameText": "\n Match\n the mixture of solution given in List-I with its characterisation\n in List-II and choose the correct answer from the options given\n below.\n \n\n \n \n group width=\"36\"\n\n  width=\"279\"\n\n  width=\"33\"\n\n  width=\"174\"\n\n \n \n \n\n \n \n \n List\n - I\n \n \n \n\n \n \n \n List\n - II\n \n \n \n \n (P)\n \n \n 300\n mL of 0.1M CH3COONa\n + \n \n 100\n mL of 0.1M HCl \n \n (pKb\n = 4.74)\n \n \n (1)\n \n \n pH\n &lt; 7 at 298K\n \n \n \n \n (Q)\n \n \n 0.1\n M CH3COOH\n (pKa\n = 4.74)\n +\n 0.1 M NH4OH\n (pKb\n = 4.74)\n \n \n (2)\n \n \n pH\n = 5.04\n \n \n \n \n (R)\n \n \n 0.1M\n CH3COOH\n (pKa\n =\n 4.74) \n \n +\n 0.1MCH3COONa\n \n \n (3)\n \n \n pH\n = 7 at 298 K\n \n \n \n \n (S)\n \n \n 0.1M\n CH3COOH\n + 0.1 MHCl\n \n \n (4)\n \n \n Basic\n buffer at its minimum capacity.\n \n \n \n \n \n\n \n \n \n \n\n \n \n \n (5)\n \n \n Acidic\n buffer at its maximum apacity.\n \n \n \n \n \n\n \n ",
+            "sectionId": "69ca80799e8f8781e7a5802d",
+            "order": 14,
+            "questionSubmitOrder": 14,
+            "options": [
+              {
+                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(2),\n Q-(3), R-(5), S-(1)</span></span></span></span></p>\n ",
+                "nameText": "\n P-(2),\n Q-(3), R-(5), S-(1)\n ",
+                "isCorrect": true,
+                "_id": "69ca8460e5caae633645a985",
+                "isMarked": true
+              },
+              {
+                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(3),\n Q-(4), R-(2), S-(1)</span></span></span></span></p>\n ",
+                "nameText": "\n P-(3),\n Q-(4), R-(2), S-(1)\n ",
+                "isCorrect": false,
+                "_id": "69ca8460e5caae0eb145a986",
+                "isMarked": false
+              },
+              {
+                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(4),\n Q-(1), R-(2), S-(3)</span></span></span></span></p>\n ",
+                "nameText": "\n P-(4),\n Q-(1), R-(2), S-(3)\n ",
+                "isCorrect": false,
+                "_id": "69ca8460e5caae811845a987",
+                "isMarked": false
+              },
+              {
+                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(2),\n Q-(5), R-(1), S-(4)</span></span></span></span></p>\n ",
+                "nameText": "\n P-(2),\n Q-(5), R-(1), S-(4)\n ",
+                "isCorrect": false,
+                "_id": "69ca8460e5caae008645a988",
+                "isMarked": false
+              }
+            ],
+            "solution": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/608006_1774878858294.png\" name=\"Image38\" align=\"bottom\" width=\"396\" height=\"452\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/63608_1774878858358.png\" name=\"Image39\" align=\"bottom\" width=\"405\" height=\"401\" border=\"0\">\n</img></span></p>\n ",
+            "hasMultipleAnswers": false,
+            "type": "multiple_choice",
+            "isAttempted": true,
+            "isPartiallyCorrect": false,
+            "isCorrect": true,
+            "isGraceMarked": false,
+            "isReevaluated": false,
+            "marks": {
+              "positive": 4,
+              "negative": 0
+            },
+            "timeTaken": 80000,
+            "markForReview": false,
+            "isGpscType": false,
+            "isSurrendered": false,
+            "difficultyLevel": null
+          },
+          {
+            "_id": "69ca808caf142d7d24f72fb0",
+            "name": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Match\n the four starting materials (P, Q, R, S) given in List-I with the\n corresponding reactions provided in List-II and choose the correct\n answer from the options given below.</span></span></span></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><br>\n\n </p>\n <table width=\"571\" cellpadding=\"7\" cellspacing=\"0\">\n \n\n <tbody><tr valign=\"top\">\n <td width=\"45\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none\">\n <br>\n\n </p>\n </td>\n <td width=\"128\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>List\n - I</b></span></span></span></span></p>\n </td>\n <td width=\"52\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none\">\n <br>\n\n </p>\n </td>\n <td width=\"288\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>List\n - II</b></span></span></span></span></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"45\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(P)</b></span></span></span></span></p>\n </td>\n <td width=\"128\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\">\n <img src=\"https://cms-cdn.classplus.co/parserImages/production/238447_1774878858436.png\" name=\"Image40\" align=\"bottom\" width=\"72\" height=\"122\" border=\"0\">\n</img></p>\n </td>\n <td width=\"52\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(1)</b></span></span></span></span></p>\n </td>\n <td width=\"288\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/160824_1774878858500.png\" name=\"Image41\" align=\"bottom\" width=\"240\" height=\"96\" border=\"0\">\n</img></span></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"45\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(Q)</b></span></span></span></span></p>\n </td>\n <td width=\"128\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/741043_1774878858559.png\" name=\"Image42\" align=\"bottom\" width=\"65\" height=\"163\" border=\"0\">\n</img></span></p>\n </td>\n <td width=\"52\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(2)</b></span></span></span></span></p>\n </td>\n <td width=\"288\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/557347_1774878858620.png\" name=\"Image43\" align=\"bottom\" width=\"253\" height=\"121\" border=\"0\">\n</img></span></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"45\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(R)</b></span></span></span></span></p>\n </td>\n <td width=\"128\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/793944_1774878858688.png\" name=\"Image44\" align=\"bottom\" width=\"79\" height=\"132\" border=\"0\">\n</img></span></p>\n </td>\n <td width=\"52\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(3)</b></span></span></span></span></p>\n </td>\n <td width=\"288\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/964799_1774878858754.png\" name=\"Image45\" align=\"bottom\" width=\"262\" height=\"102\" border=\"0\">\n</img></span></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"45\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(S)</b></span></span></span></span></p>\n </td>\n <td width=\"128\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/833655_1774878858820.png\" name=\"Image46\" align=\"bottom\" width=\"73\" height=\"179\" border=\"0\">\n</img></span></p>\n </td>\n <td width=\"52\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(4)</b></span></span></span></span></p>\n </td>\n <td width=\"288\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/635516_1774878858882.png\" name=\"Image47\" align=\"bottom\" width=\"273\" height=\"90\" border=\"0\">\n</img></span></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"45\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <br>\n\n </p>\n </td>\n <td width=\"128\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <br>\n\n </p>\n </td>\n <td width=\"52\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(5)</b></span></span></span></span></p>\n </td>\n <td width=\"288\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p style=\"border: none; padding: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/332847_1774878858944.png\" name=\"Image48\" align=\"bottom\" width=\"285\" height=\"82\" border=\"0\">\n</img></span></p>\n </td>\n </tr>\n </tbody></table>\n <p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <br>\n\n </p>\n ",
+            "isComprehension": false,
+            "paragraph": null,
+            "paragraphText": null,
+            "fillUpsAnswers": [],
+            "nameText": "\n Match\n the four starting materials (P, Q, R, S) given in List-I with the\n corresponding reactions provided in List-II and choose the correct\n answer from the options given below.\n \n\n \n \n group width=\"45\"\n\n  width=\"128\"\n\n  width=\"52\"\n\n  width=\"288\"\n\n \n \n \n\n \n \n \n List\n - I\n \n \n \n\n \n \n \n List\n - II\n \n \n \n \n (P)\n \n \n \n\n \n \n (1)\n \n \n \n\n \n \n \n \n (Q)\n \n \n \n\n \n \n (2)\n \n \n \n\n \n \n \n \n (R)\n \n \n \n\n \n \n (3)\n \n \n \n\n \n \n \n \n (S)\n \n \n \n\n \n \n (4)\n \n \n \n\n \n \n \n \n \n\n \n \n \n \n\n \n \n \n (5)\n \n \n \n\n \n \n \n \n \n\n \n ",
+            "sectionId": "69ca80799e8f8781e7a5802d",
+            "order": 15,
+            "questionSubmitOrder": 15,
+            "options": [
+              {
+                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(1),\n Q-(4), R-(2), S-(5)</span></span></span></span></p>\n ",
+                "nameText": "\n P-(1),\n Q-(4), R-(2), S-(5)\n ",
+                "isCorrect": false,
+                "_id": "69ca8460e5caaedce045a961",
+                "isMarked": false
+              },
+              {
+                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(3),\n Q-(1), R-(4), S-(2)</span></span></span></span></p>\n ",
+                "nameText": "\n P-(3),\n Q-(1), R-(4), S-(2)\n ",
+                "isCorrect": false,
+                "_id": "69ca8460e5caae117b45a962",
+                "isMarked": false
+              },
+              {
+                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(3),\n Q-(4), R-(2), S-(1)</span></span></span></span></p>\n ",
+                "nameText": "\n P-(3),\n Q-(4), R-(2), S-(1)\n ",
+                "isCorrect": true,
+                "_id": "69ca8460e5caae2c2645a963",
+                "isMarked": true
+              },
+              {
+                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(4),\n Q-(5), R-(3), S-(2)</span></span></span></span></p>\n ",
+                "nameText": "\n P-(4),\n Q-(5), R-(3), S-(2)\n ",
+                "isCorrect": false,
+                "_id": "69ca8460e5caae82f545a964",
+                "isMarked": false
+              }
+            ],
+            "solution": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/604989_1774878859004.png\" name=\"Image49\" align=\"bottom\" width=\"342\" height=\"298\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/231912_1774878859066.png\" name=\"Image50\" align=\"bottom\" width=\"327\" height=\"308\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/195672_1774878859129.png\" name=\"Image51\" align=\"bottom\" width=\"378\" height=\"366\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/487632_1774878859184.png\" name=\"Image52\" align=\"bottom\" width=\"418\" height=\"301\" border=\"0\">\n</img></span></p>\n ",
+            "hasMultipleAnswers": false,
+            "type": "multiple_choice",
+            "isAttempted": true,
+            "isPartiallyCorrect": false,
+            "isCorrect": true,
+            "isGraceMarked": false,
+            "isReevaluated": false,
+            "marks": {
+              "positive": 4,
+              "negative": 0
+            },
+            "timeTaken": 290000,
+            "markForReview": false,
+            "isGpscType": false,
+            "isSurrendered": false,
+            "difficultyLevel": null
+          },
+          {
+            "_id": "69ca808caf142d581bf72fb5",
+            "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">List-I contains various reaction sequences and List-II contains the possible products. Match each entry in List-I with the appropriate entry in List-II and choose the correct option.</span></span></span></span></p>\n<p style=\"margin-bottom: 0px; text-decoration: none;\"></p>\n<table width=\"561\" cellspacing=\"0\" cellpadding=\"7\">\n<tbody>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"36\">\n<p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"222\">\n<p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>List - I</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"212\">\n<p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>List - II</strong></span></span></span></span></p>\n</td>\n</tr>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"36\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>(P)</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"222\">\n<p lang=\"en-US\" class=\"western\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/334982_1774878859254.png\" width=\"213\" height=\"61\" name=\"Image53\" align=\"bottom\" border=\"0\" /></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>(1)</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"212\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/160302_1774878859314.png\" width=\"115\" height=\"91\" name=\"Image54\" align=\"bottom\" border=\"0\" /> </span></p>\n</td>\n</tr>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"36\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>(Q)</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"222\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/524279_1774878859375.png\" width=\"264\" height=\"127\" name=\"Image55\" align=\"bottom\" border=\"0\" /> </span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>(2)</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"212\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/11534_1774878859432.png\" width=\"123\" height=\"100\" name=\"Image56\" align=\"bottom\" border=\"0\" /> </span></p>\n</td>\n</tr>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"36\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>(R)</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"222\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/488636_1774878859494.png\" width=\"263\" height=\"121\" name=\"Image57\" align=\"bottom\" border=\"0\" /> </span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>(3)</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"212\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/889561_1774878859567.png\" width=\"135\" height=\"76\" name=\"Image58\" align=\"bottom\" border=\"0\" /> </span></p>\n</td>\n</tr>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"36\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>(S)</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"222\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/147356_1774878859630.png\" width=\"153\" height=\"118\" name=\"Image59\" align=\"bottom\" border=\"0\" /> </span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>(4)</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"212\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/992477_1774878859695.png\" width=\"149\" height=\"111\" name=\"Image60\" align=\"bottom\" border=\"0\" /> </span></p>\n</td>\n</tr>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"36\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"222\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>(5)</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"212\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/427748_1774878859764.png\" width=\"156\" height=\"132\" name=\"Image61\" align=\"bottom\" border=\"0\" /> </span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none;\"></p>",
+            "isComprehension": false,
+            "paragraph": null,
+            "paragraphText": null,
+            "fillUpsAnswers": [],
+            "nameText": "List-I contains various reaction sequences and List-II contains the possible products. Match each entry in List-I with the appropriate entry in List-II and choose the correct option.\n\n\n\n\n\n\n\n\nList - I\n\n\n\n\n\nList - II\n\n\n\n\n(P)\n\n\n\n\n\n(1)\n\n\n \n\n\n\n\n(Q)\n\n\n \n\n\n(2)\n\n\n \n\n\n\n\n(R)\n\n\n \n\n\n(3)\n\n\n \n\n\n\n\n(S)\n\n\n \n\n\n(4)\n\n\n \n\n\n\n\n\n\n\n\n\n\n(5)\n\n\n \n\n\n\n\n",
+            "sectionId": "69ca80799e8f8781e7a5802d",
+            "order": 16,
+            "questionSubmitOrder": 16,
+            "options": [
+              {
+                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(3),\n Q-(5), R-(4), S-(1)</span></span></span></span></p>\n ",
+                "nameText": "\n P-(3),\n Q-(5), R-(4), S-(1)\n ",
+                "isCorrect": true,
+                "_id": "69ca8460e5caae342545a97c",
+                "isMarked": true
+              },
+              {
+                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(3),\n Q-(2), R-(4), S-(1)</span></span></span></span></p>\n ",
+                "nameText": "\n P-(3),\n Q-(2), R-(4), S-(1)\n ",
+                "isCorrect": false,
+                "_id": "69ca8460e5caae4c3745a97d",
+                "isMarked": false
+              },
+              {
+                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(3),\n Q-(5), R-(1), S-(4)</span></span></span></span></p>\n ",
+                "nameText": "\n P-(3),\n Q-(5), R-(1), S-(4)\n ",
+                "isCorrect": false,
+                "_id": "69ca8460e5caae812745a97e",
+                "isMarked": false
+              },
+              {
+                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-(5),\n Q-(2), R-(4), S-(1)</span></span></span></span></p>\n ",
+                "nameText": "\n P-(5),\n Q-(2), R-(4), S-(1)\n ",
+                "isCorrect": false,
+                "_id": "69ca8460e5caae1e7345a97f",
+                "isMarked": false
+              }
+            ],
+            "solution": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/437172_1774878859841.png\" name=\"Image62\" align=\"bottom\" width=\"276\" height=\"219\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/75992_1774878859906.png\" name=\"Image63\" align=\"bottom\" width=\"286\" height=\"324\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/468139_1774878859981.png\" name=\"Image64\" align=\"bottom\" width=\"245\" height=\"361\" border=\"0\">\n</img></span></p>\n ",
+            "hasMultipleAnswers": false,
+            "type": "multiple_choice",
+            "isAttempted": true,
+            "isPartiallyCorrect": false,
+            "isCorrect": true,
+            "isGraceMarked": false,
+            "isReevaluated": false,
+            "marks": {
+              "positive": 4,
+              "negative": 0
+            },
+            "timeTaken": 231000,
+            "markForReview": false,
+            "isGpscType": false,
+            "isSurrendered": false,
+            "difficultyLevel": null
+          }
+        ],
+        "numberOfQuestions": 16
+      }
+    ],
+    "userDetails": {
+      "name": "Santhosh Sivaraman",
+      "userId": 146218653,
+      "orgId": 320937
+    },
+    "sts": 1775529674892,
+    "region": {
+      "timeFormat": "hh:mm a",
+      "dateTimeStamp": "yyyy/MM/dd"
     }
+  }
 }
