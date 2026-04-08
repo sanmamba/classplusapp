@@ -1,0 +1,876 @@
+{
+    "data": {
+        "test": {
+            "name": "01_04_2026 12th CRP Chemistry Practise_test - 6",
+            "testTotalDuration": 3600000,
+            "settings": {
+                "fonts": {
+                    "fonts": [
+                        {
+                            "face": "Calibri",
+                            "supported": true
+                        },
+                        {
+                            "face": "serif",
+                            "supported": true
+                        },
+                        {
+                            "face": "Cambria Math",
+                            "supported": true
+                        }
+                    ],
+                    "include": "https://cms-gcp.classplusapp.com/parser/v3/css/combined?face=Calibri,serif,Cambria%20Math"
+                },
+                "isSectionSwitchingEnabled": true
+            },
+            "practiceTestUrls": []
+        },
+        "filters": {
+            "incorrect": 1,
+            "correct": 1,
+            "partiallyMarked": 1,
+            "unattempted": 1,
+            "markForReview": 1,
+            "graceMarked": 0,
+            "revaluated": 0
+        },
+        "timeTaken": 2755000,
+        "showReportQuestion": true,
+        "sectionWiseStats": [
+            {
+                "marksScored": 43,
+                "sectionMarks": 64,
+                "accuracy": 80.36,
+                "_id": "69d54680ceda49690163e635",
+                "totalQuestions": 16,
+                "attemptDuration": 2755000,
+                "correctAnswers": 11,
+                "inCorrectAnswers": 2,
+                "partiallyCorrectAnswers": 1,
+                "unAttempted": 2,
+                "name": "Chemistry",
+                "order": 1,
+                "sectionDuration": 0,
+                "sectionId": "69ca847c9bbe2d5a023d0562"
+            }
+        ],
+        "sections": [
+            {
+                "sectionDuration": 0,
+                "sectionMarks": 64,
+                "isActive": true,
+                "draftMode": false,
+                "sectionInstructions": " ",
+                "_id": "69ca847c9bbe2d5a023d0562",
+                "hasOptionalQuestions": false,
+                "name": "Chemistry",
+                "order": 1,
+                "createdAt": "2026-04-01T12:32:27.282Z",
+                "updatedAt": "2026-04-01T12:32:27.282Z",
+                "questions": [
+                    {
+                        "_id": "69ca84987cda02096b89ff42",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Brompheniramine,\n an anti-allergy drug, is a synthetic organic </span></span>\n </p>\n <p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">compound.\n It is first-generation antihistamine often combined </span></span>\n </p>\n <p lang=\"en-US\" class=\"western\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">with\n other drugs in cold and flu medications.<br>\nThe structure of\n brompheniramine is</span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Brompheniramine,\n an anti-allergy drug, is a synthetic organic \n \n compound.\n It is first-generation antihistamine often combined \n \n with\n other drugs in cold and flu medications.\nThe structure of\n brompheniramine is\n ",
+                        "sectionId": "69ca847c9bbe2d5a023d0562",
+                        "order": 1,
+                        "questionSubmitOrder": 1,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/951997_1774879890054.png\" name=\"Picture 1\" align=\"bottom\" width=\"210\" height=\"172\" border=\"0\">\n</img></span></p>\n ",
+                                "nameText": "\n \n\n ",
+                                "isCorrect": true,
+                                "_id": "69ca8875c556201cc9e11d79",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/53815_1774879890128.png\" name=\"Image1\" align=\"bottom\" width=\"234\" height=\"148\" border=\"0\">\n</img></span></p>\n ",
+                                "nameText": "\n \n\n ",
+                                "isCorrect": false,
+                                "_id": "69ca8875c556201f30e11d7a",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/306457_1774879890190.png\" name=\"Image2\" align=\"bottom\" width=\"227\" height=\"155\" border=\"0\">\n</img></span></p>\n ",
+                                "nameText": "\n \n\n ",
+                                "isCorrect": false,
+                                "_id": "69ca8875c55620035de11d7b",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/903460_1774879890255.png\" name=\"Image3\" align=\"bottom\" width=\"227\" height=\"154\" border=\"0\">\n</img></span></p>\n ",
+                                "nameText": "\n \n\n ",
+                                "isCorrect": false,
+                                "_id": "69ca8875c556207c71e11d7c",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/128505_1774879890338.png\" name=\"Image4\" align=\"bottom\" width=\"424\" height=\"297\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "multiple_choice",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 47000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca84987cda02a81489ff47",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0.768px; border: none; padding: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/d96b674b-f3c9-42cc-a66c-92bfa08bc288.png\" alt=\"\" width=\"566\" height=\"108\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69ca847c9bbe2d5a023d0562",
+                        "order": 2,
+                        "questionSubmitOrder": 2,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">1</span></span></span></span></p>\n ",
+                                "nameText": "\n 1\n ",
+                                "isCorrect": false,
+                                "_id": "69ca8875c5562004d3e11d98",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">3</span></span></span></span></p>\n ",
+                                "nameText": "\n 3\n ",
+                                "isCorrect": false,
+                                "_id": "69ca8875c556201f3ae11d99",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">4</span></span></span></span></p>\n ",
+                                "nameText": "\n 4\n ",
+                                "isCorrect": false,
+                                "_id": "69ca8875c556200e29e11d9a",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">2</span></span></span></span></p>\n ",
+                                "nameText": "\n 2\n ",
+                                "isCorrect": true,
+                                "_id": "69ca8875c556204582e11d9b",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/606206_1774879890531.png\" name=\"Image5\" align=\"bottom\" width=\"395\" height=\"359\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 103000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca84987cda024cd889ff4c",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Among\n the following option(s) the correct sequence of reagents for the\n conversion of P to Q is</span></span></span></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/249016_1774879890595.png\" name=\"Image6\" align=\"bottom\" width=\"359\" height=\"112\" border=\"0\">\n</img></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Among\n the following option(s) the correct sequence of reagents for the\n conversion of P to Q is\n \n\n ",
+                        "sectionId": "69ca847c9bbe2d5a023d0562",
+                        "order": 3,
+                        "questionSubmitOrder": 3,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/532035_1774879890659.png\" name=\"Image7\" align=\"bottom\" width=\"405\" height=\"55\" border=\"0\">\n</img></span></p>\n ",
+                                "nameText": "\n \n\n ",
+                                "isCorrect": true,
+                                "_id": "69ca8875c55620ed1be11d83",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/275644_1774879890741.png\" name=\"Image8\" align=\"bottom\" width=\"405\" height=\"68\" border=\"0\">\n</img></span></p>\n ",
+                                "nameText": "\n \n\n ",
+                                "isCorrect": false,
+                                "_id": "69ca8875c5562062e7e11d84",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/710523_1774879890805.png\" name=\"Image9\" align=\"bottom\" width=\"400\" height=\"63\" border=\"0\">\n</img></span></p>\n ",
+                                "nameText": "\n \n\n ",
+                                "isCorrect": false,
+                                "_id": "69ca8875c55620afc2e11d85",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/745057_1774879890869.png\" name=\"Image10\" align=\"bottom\" width=\"410\" height=\"62\" border=\"0\">\n</img></span></p>\n ",
+                                "nameText": "\n \n\n ",
+                                "isCorrect": false,
+                                "_id": "69ca8875c556202392e11d86",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/45086_1774879890937.png\" name=\"Image11\" align=\"bottom\" width=\"464\" height=\"311\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 221000,
+                        "markForReview": true,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca84987cda02f4c289ff51",
+                        "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Which\n of the following statement is incorrect?</span></span></span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Which\n of the following statement is incorrect?\n ",
+                        "sectionId": "69ca847c9bbe2d5a023d0562",
+                        "order": 4,
+                        "questionSubmitOrder": 4,
+                        "options": [
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Total number of geometrical isomers for the complex </span></span></span></span><span style=\"color: #000000;\"><img style=\"color: #333333;\" src=\"https://cms-cdn.classplus.co/parserImages/7963e76c-cb11-43c2-b87b-6c012a87799f.png\" alt=\"\" width=\"207\" height=\"25\" />&nbsp;<span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is 3 .</span></span></span></span></p>",
+                                "nameText": "Total number of geometrical isomers for the complex  is 3 .",
+                                "isCorrect": false,
+                                "_id": "69ca8875c55620fa7fe11d89",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">The sum of oxidation state of two silver ions in </span></span></span></span><span style=\"color: #000000;\"><img style=\"color: #333333;\" src=\"https://cms-cdn.classplus.co/parserImages/056c6580-8c29-4386-a296-121b6dc8edf7.png\" alt=\"\" width=\"183\" height=\"24\" />&nbsp;<span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">complex is 2 .</span></span></span></span></p>",
+                                "nameText": "The sum of oxidation state of two silver ions in  complex is 2 .",
+                                "isCorrect": false,
+                                "_id": "69ca8875c55620836be11d8a",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/7dfc7a7f-0ad3-41f6-9124-dd85512ff009.png\" alt=\"\" width=\"471\" height=\"73\" /></p>",
+                                "nameText": "",
+                                "isCorrect": false,
+                                "_id": "69ca8875c55620d0c7e11d8b",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Square planar complex</span></span><img src=\"https://cms-cdn.classplus.co/parserImages/747dcb29-adc9-4e4e-b089-5ecae0150e61.png\" alt=\"\" width=\"242\" height=\"22\" />&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">has 4 geometrical isomers.</span></span></span></span></p>",
+                                "nameText": "Square planar complex has 4 geometrical isomers.",
+                                "isCorrect": true,
+                                "_id": "69ca8875c556203401e11d8c",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/10055_1774879891462.png\" name=\"Image12\" align=\"bottom\" width=\"434\" height=\"288\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 78000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca84987cda028a2589ff56",
+                        "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Which\n of the following statement(s) is/are correct?</span></span></span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Which\n of the following statement(s) is/are correct?\n ",
+                        "sectionId": "69ca847c9bbe2d5a023d0562",
+                        "order": 5,
+                        "questionSubmitOrder": 5,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Maleic\n anhydride can be prepared by heating cis-but-2-ene-dioic acid.</span></span></span></span></p>\n ",
+                                "nameText": "\n Maleic\n anhydride can be prepared by heating cis-but-2-ene-dioic acid.\n ",
+                                "isCorrect": true,
+                                "_id": "69ca8875c556202e62e11d8f",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Sodium phenoxide when heated with&nbsp;</span></span><img src=\"https://cms-cdn.classplus.co/parserImages/96838d08-bdd3-4a66-aa7c-218b670ff6fc.png\" alt=\"\" width=\"33\" height=\"26\" />&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">under pressure at&nbsp;</span></span><img src=\"https://cms-cdn.classplus.co/parserImages/f0591b90-9bee-4716-9308-9915ff49cbd7.png\" alt=\"\" width=\"56\" height=\"24\" />&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">yields a product which on acetylation produces aspirin.</span></span></span></span></p>",
+                                "nameText": "Sodium phenoxide when heated with  under pressure at  yields a product which on acetylation produces aspirin.",
+                                "isCorrect": true,
+                                "_id": "69ca8875c55620930de11d90",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">IUPAC\n nomenclature for the compound </span></span>\n <img src=\"https://cms-cdn.classplus.co/parserImages/production/394747_1774879891671.png\" name=\"Image13\" align=\"bottom\" width=\"301\" height=\"122\" border=\"0\">\n</img></p>\n <p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">is\n 2-methyl-5-oxohexanoic acid.</span></span></p>\n ",
+                                "nameText": "\n IUPAC\n nomenclature for the compound \n \n\n \n is\n 2-methyl-5-oxohexanoic acid.\n ",
+                                "isCorrect": true,
+                                "_id": "69ca8875c556200b32e11d91",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p lang=\"en-US\" class=\"western\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">The\n esterification of a carboxylic acid with an alcohol is an example\n of nucleophilic acyl substitution reaction.</span></span></p>\n ",
+                                "nameText": "\n The\n esterification of a carboxylic acid with an alcohol is an example\n of nucleophilic acyl substitution reaction.\n ",
+                                "isCorrect": true,
+                                "_id": "69ca8875c556207979e11d92",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/517538_1774879891734.png\" name=\"Image14\" align=\"bottom\" width=\"530\" height=\"46\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": true,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 131000,
+                        "markForReview": true,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca84987cda0233c989ff5b",
+                        "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Which\n of the following pair(s) of ores are both carbonate type?</span></span></span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Which\n of the following pair(s) of ores are both carbonate type?\n ",
+                        "sectionId": "69ca847c9bbe2d5a023d0562",
+                        "order": 6,
+                        "questionSubmitOrder": 6,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Cuprite\n and malachite</span></span></span></span></p>\n ",
+                                "nameText": "\n Cuprite\n and malachite\n ",
+                                "isCorrect": false,
+                                "_id": "69ca8875c5562044b0e11d7d",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Siderite\n and calamine</span></span></span></span></p>\n ",
+                                "nameText": "\n Siderite\n and calamine\n ",
+                                "isCorrect": true,
+                                "_id": "69ca8875c55620237fe11d7e",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Azurite\n and cerussite</span></span></span></span></p>\n ",
+                                "nameText": "\n Azurite\n and cerussite\n ",
+                                "isCorrect": true,
+                                "_id": "69ca8875c5562002a3e11d7f",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p lang=\"en-US\" class=\"western\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Dolomite\n and zincite</span></span></p>\n ",
+                                "nameText": "\n Dolomite\n and zincite\n ",
+                                "isCorrect": false,
+                                "_id": "69ca8875c556203f12e11d80",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/463322_1774879891801.png\" name=\"Image15\" align=\"bottom\" width=\"438\" height=\"163\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": true,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": true,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 1,
+                            "negative": 0
+                        },
+                        "timeTaken": 44000,
+                        "markForReview": true,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca84987cda02689489ff60",
+                        "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">The\n pair of complexes in which both exhibit square planar geometry\n is/are</span></span></span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n The\n pair of complexes in which both exhibit square planar geometry\n is/are\n ",
+                        "sectionId": "69ca847c9bbe2d5a023d0562",
+                        "order": 7,
+                        "questionSubmitOrder": 7,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/777702a2-041b-48d3-bbb0-928ed17c4a59.png\" alt=\"\" width=\"220\" height=\"31\" /></p>",
+                                "nameText": "",
+                                "isCorrect": true,
+                                "_id": "69ca8875c55620b833e11d93",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/91b346a6-f6bd-4e62-b618-3b7402c4e261.png\" alt=\"\" width=\"148\" height=\"31\" /></p>",
+                                "nameText": "",
+                                "isCorrect": false,
+                                "_id": "69ca8875c556205341e11d94",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/7d7cdac4-72ef-45ca-b8bc-813840299386.png\" alt=\"\" width=\"172\" height=\"34\" /></p>",
+                                "nameText": "",
+                                "isCorrect": false,
+                                "_id": "69ca8875c556203b06e11d95",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/d931dbd1-81ac-4458-af7a-d593a9c4c62b.png\" alt=\"\" width=\"265\" height=\"28\" /></p>",
+                                "nameText": "",
+                                "isCorrect": true,
+                                "_id": "69ca8875c556201c93e11d96",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/330422_1774879892410.png\" name=\"Image16\" align=\"bottom\" width=\"404\" height=\"488\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": true,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 38000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca84987cda0268f289ff65",
+                        "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Which\n of the following reaction(s) produce(s) an aromatic product?</span></span></span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Which\n of the following reaction(s) produce(s) an aromatic product?\n ",
+                        "sectionId": "69ca847c9bbe2d5a023d0562",
+                        "order": 8,
+                        "questionSubmitOrder": 8,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/684290_1774879892487.png\" name=\"Image17\" align=\"bottom\" width=\"201\" height=\"83\" border=\"0\">\n</img></span></p>\n ",
+                                "nameText": "\n \n\n ",
+                                "isCorrect": true,
+                                "_id": "69ca8875c556200a4be11d9c",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/156078_1774879892558.png\" name=\"Image18\" align=\"bottom\" width=\"205\" height=\"110\" border=\"0\">\n</img></span></p>\n ",
+                                "nameText": "\n \n\n ",
+                                "isCorrect": false,
+                                "_id": "69ca8875c556207914e11d9d",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/838211_1774879892631.png\" name=\"Image19\" align=\"bottom\" width=\"214\" height=\"68\" border=\"0\">\n</img></span></p>\n ",
+                                "nameText": "\n \n\n ",
+                                "isCorrect": true,
+                                "_id": "69ca8875c556200b4fe11d9e",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/381043_1774879892691.png\" name=\"Image20\" align=\"bottom\" width=\"205\" height=\"111\" border=\"0\">\n</img></span></p>\n ",
+                                "nameText": "\n \n\n ",
+                                "isCorrect": true,
+                                "_id": "69ca8875c55620d228e11d9f",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/699589_1774879892759.png\" name=\"Image21\" align=\"bottom\" width=\"373\" height=\"282\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/494518_1774879892830.png\" name=\"Image22\" align=\"bottom\" width=\"302\" height=\"280\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/335387_1774879892897.png\" name=\"Image23\" align=\"bottom\" width=\"412\" height=\"136\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": true,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 141000,
+                        "markForReview": true,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca84987cda02905289ff67",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0.1632px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Consider the following reaction sequence :</span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/983087_1774879892961.png\" width=\"418\" height=\"209\" name=\"Image24\" align=\"bottom\" border=\"0\" /> <span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><br />The sum of&nbsp;</span></span><img src=\"https://cms-cdn.classplus.co/parserImages/48c86a02-5342-451d-87b7-9e55c26ec6e9.png\" alt=\"\" width=\"32\" height=\"32\" />&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">-hybridised C -atom present in A</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">and B</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is ________</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">.</span></span></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "13"
+                        ],
+                        "nameText": "Consider the following reaction sequence :\n The sum of  -hybridised C -atom present in A and B is ________ .",
+                        "sectionId": "69ca847c9bbe2d5a023d0562",
+                        "order": 9,
+                        "questionSubmitOrder": 9,
+                        "options": [
+                            {
+                                "nameText": 13,
+                                "isCorrect": true,
+                                "solution": 13,
+                                "_id": "69ca8875c556202a4de11d8d",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/327013_1774879893292.png\" name=\"Image25\" align=\"bottom\" width=\"372\" height=\"428\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/870963_1774879893359.png\" name=\"Image26\" align=\"bottom\" width=\"477\" height=\"269\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 176000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca84987cda0205a789ff69",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Consider\n the following reactions (unbalanced) :</span></span></p>\n <p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px\">\n <img src=\"https://cms-cdn.classplus.co/parserImages/production/415827_1774879893427.png\" name=\"Image27\" align=\"bottom\" width=\"449\" height=\"179\" border=\"0\">\n</img></p>\n <p lang=\"en-US\" class=\"western\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">The\n total number of correct statement(s) about the products formed in\n above reaction is/are<br>\n(a) The oxidation state of Zn in </span></span>\n <img src=\"https://cms-cdn.classplus.co/parserImages/production/351065_1774879893482.gif\" align=\"absmiddle\">\n<span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">\n is +1 .<br>\n(b) </span></span>\n <img src=\"https://cms-cdn.classplus.co/parserImages/production/952503_1774879893544.gif\" align=\"absmiddle\">\n<span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">\n is a </span></span>\n <img src=\"https://cms-cdn.classplus.co/parserImages/production/591936_1774879893603.gif\" align=\"absmiddle\">\n<span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">-shaped\n molecule.<br>\n(c) Bond order of </span></span>\n <img src=\"https://cms-cdn.classplus.co/parserImages/production/226757_1774879893667.gif\" align=\"absmiddle\">\n<span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">\n is 1 in its ground state.<br>\n(d) </span></span>\n <img src=\"https://cms-cdn.classplus.co/parserImages/production/464545_1774879893729.gif\" align=\"absmiddle\">\n<span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">\n is dirty white in colour.</span></span></img></img></img></img></img></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "3"
+                        ],
+                        "nameText": "\n Consider\n the following reactions (unbalanced) :\n \n \n\n The\n total number of correct statement(s) about the products formed in\n above reaction is/are\n(a) The oxidation state of Zn in \n \n\n is +1 .\n(b) \n \n\n is a \n \n-shaped\n molecule.\n(c) Bond order of \n \n\n is 1 in its ground state.\n(d) \n \n\n is dirty white in colour.\n ",
+                        "sectionId": "69ca847c9bbe2d5a023d0562",
+                        "order": 10,
+                        "questionSubmitOrder": 10,
+                        "options": [
+                            {
+                                "nameText": 3,
+                                "isCorrect": true,
+                                "solution": 3,
+                                "_id": "69ca8875c55620b942e11d87",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/127718_1774879893790.png\" name=\"Image28\" align=\"bottom\" width=\"452\" height=\"238\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/43657_1774879893853.png\" name=\"Image29\" align=\"bottom\" width=\"462\" height=\"417\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 186000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca84987cda023d7d89ff6b",
+                        "name": "<p lang=\"en-US\" class=\"western\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">The number of step growth polymer from the given polymers is/are ___________</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Buna-S, protein, cellulose, terylene, bakelite, nylon-6, PVC, polythene, teflon, melamine, formaldehyde resin</span></span></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "The number of step growth polymer from the given polymers is/are ___________ Buna-S, protein, cellulose, terylene, bakelite, nylon-6, PVC, polythene, teflon, melamine, formaldehyde resin",
+                        "sectionId": "69ca847c9bbe2d5a023d0562",
+                        "order": 11,
+                        "questionSubmitOrder": 11,
+                        "options": [
+                            {
+                                "nameText": 7,
+                                "isCorrect": true,
+                                "solution": 7,
+                                "_id": "69ca8875c556201aafe11d81",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/295931_1774879893973.png\" name=\"Image30\" align=\"bottom\" width=\"494\" height=\"153\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 14000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca84987cda023c3089ff6d",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">A tetrapeptide has -COOH groups on alanine. This produces </span></span><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">glycine (Gly), valine (Val), phenyl alanine (Phe) and alanine (Ala) on complete hydrolysis. For this tetrapeptide, the number of possible sequence (primary structures) with - </span></span><img src=\"https://cms-cdn.classplus.co/parserImages/be4f3c4b-5861-436b-b134-32096cecc3cc.png\" alt=\"\" width=\"34\" height=\"25\" />&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">group </span></span><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">attached to a chiral centre is _______________</span></span></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "4"
+                        ],
+                        "nameText": "A tetrapeptide has -COOH groups on alanine. This produces glycine (Gly), valine (Val), phenyl alanine (Phe) and alanine (Ala) on complete hydrolysis. For this tetrapeptide, the number of possible sequence (primary structures) with -  group attached to a chiral centre is _______________",
+                        "sectionId": "69ca847c9bbe2d5a023d0562",
+                        "order": 12,
+                        "questionSubmitOrder": 12,
+                        "options": [
+                            {
+                                "nameText": 4,
+                                "isCorrect": true,
+                                "solution": 4,
+                                "_id": "69ca8875c55620dfafe11d97",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/596472_1774879894166.png\" name=\"Image31\" align=\"bottom\" width=\"487\" height=\"297\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 54000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca84987cda022ae589ff6f",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/5344e424-55e0-4ad3-a8ce-d557a916fed3.png\" alt=\"\" width=\"534\" height=\"123\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "8125"
+                        ],
+                        "nameText": "",
+                        "sectionId": "69ca847c9bbe2d5a023d0562",
+                        "order": 13,
+                        "questionSubmitOrder": 13,
+                        "options": [
+                            {
+                                "nameText": 6934,
+                                "isCorrect": true,
+                                "solution": 6934,
+                                "_id": "69ca8875c5562032fae11da0",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/940944_1774879894426.png\" name=\"Image32\" align=\"bottom\" width=\"354\" height=\"357\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/505668_1774879894499.png\" name=\"Image33\" align=\"bottom\" width=\"458\" height=\"308\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 1
+                        },
+                        "timeTaken": 234000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca84987cda0248fe89ff71",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/630dcd40-7109-4ddd-a295-ea2036d18c55.png\" alt=\"\" width=\"556\" height=\"135\" /></p>\n<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/30862_1774879894865.png\" width=\"292\" height=\"261\" name=\"Image34\" align=\"bottom\" border=\"0\" /> </span></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "70"
+                        ],
+                        "nameText": "\n ",
+                        "sectionId": "69ca847c9bbe2d5a023d0562",
+                        "order": 14,
+                        "questionSubmitOrder": 14,
+                        "options": [
+                            {
+                                "nameText": 14,
+                                "isCorrect": true,
+                                "solution": 14,
+                                "_id": "69ca8875c556200108e11d8e",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/475253_1774879894922.png\" name=\"Image35\" align=\"bottom\" width=\"467\" height=\"305\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 1
+                        },
+                        "timeTaken": 88000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca84987cda02bed789ff73",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/eaa97b9a-e94d-4d29-9f49-1f8c09914e86.png\" alt=\"\" width=\"594\" height=\"114\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "2"
+                        ],
+                        "nameText": "",
+                        "sectionId": "69ca847c9bbe2d5a023d0562",
+                        "order": 15,
+                        "questionSubmitOrder": 15,
+                        "options": [
+                            {
+                                "nameText": 2,
+                                "isCorrect": true,
+                                "solution": 2,
+                                "_id": "69ca8875c55620ba4ce11d88",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/850273_1774879895116.png\" name=\"Image36\" align=\"bottom\" width=\"364\" height=\"343\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/136872_1774879895175.png\" name=\"Image37\" align=\"bottom\" width=\"365\" height=\"250\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 273000,
+                        "markForReview": true,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69ca84987cda026a9e89ff75",
+                        "name": "<p lang=\"en-US\" class=\"western\"><img src=\"https://cms-cdn.classplus.co/parserImages/e44d7825-b920-4b37-9b09-b5840ad834d7.png\" alt=\"\" width=\"555\" height=\"137\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "3"
+                        ],
+                        "nameText": "",
+                        "sectionId": "69ca847c9bbe2d5a023d0562",
+                        "order": 16,
+                        "questionSubmitOrder": 16,
+                        "options": [
+                            {
+                                "nameText": 3,
+                                "isCorrect": true,
+                                "solution": 3,
+                                "_id": "69ca8875c55620e3e2e11d82",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/430751_1774879895652.png\" name=\"Image38\" align=\"bottom\" width=\"431\" height=\"429\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/464022_1774879895721.png\" name=\"Image39\" align=\"bottom\" width=\"390\" height=\"356\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 927000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    }
+                ],
+                "numberOfQuestions": 16
+            }
+        ],
+        "userDetails": {
+            "name": "Santhosh Sivaraman",
+            "userId": 146218653,
+            "orgId": 320937
+        },
+        "sts": 1775668364996,
+        "region": {
+            "timeFormat": "hh:mm a",
+            "dateTimeStamp": "yyyy/MM/dd"
+        }
+    }
+}
