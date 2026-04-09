@@ -1,0 +1,916 @@
+{
+    "data": {
+        "test": {
+            "name": "03_04_2026 12th CRP Chemistry Practise_test - 7",
+            "testTotalDuration": 3600000,
+            "settings": {
+                "fonts": {
+                    "fonts": [
+                        {
+                            "face": "Calibri",
+                            "supported": true
+                        },
+                        {
+                            "face": "serif",
+                            "supported": true
+                        },
+                        {
+                            "face": "Cambria Math",
+                            "supported": true
+                        }
+                    ],
+                    "include": "https://cms-gcp.classplusapp.com/parser/v3/css/combined?face=Calibri,serif,Cambria%20Math"
+                },
+                "isSectionSwitchingEnabled": true
+            },
+            "practiceTestUrls": []
+        },
+        "filters": {
+            "incorrect": 1,
+            "correct": 1,
+            "partiallyMarked": 0,
+            "unattempted": 1,
+            "markForReview": 1,
+            "graceMarked": 0,
+            "revaluated": 0
+        },
+        "timeTaken": 3052000,
+        "showReportQuestion": true,
+        "sectionWiseStats": [
+            {
+                "marksScored": 30,
+                "sectionMarks": 64,
+                "accuracy": 60,
+                "_id": "69d698ac37a19355599b0727",
+                "totalQuestions": 16,
+                "attemptDuration": 3052000,
+                "correctAnswers": 9,
+                "inCorrectAnswers": 6,
+                "partiallyCorrectAnswers": 0,
+                "unAttempted": 1,
+                "name": "Chemistry",
+                "order": 1,
+                "sectionDuration": 0,
+                "sectionId": "69cfa5e369bc73cf050f65a7"
+            }
+        ],
+        "sections": [
+            {
+                "sectionDuration": 0,
+                "sectionMarks": 64,
+                "isActive": true,
+                "draftMode": false,
+                "sectionInstructions": " ",
+                "_id": "69cfa5e369bc73cf050f65a7",
+                "hasOptionalQuestions": false,
+                "name": "Chemistry",
+                "order": 1,
+                "createdAt": "2026-04-03T14:31:03.969Z",
+                "updatedAt": "2026-04-03T14:31:03.969Z",
+                "questions": [
+                    {
+                        "_id": "69cfa601ccad561377edbd21",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Which\n sequence of steps describes the best synthesis of </span></span></span></span>\n </p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">2-methyl-3-pentanone?</span></span></span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Which\n sequence of steps describes the best synthesis of \n \n 2-methyl-3-pentanone?\n ",
+                        "sectionId": "69cfa5e369bc73cf050f65a7",
+                        "order": 1,
+                        "questionSubmitOrder": 1,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/f7aeddca-2a4b-4874-a30e-fdae791c3e60.png\" alt=\"\" width=\"419\" height=\"76\" /></p>",
+                                "nameText": "",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e97005f64b8b10d",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/e8662536-9a7b-4b1f-833d-1b9d9a97257d.png\" alt=\"\" width=\"395\" height=\"77\" /></p>",
+                                "nameText": "",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e97001bf3b8b10e",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/9c5adc82-e176-4ef5-a4e9-b1aefaa74c79.png\" alt=\"\" width=\"304\" height=\"100\" /></p>",
+                                "nameText": "",
+                                "isCorrect": true,
+                                "_id": "69cfa89b1e97006aa7b8b10f",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/2b81f159-0566-43ff-b349-de8d409fb363.png\" alt=\"\" width=\"348\" height=\"96\" /></p>",
+                                "nameText": "",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e97003d42b8b110",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/447785_1775216118978.png\" name=\"Picture 1\" align=\"bottom\" width=\"405\" height=\"366\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 91000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69cfa601ccad56608dedbd26",
+                        "name": "<p style=\"text-decoration: none;\"><img src=\"data:image/png;base64,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\" alt=\"\" width=\"570\" height=\"120\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69cfa5e369bc73cf050f65a7",
+                        "order": 2,
+                        "questionSubmitOrder": 2,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000; font-family: 'Cambria Math', serif; font-size: 21px;\">72.33 u</span></p>",
+                                "nameText": "72.33 u",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e970060bab8b132",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">68.23 u</span></span></span></span></p>",
+                                "nameText": "68.23 u",
+                                "isCorrect": true,
+                                "_id": "69cfa89b1e970073b6b8b133",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">56.41\n u</span></span></span></span></p>\n ",
+                                "nameText": "\n 56.41\n u\n ",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e9700a828b8b134",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">82.31\n u</span></span></span></span></p>\n ",
+                                "nameText": "\n 82.31\n u\n ",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e9700d1f2b8b135",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/134833_1775216119728.png\" name=\"Image1\" align=\"bottom\" width=\"379\" height=\"450\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/157647_1775216119802.png\" name=\"Image2\" align=\"bottom\" width=\"464\" height=\"284\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 272000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69cfa601ccad5672e1edbd2b",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Consider\n the following reaction scheme and choose the correct option(s) for\n the major products C and D.</span></span></span></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/958256_1775216119868.png\" name=\"Image3\" align=\"bottom\" width=\"375\" height=\"118\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/614119_1775216119922.png\" name=\"Image4\" align=\"bottom\" width=\"259\" height=\"350\" border=\"0\">\n</img></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Consider\n the following reaction scheme and choose the correct option(s) for\n the major products C and D.\n \n\n \n\n ",
+                        "sectionId": "69cfa5e369bc73cf050f65a7",
+                        "order": 3,
+                        "questionSubmitOrder": 3,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">a</span></span></span></span></p>\n ",
+                                "nameText": "\n a\n ",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e9700eff0b8b115",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">b</span></span></span></span></p>\n ",
+                                "nameText": "\n b\n ",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e97000780b8b116",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">c</span></span></span></span></p>\n ",
+                                "nameText": "\n c\n ",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e970077d7b8b117",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">d</span></span></span></span></p>\n ",
+                                "nameText": "\n d\n ",
+                                "isCorrect": true,
+                                "_id": "69cfa89b1e9700a23bb8b118",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/863410_1775216119976.png\" name=\"Image5\" align=\"bottom\" width=\"491\" height=\"362\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 588000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69cfa601ccad56017cedbd30",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0.768px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Consider the following reaction sequence,</span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0.768px; border: none; padding: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/788267_1775216120039.png\" width=\"348\" height=\"188\" name=\"Image6\" align=\"bottom\" border=\"0\" /></p>\n<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">The sum of oxidation state of central atom in compound A,B</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">and C</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">and the products formed from the reaction of permanganate ion with thiosulphate ion in neutral aqueous medium are respectively.</span></span></span></span></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "Consider the following reaction sequence,\n\nThe sum of oxidation state of central atom in compound A,B and C and the products formed from the reaction of permanganate ion with thiosulphate ion in neutral aqueous medium are respectively.",
+                        "sectionId": "69cfa5e369bc73cf050f65a7",
+                        "order": 4,
+                        "questionSubmitOrder": 4,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/06aa8c80-388c-4941-92fb-18f34e530dea.png\" alt=\"\" width=\"76\" height=\"35\" /></p>",
+                                "nameText": "",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e970050fab8b129",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/4e173d2f-8441-4d78-8288-a1d614be2fc0.png\" alt=\"\" width=\"82\" height=\"33\" /></p>",
+                                "nameText": "",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e9700c738b8b12a",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/412f68e1-3b60-4fec-ba62-14f47f1a97c7.png\" alt=\"\" width=\"67\" height=\"32\" /></p>",
+                                "nameText": "",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e97000d18b8b12b",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/476210ed-9254-458a-a925-e4177b79fac2.png\" alt=\"\" width=\"79\" height=\"27\" /></p>",
+                                "nameText": "",
+                                "isCorrect": true,
+                                "_id": "69cfa89b1e970073ddb8b12c",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/409071_1775216120500.png\" name=\"Image7\" align=\"bottom\" width=\"429\" height=\"478\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/199816_1775216120563.png\" name=\"Image8\" align=\"bottom\" width=\"496\" height=\"90\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 1
+                        },
+                        "timeTaken": 72000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69cfa601ccad56ca82edbd35",
+                        "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Regarding\n the molecular orbital (MO) energy levels for homonuclear diatomic\n molecules, the incorrect statement(s) is (are)</span></span></span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Regarding\n the molecular orbital (MO) energy levels for homonuclear diatomic\n molecules, the incorrect statement(s) is (are)\n ",
+                        "sectionId": "69cfa5e369bc73cf050f65a7",
+                        "order": 5,
+                        "questionSubmitOrder": 5,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Bond order of&nbsp;</span></span><img src=\"https://cms-cdn.classplus.co/parserImages/92a8d009-5883-4527-b57d-37815fe77339.png\" alt=\"\" width=\"27\" height=\"30\" />&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is non fractional.</span></span></span></span></p>",
+                                "nameText": "Bond order of  is non fractional.",
+                                "isCorrect": true,
+                                "_id": "69cfa89b1e97002e3fb8b120",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Bond energy of&nbsp;</span></span><img src=\"https://cms-cdn.classplus.co/parserImages/e75951ca-b834-4ad1-80d3-402d01522858.png\" alt=\"\" width=\"25\" height=\"23\" />&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is higher than the bond energy of&nbsp;</span></span><img src=\"https://cms-cdn.classplus.co/parserImages/180e36d9-3b4f-4da1-b880-e1a1028bf353.png\" alt=\"\" width=\"35\" height=\"33\" />&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">.</span></span></span></span></p>",
+                                "nameText": "Bond energy of  is higher than the bond energy of  .",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e9700d399b8b121",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">The molecule&nbsp;</span></span><img src=\"https://cms-cdn.classplus.co/parserImages/f5cbedc5-66ee-40ae-8f47-cf02d0b4324a.png\" alt=\"\" width=\"27\" height=\"25\" />&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is diamagnetic while the molecule&nbsp;</span></span><img src=\"https://cms-cdn.classplus.co/parserImages/c0df53b9-dd45-4143-9f0d-1f34e9f890d1.png\" alt=\"\" width=\"24\" height=\"31\" />&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is paramagnetic in nature.</span></span></span></span></p>",
+                                "nameText": "The molecule  is diamagnetic while the molecule  is paramagnetic in nature.",
+                                "isCorrect": true,
+                                "_id": "69cfa89b1e970003aeb8b122",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">The highest occupied molecular orbital (HOMO) of&nbsp;</span></span><img src=\"https://cms-cdn.classplus.co/parserImages/3982bb34-42e9-42a8-9a86-fe9a0b7094fd.png\" alt=\"\" width=\"26\" height=\"26\" />&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is </span></span> <img src=\"https://cms-cdn.classplus.co/parserImages/production/199714_1775216121001.gif\" align=\"absmiddle\" /> <span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"> type.</span></span></span></span></p>",
+                                "nameText": "The highest occupied molecular orbital (HOMO) of  is    type.",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e97006075b8b123",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/679523_1775216121267.png\" name=\"Image9\" align=\"bottom\" width=\"426\" height=\"389\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": true,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 59000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69cfa601ccad561c02edbd3a",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0.768px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Consider the following reaction sequence,</span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0.768px; border: none; padding: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/258611_1775216121335.png\" width=\"413\" height=\"182\" name=\"Image10\" align=\"bottom\" border=\"0\" /></p>\n<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Which of the following statements are correct regarding the product X,Y</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">and Z</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">?</span></span></span></span></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "Consider the following reaction sequence,\n\nWhich of the following statements are correct regarding the product X,Y and Z ?",
+                        "sectionId": "69cfa5e369bc73cf050f65a7",
+                        "order": 6,
+                        "questionSubmitOrder": 6,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">The compound Y</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">on reaction with ethylamine followed by&nbsp;</span></span><img src=\"https://cms-cdn.classplus.co/parserImages/67ca04e9-704b-4741-9a5f-dcd87e87e582.png\" alt=\"\" width=\"29\" height=\"24\" />&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">give Schiff's base.</span></span></span></span></p>",
+                                "nameText": "The compound Y on reaction with ethylamine followed by  give Schiff's base.",
+                                "isCorrect": true,
+                                "_id": "69cfa89b1e9700d91cb8b111",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">The compound ' X</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">' can undergo Cannizzaro reaction.</span></span></span></span></p>",
+                                "nameText": "The compound ' X ' can undergo Cannizzaro reaction.",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e970075bdb8b112",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">The compound ' Y</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">' on reaction with sodium hypochlorite followed by hydrolysis give benzoic acid.</span></span></span></span></p>",
+                                "nameText": "The compound ' Y ' on reaction with sodium hypochlorite followed by hydrolysis give benzoic acid.",
+                                "isCorrect": true,
+                                "_id": "69cfa89b1e9700356fb8b113",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">The compound ' Z</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">' can undergo carbylamine reaction.</span></span></span></span></p>",
+                                "nameText": "The compound ' Z ' can undergo carbylamine reaction.",
+                                "isCorrect": true,
+                                "_id": "69cfa89b1e970012e5b8b114",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/562052_1775216121869.png\" name=\"Image11\" align=\"bottom\" width=\"504\" height=\"119\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/63761_1775216121928.png\" name=\"Image12\" align=\"bottom\" width=\"492\" height=\"311\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/895081_1775216122004.png\" name=\"Image13\" align=\"bottom\" width=\"442\" height=\"413\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/826289_1775216122086.png\" name=\"Image14\" align=\"bottom\" width=\"442\" height=\"133\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": true,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 1
+                        },
+                        "timeTaken": 161000,
+                        "markForReview": true,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69cfa601ccad568c88edbd3f",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/797036_1775216122166.png\" name=\"Image15\" align=\"bottom\" width=\"310\" height=\"258\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Based\n on the isotherms given above, which of the following statement(s)\n is/are correct?</span></span></span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n \n\n Based\n on the isotherms given above, which of the following statement(s)\n is/are correct?\n ",
+                        "sectionId": "69cfa5e369bc73cf050f65a7",
+                        "order": 7,
+                        "questionSubmitOrder": 7,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/23013bef-f541-4004-8a56-21c879ec846b.png\" alt=\"\" width=\"465\" height=\"50\" /></p>",
+                                "nameText": "",
+                                "isCorrect": true,
+                                "_id": "69cfa89b1e9700c9cdb8b136",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/b5cd9985-38e5-4778-a4fd-0181f9f8b169.png\" alt=\"\" width=\"495\" height=\"76\" /></p>",
+                                "nameText": "",
+                                "isCorrect": true,
+                                "_id": "69cfa89b1e9700343bb8b137",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/8334cd93-38ea-4309-b236-d79d4ee0a90c.png\" alt=\"\" width=\"482\" height=\"72\" /></p>",
+                                "nameText": "",
+                                "isCorrect": true,
+                                "_id": "69cfa89b1e9700dc26b8b138",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/7172a321-0667-49b1-b88c-659922001ff3.png\" alt=\"\" width=\"473\" height=\"49\" /></p>",
+                                "nameText": "",
+                                "isCorrect": true,
+                                "_id": "69cfa89b1e9700b650b8b139",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/383357_1775216123083.png\" name=\"Image16\" align=\"bottom\" width=\"487\" height=\"275\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/127012_1775216123144.png\" name=\"Image17\" align=\"bottom\" width=\"452\" height=\"180\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": true,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 1
+                        },
+                        "timeTaken": 92000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69cfa601ccad56cd82edbd41",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/d0ad8f13-f494-4d43-b8f2-53ca67869a67.png\" alt=\"\" width=\"557\" height=\"168\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "35"
+                        ],
+                        "nameText": "",
+                        "sectionId": "69cfa5e369bc73cf050f65a7",
+                        "order": 8,
+                        "questionSubmitOrder": 8,
+                        "options": [
+                            {
+                                "nameText": 69,
+                                "isCorrect": true,
+                                "solution": 69,
+                                "_id": "69cfa89b1e97006ca3b8b11e",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/475779_1775216123792.png\" name=\"Image18\" align=\"bottom\" width=\"429\" height=\"396\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 1
+                        },
+                        "timeTaken": 418000,
+                        "markForReview": true,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69cfa601ccad561f50edbd43",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">The plot given below shows p - T</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">curves (where, p</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is the </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">pressure and T</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is the temperature) for two solvents A</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">and B</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">and isomolal solution of NaCl in these solvents. NaCl completely </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">dissociates in both the solvents.</span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/949043_1775216124195.png\" width=\"360\" height=\"222\" name=\"Image19\" align=\"bottom\" border=\"0\" /></p>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">On addition of equal number of moles of a non-volatile solute </span></span> <img src=\"https://cms-cdn.classplus.co/parserImages/production/723982_1775216124255.gif\" align=\"absmiddle\" /> <span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"> in equal amount (in kg ) of these solvents, the elevation of boiling point of solvent </span></span> <img src=\"https://cms-cdn.classplus.co/parserImages/production/326914_1775216124319.gif\" align=\"absmiddle\" /> <span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"> is three times that of solvent B</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">. Solute S</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is known to undergo dimerisation in these solvents. If the degree of dimerisation is 0.7 in solvent B</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">, the degree of dimerisation in </span></span></p>\n<p lang=\"en-US\" class=\"western\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">solvent A</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">is&nbsp;</span></span><img src=\"https://cms-cdn.classplus.co/parserImages/2662f05f-9253-41f7-a910-fe3ae778edf1.png\" alt=\"\" width=\"78\" height=\"23\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "5"
+                        ],
+                        "nameText": "The plot given below shows p - T curves (where, p is the \npressure and T is the temperature) for two solvents A and B and isomolal solution of NaCl in these solvents. NaCl completely \ndissociates in both the solvents.\n\nOn addition of equal number of moles of a non-volatile solute    in equal amount (in kg ) of these solvents, the elevation of boiling point of solvent    is three times that of solvent B . Solute S is known to undergo dimerisation in these solvents. If the degree of dimerisation is 0.7 in solvent B , the degree of dimerisation in \nsolvent A is ",
+                        "sectionId": "69cfa5e369bc73cf050f65a7",
+                        "order": 9,
+                        "questionSubmitOrder": 9,
+                        "options": [
+                            {
+                                "nameText": 5,
+                                "isCorrect": true,
+                                "solution": 5,
+                                "_id": "69cfa89b1e9700aefeb8b13a",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/399589_1775216124894.png\" name=\"Image20\" align=\"bottom\" width=\"402\" height=\"412\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/777191_1775216124954.png\" name=\"Image21\" align=\"bottom\" width=\"380\" height=\"224\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 176000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69cfa601ccad561145edbd45",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/a72cb66a-64b6-418e-82d0-716a528ee4ac.png\" alt=\"\" width=\"541\" height=\"173\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "5"
+                        ],
+                        "nameText": "",
+                        "sectionId": "69cfa5e369bc73cf050f65a7",
+                        "order": 10,
+                        "questionSubmitOrder": 10,
+                        "options": [
+                            {
+                                "nameText": 5,
+                                "isCorrect": true,
+                                "solution": 5,
+                                "_id": "69cfa89b1e9700474eb8b11d",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/549828_1775216125623.png\" name=\"Image22\" align=\"bottom\" width=\"443\" height=\"555\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 120000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69cfa601ccad568052edbd47",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/3af60df5-8162-4cf8-a8e8-fd60b07bb755.png\" alt=\"\" width=\"576\" height=\"133\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "49"
+                        ],
+                        "nameText": "",
+                        "sectionId": "69cfa5e369bc73cf050f65a7",
+                        "order": 11,
+                        "questionSubmitOrder": 11,
+                        "options": [
+                            {
+                                "nameText": 48,
+                                "isCorrect": true,
+                                "solution": 48,
+                                "_id": "69cfa89b1e9700b959b8b128",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/506254_1775216126004.png\" name=\"Image23\" align=\"bottom\" width=\"445\" height=\"513\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/986248_1775216126071.png\" name=\"Image24\" align=\"bottom\" width=\"403\" height=\"192\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/571113_1775216126136.png\" name=\"Image25\" align=\"bottom\" width=\"404\" height=\"176\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 1
+                        },
+                        "timeTaken": 184000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69cfa601ccad567ad8edbd49",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Consider\n the following reactions:</span></span></span></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/589872_1775216126198.png\" name=\"Image26\" align=\"bottom\" width=\"356\" height=\"359\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/207872_1775216126278.png\" name=\"Image27\" align=\"bottom\" width=\"348\" height=\"154\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">The\n total number of product(s) that have at least one NO</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">2</span></span></sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">\n group present as a functional group is/are</span></span></span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "2"
+                        ],
+                        "nameText": "\n Consider\n the following reactions:\n \n\n \n\n The\n total number of product(s) that have at least one NO2\n group present as a functional group is/are\n ",
+                        "sectionId": "69cfa5e369bc73cf050f65a7",
+                        "order": 12,
+                        "questionSubmitOrder": 12,
+                        "options": [
+                            {
+                                "nameText": 3,
+                                "isCorrect": true,
+                                "solution": 3,
+                                "_id": "69cfa89b1e9700057ab8b131",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/848062_1775216126350.png\" name=\"Image28\" align=\"bottom\" width=\"475\" height=\"612\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/148174_1775216126410.png\" name=\"Image29\" align=\"bottom\" width=\"475\" height=\"281\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/754829_1775216126478.png\" name=\"Image30\" align=\"bottom\" width=\"401\" height=\"413\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 1
+                        },
+                        "timeTaken": 224000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69cfa601ccad564f6fedbd4b",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/a09768f4-f006-4838-9a52-61998db5bdd5.png\" alt=\"\" width=\"550\" height=\"120\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "3"
+                        ],
+                        "nameText": "",
+                        "sectionId": "69cfa5e369bc73cf050f65a7",
+                        "order": 13,
+                        "questionSubmitOrder": 13,
+                        "options": [
+                            {
+                                "nameText": 3,
+                                "isCorrect": true,
+                                "solution": 3,
+                                "_id": "69cfa89b1e9700e391b8b11f",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/227808_1775216126794.png\" name=\"Image31\" align=\"bottom\" width=\"469\" height=\"302\" border=\"0\">\n</img></span></p>\n <p style=\"text-decoration: none\"><span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/475079_1775216126854.png\" name=\"Image32\" align=\"bottom\" width=\"361\" height=\"464\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 122000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69cfa601ccad56f75cedbd50",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">The\n major products obtained from the reactions in List II are the\n reactants for the named reactions mentioned in List I. Match each\n entry in List I with the appropriate entry in List II and choose\n the correct option.</span></span></p>\n <p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px\"><br>\n\n </p>\n <table width=\"600\" cellpadding=\"7\" cellspacing=\"0\">\n \n\n <tbody><tr valign=\"top\">\n <td width=\"36\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <br>\n\n </p>\n </td>\n <td width=\"214\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>List\n - I</b></span></span></p>\n </td>\n <td width=\"32\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <br>\n\n </p>\n </td>\n <td width=\"259\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>List\n - II</b></span></span></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"36\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(P)</b></span></span></p>\n </td>\n <td width=\"214\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Reimer\n Tiemann</span></span></p>\n </td>\n <td width=\"32\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(1)</b></span></span></p>\n </td>\n <td width=\"259\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px\">\n <img src=\"https://cms-cdn.classplus.co/parserImages/production/731750_1775216126914.png\" name=\"Image33\" align=\"bottom\" width=\"231\" height=\"63\" border=\"0\">\n</img></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"36\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(Q)</b></span></span></p>\n </td>\n <td width=\"214\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Cannizzaro\n reaction</span></span></p>\n </td>\n <td width=\"32\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(2)</b></span></span></p>\n </td>\n <td width=\"259\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px\">\n <img src=\"https://cms-cdn.classplus.co/parserImages/production/546347_1775216126984.png\" name=\"Image34\" align=\"bottom\" width=\"221\" height=\"73\" border=\"0\">\n</img></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"36\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(R)</b></span></span></p>\n </td>\n <td width=\"214\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Hell-Volhard\n Zelinsky reaction</span></span></p>\n </td>\n <td width=\"32\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(3)</b></span></span></p>\n </td>\n <td width=\"259\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px\">\n <img src=\"https://cms-cdn.classplus.co/parserImages/production/55989_1775216127051.png\" name=\"Image35\" align=\"bottom\" width=\"258\" height=\"62\" border=\"0\">\n</img></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"36\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(S)</b></span></span></p>\n </td>\n <td width=\"214\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Gabriel\n phthalimide synthesis</span></span></p>\n </td>\n <td width=\"32\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(4)</b></span></span></p>\n </td>\n <td width=\"259\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px\">\n <img src=\"https://cms-cdn.classplus.co/parserImages/production/772935_1775216127115.png\" name=\"Image36\" align=\"bottom\" width=\"246\" height=\"81\" border=\"0\">\n</img></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"36\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <br>\n\n </p>\n </td>\n <td width=\"214\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px\">\n <br>\n\n </p>\n </td>\n <td width=\"32\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(5)</b></span></span></p>\n </td>\n <td width=\"259\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px\">\n <img src=\"https://cms-cdn.classplus.co/parserImages/production/524936_1775216127172.png\" name=\"Image37\" align=\"bottom\" width=\"204\" height=\"95\" border=\"0\">\n</img></p>\n </td>\n </tr>\n </tbody></table>\n <p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; line-height: 100%\">\n <br>\n\n </p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n The\n major products obtained from the reactions in List II are the\n reactants for the named reactions mentioned in List I. Match each\n entry in List I with the appropriate entry in List II and choose\n the correct option.\n \n\n \n \n group width=\"36\"\n\n  width=\"214\"\n\n  width=\"32\"\n\n  width=\"259\"\n\n \n \n \n\n \n \n \n List\n - I\n \n \n \n\n \n \n \n List\n - II\n \n \n \n \n (P)\n \n \n Reimer\n Tiemann\n \n \n (1)\n \n \n \n\n \n \n \n \n (Q)\n \n \n Cannizzaro\n reaction\n \n \n (2)\n \n \n \n\n \n \n \n \n (R)\n \n \n Hell-Volhard\n Zelinsky reaction\n \n \n (3)\n \n \n \n\n \n \n \n \n (S)\n \n \n Gabriel\n phthalimide synthesis\n \n \n (4)\n \n \n \n\n \n \n \n \n \n\n \n \n \n \n\n \n \n \n (5)\n \n \n \n\n \n \n \n \n \n\n \n ",
+                        "sectionId": "69cfa5e369bc73cf050f65a7",
+                        "order": 14,
+                        "questionSubmitOrder": 14,
+                        "options": [
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-4,\n Q-3, R-2, S-5</span></span></span></span></p>\n ",
+                                "nameText": "\n P-4,\n Q-3, R-2, S-5\n ",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e97001dfbb8b119",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-3,\n Q-4, R-1, S-5</span></span></span></span></p>\n ",
+                                "nameText": "\n P-3,\n Q-4, R-1, S-5\n ",
+                                "isCorrect": true,
+                                "_id": "69cfa89b1e9700b36bb8b11a",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-4,\n Q-2, R-3, S-1</span></span></span></span></p>\n ",
+                                "nameText": "\n P-4,\n Q-2, R-3, S-1\n ",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e970003f2b8b11b",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-3,\n Q-1, R-5, S-2</span></span></span></span></p>\n ",
+                                "nameText": "\n P-3,\n Q-1, R-5, S-2\n ",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e97008568b8b11c",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/341936_1775216127227.png\" name=\"Image38\" align=\"bottom\" width=\"387\" height=\"408\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/717375_1775216127297.png\" name=\"Image39\" align=\"bottom\" width=\"374\" height=\"488\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/323071_1775216127365.png\" name=\"Image40\" align=\"bottom\" width=\"496\" height=\"66\" border=\"0\">\n</img></span></p>\n <p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/921934_1775216127431.png\" name=\"Image41\" align=\"bottom\" width=\"368\" height=\"376\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 78000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69cfa601ccad564dbaedbd55",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/4e7943ef-0658-4cd2-b663-cf79d7f68ad6.png\" alt=\"\" width=\"585\" height=\"245\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69cfa5e369bc73cf050f65a7",
+                        "order": 15,
+                        "questionSubmitOrder": 15,
+                        "options": [
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-4,\n Q-2, R-3, S-1</span></span></span></span></p>\n ",
+                                "nameText": "\n P-4,\n Q-2, R-3, S-1\n ",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e9700d2f6b8b124",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-3,\n Q-5, R-2, S-4</span></span></span></span></p>\n ",
+                                "nameText": "\n P-3,\n Q-5, R-2, S-4\n ",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e9700d261b8b125",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-4,\n Q-1, R-3, S-2</span></span></span></span></p>\n ",
+                                "nameText": "\n P-4,\n Q-1, R-3, S-2\n ",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e9700ae9cb8b126",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-3,\n Q-2, R-4, S-1</span></span></span></span></p>\n ",
+                                "nameText": "\n P-3,\n Q-2, R-4, S-1\n ",
+                                "isCorrect": true,
+                                "_id": "69cfa89b1e97003954b8b127",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/216133_1775216128073.png\" name=\"Image42\" align=\"bottom\" width=\"509\" height=\"204\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 34000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69cfa601ccad562e98edbd5a",
+                        "name": "<p style=\"margin-bottom: 0px; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Match\n the List I contain various reaction sequences with List II\n contains possible products 'X'.</span></span></span></span></p>\n <p style=\"margin-bottom: 0px; text-decoration: none\"><br>\n\n </p>\n <table width=\"552\" cellpadding=\"7\" cellspacing=\"0\">\n \n\n <tbody><tr valign=\"top\">\n <td width=\"36\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <br>\n\n </p>\n </td>\n <td width=\"224\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>List\n - I</b></span></span></p>\n </td>\n <td width=\"41\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <br>\n\n </p>\n </td>\n <td width=\"193\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>List\n - II</b></span></span></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"36\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(P)</b></span></span></p>\n </td>\n <td width=\"224\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px\">\n <img src=\"https://cms-cdn.classplus.co/parserImages/production/334138_1775216128133.png\" name=\"Image43\" align=\"bottom\" width=\"209\" height=\"79\" border=\"0\">\n</img></p>\n </td>\n <td width=\"41\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(1)</b></span></span></p>\n </td>\n <td width=\"193\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Chloric\n acid</span></span></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"36\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(Q)</b></span></span></p>\n </td>\n <td width=\"224\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px\">\n <img src=\"https://cms-cdn.classplus.co/parserImages/production/343498_1775216128196.png\" name=\"Image44\" align=\"bottom\" width=\"192\" height=\"79\" border=\"0\">\n</img></p>\n </td>\n <td width=\"41\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(2)</b></span></span></p>\n </td>\n <td width=\"193\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">HIO</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">4</span></span></sub></p>\n </td>\n </tr>\n <tr>\n <td width=\"36\" valign=\"top\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(R)</b></span></span></p>\n </td>\n <td width=\"224\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\">\n <img src=\"https://cms-cdn.classplus.co/parserImages/production/9097_1775216128258.png\" name=\"Image45\" align=\"bottom\" width=\"184\" height=\"88\" border=\"0\">\n</img></p>\n </td>\n <td width=\"41\" valign=\"top\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(3)</b></span></span></p>\n </td>\n <td width=\"193\" valign=\"top\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">HIO</span></span><sub><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">3</span></span></sub></p>\n </td>\n </tr>\n <tr valign=\"top\">\n <td width=\"36\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(S)</b></span></span></p>\n </td>\n <td width=\"224\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\">\n <img src=\"https://cms-cdn.classplus.co/parserImages/production/252185_1775216128322.png\" name=\"Image46\" align=\"bottom\" width=\"209\" height=\"73\" border=\"0\">\n</img></p>\n </td>\n <td width=\"41\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(4)</b></span></span></p>\n </td>\n <td width=\"193\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Perchloric\n acid </span></span>\n </p>\n </td>\n </tr>\n <tr>\n <td width=\"36\" valign=\"top\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <br>\n\n </p>\n </td>\n <td width=\"224\" valign=\"top\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px\">\n <br>\n\n </p>\n </td>\n <td width=\"41\" valign=\"top\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\"><b>(5)</b></span></span></p>\n </td>\n <td width=\"193\" style=\"border: 1px solid #000000; padding: 0px 0.768px\"><p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Hypochlorous\n acid </span></span>\n </p>\n </td>\n </tr>\n </tbody></table>\n <p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <br>\n\n </p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Match\n the List I contain various reaction sequences with List II\n contains possible products 'X'.\n \n\n \n \n group width=\"36\"\n\n  width=\"224\"\n\n  width=\"41\"\n\n  width=\"193\"\n\n \n \n \n\n \n \n \n List\n - I\n \n \n \n\n \n \n \n List\n - II\n \n \n \n \n (P)\n \n \n \n\n \n \n (1)\n \n \n Chloric\n acid\n \n \n \n \n (Q)\n \n \n \n\n \n \n (2)\n \n \n HIO4\n \n \n \n \n (R)\n \n \n \n\n \n \n (3)\n \n \n HIO3\n \n \n \n \n (S)\n \n \n \n\n \n \n (4)\n \n \n Perchloric\n acid \n \n \n \n \n \n \n\n \n \n \n \n\n \n \n \n (5)\n \n \n Hypochlorous\n acid \n \n \n \n \n \n \n\n \n ",
+                        "sectionId": "69cfa5e369bc73cf050f65a7",
+                        "order": 16,
+                        "questionSubmitOrder": 16,
+                        "options": [
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-4,\n Q-1, R-5, S-2</span></span></span></span></p>\n ",
+                                "nameText": "\n P-4,\n Q-1, R-5, S-2\n ",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e9700ceaab8b12d",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-5,\n Q-1, R-4, S-2</span></span></span></span></p>\n ",
+                                "nameText": "\n P-5,\n Q-1, R-4, S-2\n ",
+                                "isCorrect": true,
+                                "_id": "69cfa89b1e9700c438b8b12e",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-4,\n Q-2, R-5, S-3</span></span></span></span></p>\n ",
+                                "nameText": "\n P-4,\n Q-2, R-5, S-3\n ",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e9700524fb8b12f",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">P-5,\n Q-2, R-4, S-3</span></span></span></span></p>\n ",
+                                "nameText": "\n P-5,\n Q-2, R-4, S-3\n ",
+                                "isCorrect": false,
+                                "_id": "69cfa89b1e9700263ab8b130",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/736623_1775216128391.png\" name=\"Image47\" align=\"bottom\" width=\"439\" height=\"443\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "multiple_choice",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 361000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    }
+                ],
+                "numberOfQuestions": 16
+            }
+        ],
+        "userDetails": {
+            "name": "Santhosh Sivaraman",
+            "userId": 146218653,
+            "orgId": 320937
+        },
+        "sts": 1775733474654,
+        "region": {
+            "timeFormat": "hh:mm a",
+            "dateTimeStamp": "yyyy/MM/dd"
+        }
+    }
+}
