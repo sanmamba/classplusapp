@@ -27,6 +27,7 @@ import CFT_7 from './tests/CFT-7.json'
 import CFT_8 from './tests/CFT-8.json'
 import CFT_9 from './tests/CFT-9.json'
 import module_14 from './tests/module_14.json'
+import CAdv1 from './tests/CAdv1.json'
 
 
 export const TESTS: TestMetadata[] = [
@@ -58,6 +59,7 @@ export const TESTS: TestMetadata[] = [
   { id: '26', name: 'CFT-8', fileName: 'CFT-8.json' },
   { id: '27', name: 'CFT-9', fileName: 'CFT-9.json' },
   { id: '28', name: 'Module 14', fileName: 'module_14.json' },
+  { id: '29', name: 'CAdv1', fileName: 'CAdv1.json' },
 ];
 
 export const MOCK_TEST_DATA: Record<string, TestData> = {
@@ -88,5 +90,6 @@ export const MOCK_TEST_DATA: Record<string, TestData> = {
   'CFT-7.json': CFT_7 as TestData,
   'CFT-8.json': CFT_8 as TestData,
   'CFT-9.json': CFT_9 as TestData,
-  'module_14.json': module_14 as TestData
+  'module_14.json': module_14 as TestData,
+  'CAdv1.json': CAdv1 as TestData
 };

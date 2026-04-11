@@ -1,0 +1,1047 @@
+{
+    "data": {
+        "test": {
+            "name": "08_04_2026 12th CRP Chemistry Adavance practice test 1",
+            "testTotalDuration": 3600000,
+            "settings": {
+                "fonts": {
+                    "fonts": [
+                        {
+                            "face": "Cambria Math",
+                            "supported": true
+                        },
+                        {
+                            "face": "serif",
+                            "supported": true
+                        },
+                        {
+                            "face": "Calibri",
+                            "supported": true
+                        },
+                        {
+                            "face": "Symbol",
+                            "supported": true
+                        }
+                    ],
+                    "include": "https://cms-gcp.classplusapp.com/parser/v3/css/combined?face=Cambria%20Math,serif,Calibri,Symbol"
+                },
+                "isSectionSwitchingEnabled": true
+            },
+            "practiceTestUrls": []
+        },
+        "filters": {
+            "incorrect": 1,
+            "correct": 1,
+            "partiallyMarked": 1,
+            "unattempted": 1,
+            "markForReview": 1,
+            "graceMarked": 0,
+            "revaluated": 0
+        },
+        "timeTaken": 2346000,
+        "showReportQuestion": true,
+        "sectionWiseStats": [
+            {
+                "marksScored": 19,
+                "sectionMarks": 72,
+                "accuracy": 45.31,
+                "_id": "69d93283806f256423ec2623",
+                "totalQuestions": 18,
+                "attemptDuration": 2346000,
+                "correctAnswers": 6,
+                "inCorrectAnswers": 8,
+                "partiallyCorrectAnswers": 2,
+                "unAttempted": 2,
+                "name": "Chemistry",
+                "order": 1,
+                "sectionDuration": 0,
+                "sectionId": "69d6268bc7fc48b78f7c7298"
+            }
+        ],
+        "sections": [
+            {
+                "sectionDuration": 0,
+                "sectionMarks": 72,
+                "isActive": true,
+                "draftMode": false,
+                "sectionInstructions": " ",
+                "_id": "69d6268bc7fc48b78f7c7298",
+                "hasOptionalQuestions": false,
+                "name": "Chemistry",
+                "order": 1,
+                "createdAt": "2026-04-08T13:07:20.334Z",
+                "updatedAt": "2026-04-08T13:07:20.334Z",
+                "questions": [
+                    {
+                        "_id": "69d6269c83c19485e58279cd",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; orphans: 0; widows: 0\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Silicate\n having one monovalent corner oxygen atom in each </span></span>\n </p>\n <p lang=\"en-US\" class=\"western\" style=\"orphans: 0; widows: 0\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">tetrahedron\n unit is</span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Silicate\n having one monovalent corner oxygen atom in each \n \n tetrahedron\n unit is\n ",
+                        "sectionId": "69d6268bc7fc48b78f7c7298",
+                        "order": 1,
+                        "questionSubmitOrder": 1,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Sheet\n silicate</span></span></span></span></p>\n ",
+                                "nameText": "\n Sheet\n silicate\n ",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b21541c0670db",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Cyclic\n silicate</span></span></span></span></p>\n ",
+                                "nameText": "\n Cyclic\n silicate\n ",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b21336a0670dc",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Single\n chain silicate</span></span></span></span></p>\n ",
+                                "nameText": "\n Single\n chain silicate\n ",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b21230e0670dd",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Double\n chain silicate</span></span></span></span></p>\n ",
+                                "nameText": "\n Double\n chain silicate\n ",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b214ac40670de",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/500108_1775642263938.png\" name=\"Picture 1\" align=\"bottom\" width=\"435\" height=\"95\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": true,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 2
+                        },
+                        "timeTaken": 129000,
+                        "markForReview": true,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69d6269c83c19412e68279d2",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"orphans: 0; widows: 0\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Choose\n incorrect statements:</span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Choose\n incorrect statements:\n ",
+                        "sectionId": "69d6268bc7fc48b78f7c7298",
+                        "order": 2,
+                        "questionSubmitOrder": 2,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><img style=\"color: #333333;\" src=\"https://cms-cdn.classplus.co/parserImages/df9cb8c0-11f2-4cc3-adf8-58a6bcb05626.png\" alt=\"\" width=\"46\" height=\"31\" />&nbsp;<span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">undergoes hydrolysis to form&nbsp;</span></span></span></span><img src=\"https://cms-cdn.classplus.co/parserImages/a10b2b99-ca7d-4212-bd75-6ff79dabcc39.png\" alt=\"\" width=\"116\" height=\"32\" /></p>",
+                                "nameText": " undergoes hydrolysis to form ",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b2160930670e4",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Amalgamated AI reacts with cold water to liberate&nbsp;</span></span></span></span><img src=\"https://cms-cdn.classplus.co/parserImages/e336fa1b-1c4b-4b37-b755-544ac8e63b4b.png\" alt=\"\" width=\"27\" height=\"26\" /></p>",
+                                "nameText": "Amalgamated AI reacts with cold water to liberate ",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b21e5680670e5",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">The\n ash formed on burning magnesium in air fumes on wetting and\n exposing to HCl</span></span></span></span></p>\n ",
+                                "nameText": "\n The\n ash formed on burning magnesium in air fumes on wetting and\n exposing to HCl\n ",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b213c3e0670e6",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img style=\"color: #333333;\" src=\"https://cms-cdn.classplus.co/parserImages/07041a63-ce83-46c8-a1df-8d6f3cd26eb1.png\" alt=\"\" width=\"37\" height=\"27\" />&nbsp;<span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">ion can exist in aqueous solution in the </span></span></span></span><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">hydrated form</span></span></span></span></p>",
+                                "nameText": " ion can exist in aqueous solution in the hydrated form",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b211b4c0670e7",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/69179_1775642264324.png\" name=\"Image1\" align=\"bottom\" width=\"489\" height=\"78\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": true,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 2
+                        },
+                        "timeTaken": 127000,
+                        "markForReview": true,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69d6269c83c1947e988279d7",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; orphans: 0; widows: 0;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Which of the following species exhibits the paramagnetic </span></span><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">behaviour?</span></span></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "Which of the following species exhibits the paramagnetic behaviour?",
+                        "sectionId": "69d6268bc7fc48b78f7c7298",
+                        "order": 3,
+                        "questionSubmitOrder": 3,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">NO</span></span></span></span></p>\n ",
+                                "nameText": "\n NO\n ",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b21e01d0670d7",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/5297435c-fdd4-42af-8021-495d8ce1233f.png\" alt=\"\" width=\"41\" height=\"30\" /></p>",
+                                "nameText": "",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b2176030670d8",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/10e8d057-1ea0-47e3-ba5a-e4c456c31c42.png\" alt=\"\" width=\"41\" height=\"33\" /></p>",
+                                "nameText": "",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b21421e0670d9",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/f3cfe442-53c0-48a6-b12c-02aab4ebc201.png\" alt=\"\" width=\"25\" height=\"31\" /></p>",
+                                "nameText": "",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b215ef40670da",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/818043_1775642264602.png\" name=\"Image2\" align=\"bottom\" width=\"613\" height=\"35\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": true,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": true,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 2,
+                            "negative": 0
+                        },
+                        "timeTaken": 12000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69d6269c83c19460688279dc",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"orphans: 0; widows: 0\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Which\n of the following have identical bond order?</span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Which\n of the following have identical bond order?\n ",
+                        "sectionId": "69d6268bc7fc48b78f7c7298",
+                        "order": 4,
+                        "questionSubmitOrder": 4,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/a103743e-9be2-455f-aac3-8a28a02a25c6.png\" alt=\"\" width=\"39\" height=\"27\" /></p>",
+                                "nameText": "",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b213d3b0670f3",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/1ce3f36a-be2e-4d18-983f-94e86a98c967.png\" alt=\"\" width=\"27\" height=\"28\" /></p>",
+                                "nameText": "",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b21a7b70670f4",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/5d70bd61-a819-4c08-ac97-4d19d12a6f36.png\" alt=\"\" width=\"45\" height=\"26\" /></p>",
+                                "nameText": "",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b2183df0670f5",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/6bb18ebc-2bea-4b88-abc8-ebeb4cd82bf6.png\" alt=\"\" width=\"42\" height=\"28\" /></p>",
+                                "nameText": "",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b2146110670f6",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/275599_1775642264950.png\" name=\"Image3\" align=\"bottom\" width=\"613\" height=\"28\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": true,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 37000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69d6269c83c19407cd8279e1",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><img src=\"https://cms-cdn.classplus.co/parserImages/4435a857-fc00-46a8-b5b8-a4395b83f603.png\" alt=\"\" width=\"579\" height=\"106\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69d6268bc7fc48b78f7c7298",
+                        "order": 5,
+                        "questionSubmitOrder": 5,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">C -</span></span><span style=\"font-family: Calibri, serif;\">&nbsp;</span><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">C</span></span>&nbsp;<span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">bond enthalpy is 218</span></span></span></span></p>",
+                                "nameText": "C - C bond enthalpy is 218",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b2127cc0670ee",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">C - H</span></span>&nbsp;<span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">bond enthalpy is 414</span></span></span></span></p>",
+                                "nameText": "C - H bond enthalpy is 414",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b210eb60670ef",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">C -</span></span>&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">C bond enthalpy is 345</span></span></span></span></p>",
+                                "nameText": "C - C bond enthalpy is 345",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b2164800670f0",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: 'Cambria Math', serif; font-size: 21px;\">C - H</span>&nbsp;<span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">bond enthalpy is 448</span></span></span></span></p>",
+                                "nameText": "C - H bond enthalpy is 448",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b2125f40670f1",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/35681_1775642265444.png\" name=\"Image4\" align=\"bottom\" width=\"527\" height=\"232\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": true,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 369000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69d6269c83c194d08f8279e6",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"orphans: 0; widows: 0\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Which\n of the following statement(s) is/are false?</span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Which\n of the following statement(s) is/are false?\n ",
+                        "sectionId": "69d6268bc7fc48b78f7c7298",
+                        "order": 6,
+                        "questionSubmitOrder": 6,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">All\n adiabatic processes are isoentropic (or isentropic) process</span></span></span></span></p>\n ",
+                                "nameText": "\n All\n adiabatic processes are isoentropic (or isentropic) process\n ",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b21b1cc0670df",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/c9013c30-62fd-46ea-8d69-3a3af542ac39.png\" alt=\"\" width=\"471\" height=\"75\" /></p>",
+                                "nameText": "",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b2110840670e0",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><img src=\"https://cms-cdn.classplus.co/parserImages/7bacb9e5-c51d-4166-8b38-b4cb62af29e2.png\" alt=\"\" width=\"394\" height=\"58\" /></p>",
+                                "nameText": "",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b2121bf0670e1",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p lang=\"en-US\" class=\"western\"><img src=\"https://cms-cdn.classplus.co/parserImages/179a3033-be9f-4e20-84a2-d4e7a239b34e.png\" alt=\"\" width=\"457\" height=\"47\" /></p>",
+                                "nameText": "",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b21592b0670e2",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/878394_1775642265968.png\" name=\"Image5\" align=\"bottom\" width=\"531\" height=\"93\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": true,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": true,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 3,
+                            "negative": 0
+                        },
+                        "timeTaken": 225000,
+                        "markForReview": true,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69d6269c83c194272a8279eb",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; orphans: 0; widows: 0\">\n <img src=\"https://cms-cdn.classplus.co/parserImages/production/904232_1775642266036.png\" name=\"Image6\" align=\"bottom\" width=\"411\" height=\"118\" border=\"0\">\n</img></p>\n <p lang=\"en-US\" class=\"western\" style=\"orphans: 0; widows: 0\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Which\n of the statements regarding the product formed in the above\n reaction is correct?</span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n \n\n Which\n of the statements regarding the product formed in the above\n reaction is correct?\n ",
+                        "sectionId": "69d6268bc7fc48b78f7c7298",
+                        "order": 7,
+                        "questionSubmitOrder": 7,
+                        "options": [
+                            {
+                                "name": "<p style=\"text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">If Br is replaced with&nbsp;</span></span><img src=\"https://cms-cdn.classplus.co/parserImages/68795fd2-c164-4393-927b-7e992ca9eeda.png\" alt=\"\" width=\"38\" height=\"28\" />&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">rate of reaction increases</span></span></span></span></p>",
+                                "nameText": "If Br is replaced with  rate of reaction increases",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b21df170670e8",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Inversion\n of configuration takes place.</span></span></span></span></p>\n ",
+                                "nameText": "\n Inversion\n of configuration takes place.\n ",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b219df20670e9",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">I\n Nucleophillic acyl substitution takes place.</span></span></span></span></p>\n ",
+                                "nameText": "\n I\n Nucleophillic acyl substitution takes place.\n ",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b2121010670ea",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Configuration\n at chiral carbon does not change</span></span></span></span></p>\n ",
+                                "nameText": "\n Configuration\n at chiral carbon does not change\n ",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b21be930670eb",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/792481_1775642266169.png\" name=\"Image7\" align=\"bottom\" width=\"496\" height=\"217\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": true,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 78000,
+                        "markForReview": true,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69d6269c83c194ab078279f1",
+                        "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Which\n of the following is correct matching resulting into desired\n product as indicated?</span></span></span></span></p>\n ",
+                        "isComprehension": true,
+                        "paragraph": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Column-1 contains organic compounds treated with suitable </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">reagent given in column-2 to give desired products listed in </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">column-3. Now, answer the following questions</span></span></p>\n<table width=\"609\" cellspacing=\"0\" cellpadding=\"7\">\n<tbody>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"163\">\n<p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>Column - 1</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"42\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"119\">\n<p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>Column - 2</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"127\">\n<p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>Column - 3</strong></span></span></span></span></p>\n</td>\n</tr>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(I)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"163\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Acetone</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"42\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(i)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"119\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">HCl</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(P)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"127\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Pinacol</span></span></span></span></p>\n</td>\n</tr>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(II)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"163\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">P-benzoquinone</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"42\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(ii)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"119\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">KOH(Fuse)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(Q)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"127\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Benzene+ C</span></span><sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">6</span></span></sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">H</span></span><sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">5</span></span></sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">COO</span></span><sup><span style=\"font-family: Symbol,serif;\"><span style=\"font-size: 21px;\"></span></span></sup><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">K</span></span><sup><span style=\"font-family: Symbol,serif;\"><span style=\"font-size: 21px;\"></span></span></sup></span></span></p>\n</td>\n</tr>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(III)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"163\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Acetophenone</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"42\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(iii)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"119\">\n<p style=\"margin-bottom: 0px; border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(a) Mg/Benzene</span></span></span></span></p>\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(b) H</span></span><sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">2</span></span></sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">O</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(R)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"127\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Benzoic acid</span></span></span></span></p>\n</td>\n</tr>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(IV)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"163\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Benzophenone</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"42\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(iv)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"119\">\n<p style=\"margin-bottom: 0px; border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(a) l</span></span><sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">2</span></span></sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"> + NaOH</span></span></span></span></p>\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(b) H</span></span><sup><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">+</span></span></sup><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">/H</span></span><sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">2</span></span></sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">O</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(S)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"127\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/254425_1775642266239.png\" width=\"98\" height=\"138\" name=\"Image8\" align=\"bottom\" border=\"0\" /> </span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p style=\"margin-bottom: 0.1440px; line-height: 100%; text-decoration: none;\"><br /><br /></p>",
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Which\n of the following is correct matching resulting into desired\n product as indicated?\n ",
+                        "sectionId": "69d6268bc7fc48b78f7c7298",
+                        "order": 8,
+                        "questionSubmitOrder": 8,
+                        "options": [
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(IV),\n (i) &amp; (S)</span></span></span></span></p>\n ",
+                                "nameText": "\n (IV),\n (i) &amp; (S)\n ",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b217518067108",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(III),\n (ii) &amp; (R)</span></span></span></span></p>\n ",
+                                "nameText": "\n (III),\n (ii) &amp; (R)\n ",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b2193c2067109",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(I),\n (iii) &amp; (R)</span></span></span></span></p>\n ",
+                                "nameText": "\n (I),\n (iii) &amp; (R)\n ",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b2131dc06710a",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(II),\n (i) &amp; (S)</span></span></span></span></p>\n ",
+                                "nameText": "\n (II),\n (i) &amp; (S)\n ",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b212e8e06710b",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/612390_1775642266306.png\" name=\"Image9\" align=\"bottom\" width=\"551\" height=\"31\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 159000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69d6269c83c194f5178279f6",
+                        "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">In\n which of the following sequence of reaction the diradical is\n formed as immediate.</span></span></span></span></p>\n ",
+                        "isComprehension": true,
+                        "paragraph": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Column-1 contains organic compounds treated with suitable </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">reagent given in column-2 to give desired products listed in </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">column-3. Now, answer the following questions</span></span></p>\n<table width=\"609\" cellspacing=\"0\" cellpadding=\"7\">\n<tbody>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"163\">\n<p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>Column - 1</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"42\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"119\">\n<p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>Column - 2</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"127\">\n<p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>Column - 3</strong></span></span></span></span></p>\n</td>\n</tr>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(I)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"163\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Acetone</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"42\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(i)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"119\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">HCl</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(P)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"127\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Pinacol</span></span></span></span></p>\n</td>\n</tr>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(II)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"163\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">P-benzoquinone</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"42\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(ii)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"119\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">KOH(Fuse)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(Q)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"127\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Benzene+ C</span></span><sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">6</span></span></sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">H</span></span><sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">5</span></span></sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">COO</span></span><sup><span style=\"font-family: Symbol,serif;\"><span style=\"font-size: 21px;\"></span></span></sup><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">K</span></span><sup><span style=\"font-family: Symbol,serif;\"><span style=\"font-size: 21px;\"></span></span></sup></span></span></p>\n</td>\n</tr>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(III)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"163\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Acetophenone</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"42\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(iii)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"119\">\n<p style=\"margin-bottom: 0px; border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(a) Mg/Benzene</span></span></span></span></p>\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(b) H</span></span><sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">2</span></span></sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">O</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(R)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"127\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Benzoic acid</span></span></span></span></p>\n</td>\n</tr>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(IV)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"163\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Benzophenone</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"42\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(iv)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"119\">\n<p style=\"margin-bottom: 0px; border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(a) l</span></span><sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">2</span></span></sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"> + NaOH</span></span></span></span></p>\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(b) H</span></span><sup><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">+</span></span></sup><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">/H</span></span><sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">2</span></span></sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">O</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(S)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"127\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/254425_1775642266239.png\" width=\"98\" height=\"138\" name=\"Image8\" align=\"bottom\" border=\"0\" /> </span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p style=\"margin-bottom: 0.1440px; line-height: 100%; text-decoration: none;\"><br /><br /></p>",
+                        "fillUpsAnswers": [],
+                        "nameText": "\n In\n which of the following sequence of reaction the diradical is\n formed as immediate.\n ",
+                        "sectionId": "69d6268bc7fc48b78f7c7298",
+                        "order": 9,
+                        "questionSubmitOrder": 9,
+                        "options": [
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(II),\n (iv) &amp; (R)</span></span></span></span></p>\n ",
+                                "nameText": "\n (II),\n (iv) &amp; (R)\n ",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b212066067100",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(III),\n (iv) &amp; (R)</span></span></span></span></p>\n ",
+                                "nameText": "\n (III),\n (iv) &amp; (R)\n ",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b211ed1067101",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(I),\n (iii) &amp; (P)</span></span></span></span></p>\n ",
+                                "nameText": "\n (I),\n (iii) &amp; (P)\n ",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b21a680067102",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0.768px; border: none; padding: 0px; line-height: 0.1632px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(IV),\n (i) &amp; (S)</span></span></p>\n ",
+                                "nameText": "\n (IV),\n (i) &amp; (S)\n ",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b21c1c6067103",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/202911_1775642266375.png\" name=\"Image10\" align=\"bottom\" width=\"613\" height=\"38\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 42000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69d6269c83c194d75a8279fb",
+                        "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Which\n of the following reaction sequence is correctly matched and does\n not involve redox reaction?</span></span></span></span></p>\n ",
+                        "isComprehension": true,
+                        "paragraph": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Column-1 contains organic compounds treated with suitable </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">reagent given in column-2 to give desired products listed in </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">column-3. Now, answer the following questions</span></span></p>\n<table width=\"609\" cellspacing=\"0\" cellpadding=\"7\">\n<tbody>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"163\">\n<p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>Column - 1</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"42\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"119\">\n<p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>Column - 2</strong></span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"127\">\n<p align=\"center\" style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>Column - 3</strong></span></span></span></span></p>\n</td>\n</tr>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(I)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"163\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Acetone</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"42\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(i)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"119\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">HCl</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(P)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"127\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Pinacol</span></span></span></span></p>\n</td>\n</tr>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(II)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"163\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">P-benzoquinone</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"42\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(ii)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"119\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">KOH(Fuse)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(Q)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"127\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Benzene+ C</span></span><sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">6</span></span></sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">H</span></span><sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">5</span></span></sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">COO</span></span><sup><span style=\"font-family: Symbol,serif;\"><span style=\"font-size: 21px;\"></span></span></sup><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">K</span></span><sup><span style=\"font-family: Symbol,serif;\"><span style=\"font-size: 21px;\"></span></span></sup></span></span></p>\n</td>\n</tr>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(III)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"163\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Acetophenone</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"42\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(iii)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"119\">\n<p style=\"margin-bottom: 0px; border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(a) Mg/Benzene</span></span></span></span></p>\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(b) H</span></span><sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">2</span></span></sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">O</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(R)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"127\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Benzoic acid</span></span></span></span></p>\n</td>\n</tr>\n<tr valign=\"top\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(IV)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"163\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Benzophenone</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"42\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(iv)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"119\">\n<p style=\"margin-bottom: 0px; border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(a) l</span></span><sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">2</span></span></sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"> + NaOH</span></span></span></span></p>\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(b) H</span></span><sup><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">+</span></span></sup><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">/H</span></span><sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">2</span></span></sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">O</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"33\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><span style=\"font-family: Calibri,serif;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(S)</span></span></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"127\">\n<p style=\"border: none; padding: 0px; text-decoration: none;\"><span style=\"color: #000000;\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/254425_1775642266239.png\" width=\"98\" height=\"138\" name=\"Image8\" align=\"bottom\" border=\"0\" /> </span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p style=\"margin-bottom: 0.1440px; line-height: 100%; text-decoration: none;\"><br /><br /></p>",
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Which\n of the following reaction sequence is correctly matched and does\n not involve redox reaction?\n ",
+                        "sectionId": "69d6268bc7fc48b78f7c7298",
+                        "order": 10,
+                        "questionSubmitOrder": 10,
+                        "options": [
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(I),\n (iii) &amp; (P)</span></span></span></span></p>\n ",
+                                "nameText": "\n (I),\n (iii) &amp; (P)\n ",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b211d120670f8",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(II),\n (i) &amp; (S)</span></span></span></span></p>\n ",
+                                "nameText": "\n (II),\n (i) &amp; (S)\n ",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b2114bf0670f9",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(III),\n (iv) &amp; (R)</span></span></span></span></p>\n ",
+                                "nameText": "\n (III),\n (iv) &amp; (R)\n ",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b21be140670fa",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px; line-height: 0.1632px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(IV),\n (ii) &amp; (Q)</span></span></p>\n ",
+                                "nameText": "\n (IV),\n (ii) &amp; (Q)\n ",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b2155380670fb",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/890263_1775642266450.png\" name=\"Image11\" align=\"bottom\" width=\"613\" height=\"31\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 1
+                        },
+                        "timeTaken": 617000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69d6269c83c1945421827a01",
+                        "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Which\n of the following is correctly matched?</span></span></span></span></p>\n ",
+                        "isComprehension": true,
+                        "paragraph": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Column-1 contains compounds &amp; column-2 &amp; column-3. Now, </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0.1632px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">answer the following questions</span></span></p>\n<table width=\"600\" cellspacing=\"0\" cellpadding=\"7\">\n<tbody>\n<tr valign=\"bottom\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"38\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"128\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>Column - 1</strong></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"40\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"143\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>Column - 2</strong></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"125\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>Column - 3</strong></span></span></p>\n</td>\n</tr>\n<tr valign=\"bottom\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"38\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(I)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"128\">\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Methyl </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">isocyanato</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"40\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(i)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"143\">\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">sd</span></span><sup><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">3</span></span></sup><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"> &ndash; </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">hybridisation</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(P)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"125\">\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Reducing agent</span></span></p>\n</td>\n</tr>\n<tr valign=\"bottom\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"38\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(II)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"128\">\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Silyl </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">isocyanate</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"40\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(ii)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"143\">\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">C-C bond length longer than 1.54 &Aring;</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(Q)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"125\">\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Coloured due to charge transfer</span></span></p>\n</td>\n</tr>\n<tr valign=\"bottom\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"38\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(III)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"128\">\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Oxalic acid </span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"40\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(iii)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"143\">\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">N is </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">sp-hybridized</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(R)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"125\">\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Linear</span></span></p>\n</td>\n</tr>\n<tr valign=\"bottom\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"38\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(IV)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"128\">\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">KMnO</span></span><sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">4</span></span></sub></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"40\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(iv)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"143\">\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">N is sp</span></span><sup><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">2</span></span></sup></p>\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">hybridized</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(S)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"125\">\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">V - shaped</span></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0.1632px; line-height: 100%;\"><br /><br /></p>",
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Which\n of the following is correctly matched?\n ",
+                        "sectionId": "69d6268bc7fc48b78f7c7298",
+                        "order": 11,
+                        "questionSubmitOrder": 11,
+                        "options": [
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(I),\n (iii) &amp; (R)</span></span></span></span></p>\n ",
+                                "nameText": "\n (I),\n (iii) &amp; (R)\n ",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b21820f06710c",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(II),\n (iv) &amp; (S)</span></span></span></span></p>\n ",
+                                "nameText": "\n (II),\n (iv) &amp; (S)\n ",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b21e6f806710d",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(III),\n (ii) &amp; (P)</span></span></span></span></p>\n ",
+                                "nameText": "\n (III),\n (ii) &amp; (P)\n ",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b21348306710e",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(IV),\n (i) &amp; (S)</span></span></span></span></p>\n ",
+                                "nameText": "\n (IV),\n (i) &amp; (S)\n ",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b21abf906710f",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/375018_1775642266519.png\" name=\"Image12\" align=\"bottom\" width=\"613\" height=\"38\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 1
+                        },
+                        "timeTaken": 91000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69d6269c83c1940549827a06",
+                        "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Which\n of the following statement is NOT correct for methyl isocyanate?</span></span></span></span></p>\n ",
+                        "isComprehension": true,
+                        "paragraph": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Column-1 contains compounds &amp; column-2 &amp; column-3. Now, </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0.1632px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">answer the following questions</span></span></p>\n<table width=\"600\" cellspacing=\"0\" cellpadding=\"7\">\n<tbody>\n<tr valign=\"bottom\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"38\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"128\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>Column - 1</strong></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"40\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"143\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>Column - 2</strong></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"125\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>Column - 3</strong></span></span></p>\n</td>\n</tr>\n<tr valign=\"bottom\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"38\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(I)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"128\">\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Methyl </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">isocyanato</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"40\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(i)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"143\">\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">sd</span></span><sup><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">3</span></span></sup><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"> &ndash; </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">hybridisation</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(P)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"125\">\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Reducing agent</span></span></p>\n</td>\n</tr>\n<tr valign=\"bottom\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"38\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(II)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"128\">\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Silyl </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">isocyanate</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"40\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(ii)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"143\">\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">C-C bond length longer than 1.54 &Aring;</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(Q)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"125\">\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Coloured due to charge transfer</span></span></p>\n</td>\n</tr>\n<tr valign=\"bottom\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"38\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(III)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"128\">\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Oxalic acid </span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"40\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(iii)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"143\">\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">N is </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">sp-hybridized</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(R)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"125\">\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Linear</span></span></p>\n</td>\n</tr>\n<tr valign=\"bottom\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"38\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(IV)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"128\">\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">KMnO</span></span><sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">4</span></span></sub></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"40\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(iv)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"143\">\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">N is sp</span></span><sup><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">2</span></span></sup></p>\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">hybridized</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(S)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"125\">\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">V - shaped</span></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0.1632px; line-height: 100%;\"><br /><br /></p>",
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Which\n of the following statement is NOT correct for methyl isocyanate?\n ",
+                        "sectionId": "69d6268bc7fc48b78f7c7298",
+                        "order": 12,
+                        "questionSubmitOrder": 12,
+                        "options": [
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(I),\n (iv) &amp; (S)</span></span></span></span></p>\n ",
+                                "nameText": "\n (I),\n (iv) &amp; (S)\n ",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b212f55067104",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(III),\n (i) &amp; (P)</span></span></span></span></p>\n ",
+                                "nameText": "\n (III),\n (i) &amp; (P)\n ",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b21f7d2067105",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(I),\n (ii) &amp; (R)</span></span></span></span></p>\n ",
+                                "nameText": "\n (I),\n (ii) &amp; (R)\n ",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b218dc2067106",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px; line-height: 0.1632px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(II),\n (iii) &amp; (Q)</span></span></p>\n ",
+                                "nameText": "\n (II),\n (iii) &amp; (Q)\n ",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b213c5e067107",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/829342_1775642266583.png\" name=\"Image13\" align=\"bottom\" width=\"613\" height=\"110\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 1
+                        },
+                        "timeTaken": 48000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69d6269c83c1946d34827a0b",
+                        "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">Which\n of the following is correctly matched?</span></span></span></span></p>\n ",
+                        "isComprehension": true,
+                        "paragraph": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Column-1 contains compounds &amp; column-2 &amp; column-3. Now, </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0.1632px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">answer the following questions</span></span></p>\n<table width=\"600\" cellspacing=\"0\" cellpadding=\"7\">\n<tbody>\n<tr valign=\"bottom\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"38\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"128\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>Column - 1</strong></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"40\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"143\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>Column - 2</strong></span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"125\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"><strong>Column - 3</strong></span></span></p>\n</td>\n</tr>\n<tr valign=\"bottom\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"38\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(I)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"128\">\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Methyl </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">isocyanato</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"40\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(i)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"143\">\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">sd</span></span><sup><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">3</span></span></sup><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\"> &ndash; </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">hybridisation</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(P)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"125\">\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Reducing agent</span></span></p>\n</td>\n</tr>\n<tr valign=\"bottom\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"38\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(II)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"128\">\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Silyl </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">isocyanate</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"40\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(ii)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"143\">\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">C-C bond length longer than 1.54 &Aring;</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(Q)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"125\">\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Coloured due to charge transfer</span></span></p>\n</td>\n</tr>\n<tr valign=\"bottom\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"38\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(III)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"128\">\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Oxalic acid </span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"40\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(iii)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"143\">\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">N is </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">sp-hybridized</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(R)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"125\">\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Linear</span></span></p>\n</td>\n</tr>\n<tr valign=\"bottom\">\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"38\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(IV)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"128\">\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">KMnO</span></span><sub><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">4</span></span></sub></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"40\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(iv)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"143\">\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">N is sp</span></span><sup><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">2</span></span></sup></p>\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">hybridized</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"39\">\n<p lang=\"en-US\" class=\"western\" align=\"center\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">(S)</span></span></p>\n</td>\n<td style=\"border: 1px solid #000000; padding: 0px 0.768px;\" width=\"125\">\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">V - shaped</span></span></p>\n</td>\n</tr>\n</tbody>\n</table>\n<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0.1632px; line-height: 100%;\"><br /><br /></p>",
+                        "fillUpsAnswers": [],
+                        "nameText": "\n Which\n of the following is correctly matched?\n ",
+                        "sectionId": "69d6268bc7fc48b78f7c7298",
+                        "order": 13,
+                        "questionSubmitOrder": 13,
+                        "options": [
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(II),\n (iii) &amp; (R)</span></span></span></span></p>\n ",
+                                "nameText": "\n (II),\n (iii) &amp; (R)\n ",
+                                "isCorrect": true,
+                                "_id": "69d6398d639b21d5f80670fc",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(II),\n (iv) &amp; (R)</span></span></span></span></p>\n ",
+                                "nameText": "\n (II),\n (iv) &amp; (R)\n ",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b2183450670fd",
+                                "isMarked": false
+                            },
+                            {
+                                "name": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><span style=\"font-family: Calibri,serif\"><span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(I),\n (iii) &amp; (R)</span></span></span></span></p>\n ",
+                                "nameText": "\n (I),\n (iii) &amp; (R)\n ",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b21e6000670fe",
+                                "isMarked": true
+                            },
+                            {
+                                "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px; line-height: 0.1632px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">(I),\n (i) &amp; (S)</span></span></p>\n ",
+                                "nameText": "\n (I),\n (i) &amp; (S)\n ",
+                                "isCorrect": false,
+                                "_id": "69d6398d639b212db60670ff",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"margin-bottom: 0px; line-height: 100%; text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/595971_1775642266646.png\" name=\"Image14\" align=\"bottom\" width=\"613\" height=\"26\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "multiple_choice",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 1
+                        },
+                        "timeTaken": 38000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69d6269c83c19457df827a0d",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">In alkaline medium, how many moles of potassium </span></span></p>\n<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">permanganate are required for complete oxidation of 3.5 moles of KI to&nbsp;</span></span><img src=\"https://cms-cdn.classplus.co/parserImages/7ee20280-712d-41d6-80c5-f7dbfa6df1e5.png\" alt=\"\" width=\"44\" height=\"24\" />&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">?</span></span></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "21"
+                        ],
+                        "nameText": "In alkaline medium, how many moles of potassium \npermanganate are required for complete oxidation of 3.5 moles of KI to  ?",
+                        "sectionId": "69d6268bc7fc48b78f7c7298",
+                        "order": 14,
+                        "questionSubmitOrder": 14,
+                        "options": [
+                            {
+                                "nameText": 7,
+                                "isCorrect": true,
+                                "solution": 7,
+                                "_id": "69d6398d639b2125bd0670f2",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/549591_1775642266783.png\" name=\"Image15\" align=\"bottom\" width=\"594\" height=\"43\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 1
+                        },
+                        "timeTaken": 47000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69d6269c83c1948e5a827a0f",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"><img src=\"data:image/png;base64,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\" alt=\"\" width=\"568\" height=\"121\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "",
+                        "sectionId": "69d6268bc7fc48b78f7c7298",
+                        "order": 15,
+                        "questionSubmitOrder": 15,
+                        "options": [
+                            {
+                                "nameText": 3,
+                                "isCorrect": true,
+                                "solution": 3,
+                                "_id": "69d6398d639b21fafc0670f7",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/674216_1775642267124.png\" name=\"Image16\" align=\"bottom\" width=\"553\" height=\"199\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 52000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69d6269c83c194e42a827a11",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"margin-bottom: 0px; border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">How many geometrical isomers are possible for the following complex?</span></span></p>\n<p lang=\"en-US\" class=\"western\"><img src=\"https://cms-cdn.classplus.co/parserImages/fba39eb5-c972-446e-972b-0a57f8ad927b.png\" alt=\"\" width=\"287\" height=\"26\" /></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "3"
+                        ],
+                        "nameText": "How many geometrical isomers are possible for the following complex?\n",
+                        "sectionId": "69d6268bc7fc48b78f7c7298",
+                        "order": 16,
+                        "questionSubmitOrder": 16,
+                        "options": [
+                            {
+                                "nameText": 3,
+                                "isCorrect": true,
+                                "solution": 3,
+                                "_id": "69d6398d639b2113a30670ed",
+                                "isMarked": true
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/225605_1775642267267.png\" name=\"Image17\" align=\"bottom\" width=\"550\" height=\"153\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": true,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 4,
+                            "negative": 0
+                        },
+                        "timeTaken": 244000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69d6269c83c194ee77827a13",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px;\"><span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">Dissociation constant for a weak base BOH is&nbsp;</span></span><img src=\"https://cms-cdn.classplus.co/parserImages/3e5984f3-ad94-4952-9f65-0893e30d1b96.png\" alt=\"\" width=\"41\" height=\"24\" />&nbsp;<span style=\"font-family: 'Cambria Math',serif;\"><span style=\"font-size: 21px;\">. What is the value of pH when it is half neutralized by HCl ?</span></span></p>",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [
+                            "5"
+                        ],
+                        "nameText": "Dissociation constant for a weak base BOH is  . What is the value of pH when it is half neutralized by HCl ?",
+                        "sectionId": "69d6268bc7fc48b78f7c7298",
+                        "order": 17,
+                        "questionSubmitOrder": 17,
+                        "options": [
+                            {
+                                "nameText": 9,
+                                "isCorrect": true,
+                                "solution": 9,
+                                "_id": "69d6398d639b215e860670e3",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/686642_1775642267405.png\" name=\"Image18\" align=\"bottom\" width=\"594\" height=\"224\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": true,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 1
+                        },
+                        "timeTaken": 20000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    },
+                    {
+                        "_id": "69d6269c83c1945514827a15",
+                        "name": "<p lang=\"en-US\" class=\"western\" style=\"border: none; padding: 0px\">\n <span style=\"font-family: 'Cambria Math',serif\"><span style=\"font-size: 21px\">The\n number types of monochloroalkanes formed by chlorination of\n sobutene is</span></span></p>\n ",
+                        "isComprehension": false,
+                        "paragraph": null,
+                        "paragraphText": null,
+                        "fillUpsAnswers": [],
+                        "nameText": "\n The\n number types of monochloroalkanes formed by chlorination of\n sobutene is\n ",
+                        "sectionId": "69d6268bc7fc48b78f7c7298",
+                        "order": 18,
+                        "questionSubmitOrder": 18,
+                        "options": [
+                            {
+                                "nameText": 2,
+                                "isCorrect": true,
+                                "solution": 2,
+                                "_id": "69d6398d639b21560f0670ec",
+                                "isMarked": false
+                            }
+                        ],
+                        "solution": "<p style=\"text-decoration: none\">\n <span style=\"color: #000000\"><img src=\"https://cms-cdn.classplus.co/parserImages/production/841682_1775642267480.png\" name=\"Image19\" align=\"bottom\" width=\"236\" height=\"113\" border=\"0\">\n</img></span></p>\n ",
+                        "hasMultipleAnswers": false,
+                        "type": "integer",
+                        "isAttempted": false,
+                        "isPartiallyCorrect": false,
+                        "isCorrect": false,
+                        "isGraceMarked": false,
+                        "isReevaluated": false,
+                        "marks": {
+                            "positive": 0,
+                            "negative": 0
+                        },
+                        "timeTaken": 11000,
+                        "markForReview": false,
+                        "isGpscType": false,
+                        "isSurrendered": false,
+                        "difficultyLevel": null
+                    }
+                ],
+                "numberOfQuestions": 18
+            }
+        ],
+        "userDetails": {
+            "name": "Santhosh Sivaraman",
+            "userId": 146218653,
+            "orgId": 320937
+        },
+        "sts": 1775919970491,
+        "region": {
+            "timeFormat": "hh:mm a",
+            "dateTimeStamp": "yyyy/MM/dd"
+        }
+    }
+}
