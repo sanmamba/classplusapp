@@ -190,26 +190,21 @@ class QuestionScreenshotExtractor:
                         {self.safe_get(option, 'name', '')}
                     </div>'''
                 
-                if is_marked_option and not is_correct_option:
-                    option_html += '''
+                if is_marked_option:
+                    # Determine badge color based on correctness
+                    if is_correct_option:
+                        badge_color = "#059669"  # green for correct
+                    elif is_partially_correct:
+                        badge_color = "#d97706"  # yellow for partially correct
+                    else:
+                        badge_color = "#dc2626"  # red for incorrect
+                    
+                    option_html += f'''
                     <div style="
                         position: absolute;
                         top: -10px;
                         right: 16px;
-                        background: #dc2626;
-                        color: white;
-                        padding: 4px 8px;
-                        border-radius: 4px;
-                        font-size: 10px;
-                        font-weight: bold;
-                    ">Your Answer</div>'''
-                elif is_marked_option and is_partially_correct:
-                    option_html += '''
-                    <div style="
-                        position: absolute;
-                        top: -10px;
-                        right: 16px;
-                        background: #d97706;
+                        background: {badge_color};
                         color: white;
                         padding: 4px 8px;
                         border-radius: 4px;
