@@ -48,7 +48,7 @@
                 "inCorrectAnswers": 6,
                 "partiallyCorrectAnswers": 2,
                 "unAttempted": 4,
-                "name": "Chemsitry",
+                "name": "Chemistry",
                 "order": 1,
                 "sectionDuration": 0,
                 "sectionId": "69d75a52d0ec7986387bcc40"
@@ -63,7 +63,7 @@
                 "sectionInstructions": " ",
                 "_id": "69d75a52d0ec7986387bcc40",
                 "hasOptionalQuestions": false,
-                "name": "Chemsitry",
+                "name": "Chemistry",
                 "order": 1,
                 "createdAt": "2026-04-09T13:18:24.000Z",
                 "updatedAt": "2026-04-09T13:18:24.000Z",
