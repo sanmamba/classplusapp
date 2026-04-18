@@ -32,6 +32,7 @@ import module_15 from './tests/module_15.json'
 import module_16 from './tests/module_16.json'
 import CAdv2 from './tests/CAdv2.json'
 import module_17 from './tests/module_17.json'
+import module_18 from './tests/module_18.json'
 
 
 export const TESTS: TestMetadata[] = [
@@ -68,6 +69,7 @@ export const TESTS: TestMetadata[] = [
   { id: '31', name: 'Module 16', fileName: 'module_16.json' },
   { id: '32', name: 'CAdv2', fileName: 'CAdv2.json' },
   { id: '33', name: 'Module 17', fileName: 'module_17.json' },
+  { id: '34', name: 'Module 18', fileName: 'module_18.json' }
 ];
 
 export const MOCK_TEST_DATA: Record<string, TestData> = {
@@ -103,5 +105,6 @@ export const MOCK_TEST_DATA: Record<string, TestData> = {
   'module_15.json': module_15 as TestData,
   'module_16.json': module_16 as TestData,
   'CAdv2.json': CAdv2 as TestData,
-  'module_17.json': module_17 as TestData
+  'module_17.json': module_17 as TestData,
+  'module_18.json': module_18 as TestData
 };

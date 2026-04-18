@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Question, Option } from "../types";
 import { cn } from "../utils";
 
@@ -13,161 +13,146 @@ export const ExportTemplate: React.FC<ExportTemplateProps> = ({
   sectionName,
   subject,
 }) => {
-  // Automatic Overlap Detection & Padding Adjustment
+  const contentRef = useRef<HTMLDivElement>(null);
+  const [scale, setScale] = useState(0.2); // Starting with the 0.2 scale from trial.py
+  const [finalHeightMm, setFinalHeightMm] = useState(0);
+
+  // Exact logic from trial.py for scaling and fitting
   useEffect(() => {
-    const container = document.getElementById(`export-question-${question._id}`);
-    if (!container) return;
+    if (contentRef.current) {
+      const actualHeightPx = contentRef.current.scrollHeight;
+      const actualWidthPx = contentRef.current.scrollWidth;
+      const aspectRatio = actualHeightPx / actualWidthPx;
 
-    const adjustImages = () => {
-      const images = container.querySelectorAll("img");
-      images.forEach((img: HTMLImageElement) => {
-        const checkImage = () => {
-          // Standard styling from original script
-          img.style.borderRadius = "4px";
-          img.style.maxWidth = "100%";
+      // 1. Base Scale (800px -> 160mm)
+      let finalWidth = actualWidthPx * 0.2;
+      let finalHeight = finalWidth * aspectRatio;
 
-          // If the image is a diagram (height > 45px or wide), protect it from overlap
-          if (img.naturalHeight > 45 || img.naturalWidth > 120) {
-            img.style.display = "block";
-            img.style.clear = "both";
-            img.style.margin = "40px auto"; // Increased padding for diagram clarity
-          } else {
-            // Original margin for small symbols/inline elements
-            img.style.display = "inline-block";
-            img.style.verticalAlign = "middle";
-            img.style.margin = "8px 0";
-          }
-        };
+      const max_allowed_width = 175;
+      const max_allowed_height = 130;
 
-        if (img.complete) {
-          checkImage();
-        } else {
-          img.onload = checkImage;
-        }
-      });
-    };
+      // 2. Horizontal Constraint
+      if (finalWidth > max_allowed_width) {
+        finalWidth = max_allowed_width;
+        finalHeight = finalWidth * aspectRatio;
+      }
 
-    adjustImages();
-    const timer = setTimeout(adjustImages, 100);
-    return () => clearTimeout(timer);
-  }, [question._id]);
+      // 3. Vertical Constraint (Handles "Big Questions")
+      if (finalHeight > max_allowed_height) {
+        finalHeight = max_allowed_height;
+        finalWidth = finalHeight / aspectRatio;
+      }
 
-  const getOptionColor = (opt: Option, isPartiallyCorrect: boolean) => {
-    if (opt.isCorrect) return "bg-[#059669]";
-    if (opt.isMarked) {
-      return isPartiallyCorrect ? "bg-[#d97706]" : "bg-[#dc2626]";
+      // Calculate the final CSS scale factor needed to hit these physical mm dimensions
+      // In web, 1mm is approx 3.78px
+      const targetWidthPx = finalWidth * 3.78;
+      const newScale = targetWidthPx / actualWidthPx;
+      
+      setScale(newScale);
+      setFinalHeightMm(finalHeight);
     }
-    return "bg-[#6b7280]";
-  };
+  }, [question._id]);
 
   const isCorrect = question.isCorrect;
   const isAttempted = question.isAttempted;
   const isPartiallyCorrect = question.isPartiallyCorrect;
 
+  const getStatusColor = () => {
+    if (isCorrect) return "059669";
+    if (isPartiallyCorrect) return "d97706";
+    if (isAttempted) return "dc2626";
+    return "d97706";
+  };
+
   return (
-    <div
-      id={`export-question-${question._id}`}
-      className="bg-white p-[40px] w-[1000px] text-[#111827] font-sans flex flex-col"
-      style={{ fontFamily: "'Inter', -apple-system, sans-serif" }}
-    >
-      {/* Header */}
-      <div className="flex justify-between items-center mb-6 pb-3 border-b border-gray-100 flex-shrink-0">
-        <div className="text-sm font-semibold text-gray-500 uppercase tracking-wider leading-none">
-          Q{question.order} • {sectionName}
-        </div>
-        <div className={cn(
-          "w-36 h-8 rounded-md text-[10px] font-bold text-white uppercase flex items-center justify-center text-center px-2 leading-none",
-          isCorrect ? "bg-emerald-600" : isPartiallyCorrect ? "bg-yellow-600" : isAttempted ? "bg-rose-600" : "bg-gray-400"
-        )}>
-          {isCorrect ? "Correct" : isPartiallyCorrect ? "Partially Correct" : isAttempted ? "Incorrect" : "Not Attempted"}
-        </div>
+    <div className="bg-white w-[210mm] h-[297mm] relative font-sans overflow-hidden" style={{ fontFamily: "'Inter', -apple-system, sans-serif" }}>
+      
+      {/* HEADER (y=3, line at y=10) */}
+      <div className="absolute top-[3mm] left-[12mm] text-[10pt] font-normal text-black no-print-border">
+        {subject}
       </div>
+      <div className="absolute top-[10mm] left-[10mm] right-[10mm] h-[0.2mm] bg-black"></div>
 
-      {/* Main Content Container */}
-      <div className="flex flex-col flex-1">
-        {/* Comprehension Section */}
-        {question.isComprehension && question.paragraph && (
-          <div className="mb-8 p-6 bg-slate-50 border-l-4 border-blue-500 rounded-r-lg flex flex-col">
-            <div className="text-[10px] font-bold text-blue-500 uppercase tracking-widest mb-4 leading-none">
-              Comprehension
+      {/* 
+        MAIN CONTENT BLOCK (trial.py logic: x=25, y=14)
+        Everything inside here is scaled proportionally to fit the 175x130 box
+      */}
+      <div className="absolute left-[25mm] top-[14mm] w-[175mm] h-[130mm] flex items-start justify-start">
+        <div 
+          ref={contentRef}
+          className="w-[800px] origin-top-left h-fit"
+          style={{ transform: `scale(${scale})` }}
+        >
+          {/* Internal Layout from extraction script */}
+          <div style={{ marginBottom: "24px", paddingBottom: "12px", borderBottom: "1px solid #e5e7eb", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+            <div style={{ fontSize: "14px", fontWeight: 600, color: "#6b7280", textTransform: "uppercase" }}>
+              {sectionName} • Q{question.order}
             </div>
-            <div
-              className="text-sm leading-relaxed prose prose-sm max-w-none text-[#111827] flex flex-col"
-              dangerouslySetInnerHTML={{ __html: question.paragraph }}
-            />
+            <div style={{ background: `#${getStatusColor()}`, color: "white", padding: "6px 12px", borderRadius: "6px", fontSize: "12px", fontWeight: 600 }}>
+              {isCorrect ? "Correct" : isPartiallyCorrect ? "Partially Correct" : isAttempted ? "Incorrect" : "Not Attempted"}
+            </div>
           </div>
-        )}
 
-        {/* Question Text */}
-        <div
-          className="text-lg leading-relaxed font-medium prose max-w-none text-[#111827] flex flex-col mb-8"
-          dangerouslySetInnerHTML={{ __html: question.name }}
-        />
+          <div style={{ marginBottom: "24px" }}>
+            {question.isComprehension && question.paragraph && (
+              <div style={{ marginBottom: "20px", padding: "16px", background: "#f8fafc", borderLeft: "4px solid #3b82f6", borderRadius: "8px" }}>
+                <div style={{ fontSize: "12px", fontWeight: 600, color: "#3b82f6", marginBottom: "8px", textTransform: "uppercase" }}>Comprehension</div>
+                <div style={{ lineHeight: "1.6" }} className="[&_img]:max-w-full [&_img]:h-auto [&_img]:rounded-[4px] [&_img]:my-[8px] text-[16px]" dangerouslySetInnerHTML={{ __html: question.paragraph }} />
+              </div>
+            )}
+            <div style={{ fontSize: "18px", marginBottom: "24px", lineHeight: "1.7", color: "#111827" }} className="[&_img]:max-w-full [&_img]:h-auto [&_img]:rounded-[4px] [&_img]:my-[8px]" dangerouslySetInnerHTML={{ __html: question.name }} />
+          </div>
 
-        {/* Options */}
-        <div className="flex flex-col gap-4 mb-6">
-          {question.type === "multiple_choice" ? (
-            question.options.map((opt, idx) => (
-              <div
-                key={opt._id}
-                className={cn(
-                  "relative border-2 rounded-lg p-4 flex gap-4 items-start",
-                  opt.isCorrect ? "border-emerald-500/50 bg-emerald-50/50" : (opt.isMarked && !opt.isCorrect) ? "border-rose-500/50 bg-rose-50/50" : "border-gray-200 bg-gray-50"
-                )}
-              >
-                <div
-                  className={cn(
-                    "w-7 h-7 rounded-full grid place-items-center text-xs font-bold text-white flex-shrink-0 leading-[0]",
-                    getOptionColor(opt, isPartiallyCorrect || false)
-                  )}
-                >
-                  <span className="block h-fit w-fit">{String.fromCharCode(65 + idx)}</span>
-                </div>
-                <div
-                  className="flex-1 text-sm prose prose-sm max-w-none text-[#111827] flex flex-col"
-                  dangerouslySetInnerHTML={{ __html: opt.name }}
-                />
-                {opt.isMarked && (
-                  <div
-                    className={cn(
-                      "absolute -top-2.5 right-4 w-24 h-5 rounded text-[10px] font-bold text-white flex items-center justify-center text-center leading-none",
-                      opt.isCorrect ? "bg-emerald-600" : isPartiallyCorrect ? "bg-yellow-600" : isAttempted ? "bg-rose-600" : "bg-gray-400"
-                    )}
-                  >
-                    Your Answer
+          <div style={{ fontSize: "14px", fontWeight: 600, color: "#6b7280", textTransform: "uppercase", marginBottom: "16px" }}>Options</div>
+          <div style={{ marginBottom: "24px" }}>
+            {question.type === "multiple_choice" ? (
+              question.options.map((opt, i) => (
+                <div key={opt._id} style={{ border: `2px solid ${opt.isCorrect ? "rgba(5, 150, 105, 0.5)" : (opt.isMarked ? "rgba(220, 38, 38, 0.5)" : "#d1d5db")}`, borderRadius: "8px", padding: "16px", marginBottom: "12px", display: "flex", gap: "12px", position: "relative", background: opt.isCorrect ? "rgba(5, 150, 105, 0.05)" : (opt.isMarked ? "rgba(220, 38, 38, 0.05)" : "#f9fafb") }}>
+                  <div style={{ width: "24px", height: "24px", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", fontWeight: "bold", fontSize: "12px", background: opt.isCorrect ? "#059669" : (opt.isMarked ? "#dc2626" : "#6b7280"), color: "white" }}>
+                    {String.fromCharCode(65 + i)}
                   </div>
-                )}
-              </div>
-            ))
-          ) : (
-            <div className="border border-gray-200 rounded-lg p-8 bg-gray-50 flex gap-8">
-              <div className="flex-1 text-center border-r border-gray-200 flex flex-col items-center">
-                <div className="text-[10px] font-bold text-gray-500 uppercase mb-2 leading-none">Correct Answer</div>
-                <div className="text-xl font-mono font-bold text-emerald-600 leading-none">
-                  {question.options[0]?.solution || question.options[0]?.nameText || "--"}
+                  <div style={{ flex: 1 }} className="text-[16px] [&_img]:max-w-full" dangerouslySetInnerHTML={{ __html: opt.name }} />
+                </div>
+              ))
+            ) : (
+              <div style={{ border: "1px solid #d1d5db", borderRadius: "8px", padding: "24px", background: "#f9fafb", display: "flex", gap: "24px" }}>
+                <div style={{ flex: 1 }}>
+                  <div style={{ fontSize: "12px", color: "#6b7280", fontWeight: "bold" }}>CORRECT ANSWER</div>
+                  <div style={{ fontSize: "20px", fontWeight: "bold", color: "#059669" }}>{question.options[0]?.solution || "--"}</div>
+                </div>
+                <div style={{ flex: 1 }}>
+                  <div style={{ fontSize: "12px", color: "#6b7280", fontWeight: "bold" }}>YOUR ANSWER</div>
+                  <div style={{ fontSize: "20px", fontWeight: "bold", color: isCorrect ? "#059669" : "#dc2626" }}>{question.fillUpsAnswers?.[0] || "Not attempted"}</div>
                 </div>
               </div>
-              <div className="flex-1 text-center flex flex-col items-center justify-center">
-                <div className="text-[10px] font-bold text-gray-500 uppercase mb-2 leading-none">Your Answer</div>
-                <div
-                  className={cn(
-                    "text-xl font-mono font-bold leading-none",
-                    isCorrect ? "text-emerald-600" : isPartiallyCorrect ? "text-yellow-600" : isAttempted ? "text-rose-600" : "text-gray-400"
-                  )}
-                >
-                  {question.fillUpsAnswers?.[0] || "Not attempted"}
-                </div>
-              </div>
-            </div>
-          )}
-        </div>
+            )}
+          </div>
 
-        {/* Footer info (Marks/Time) */}
-        <div className="mt-auto pt-6 border-t border-gray-100 flex gap-6 text-xs font-semibold text-gray-600 justify-center">
-          <div className="leading-none flex items-center">Marks: <span className="text-emerald-600 ml-1">+{question.marks.positive}</span> / <span className="text-rose-600 ml-1">-{question.marks.negative}</span></div>
-          <div className="border-l border-gray-300 pl-6 leading-none flex items-center">Time: {Math.floor(question.timeTaken / 1000)}s</div>
+          <div style={{ padding: "12px", background: "#f3f4f6", borderRadius: "8px", fontSize: "14px", display: "flex", gap: "16px" }}>
+            <span>Marks: <span style={{ color: "#059669", fontWeight: 600 }}>+{question.marks.positive}</span> / <span style={{ color: "#dc2626", fontWeight: 600 }}>-{question.marks.negative}</span></span>
+          </div>
         </div>
       </div>
+
+      {/* --- TABS SECTION (trial.py logic: y_image_bottom + 5) --- */}
+      <div 
+        className="absolute left-0 right-0 transition-all duration-200"
+        style={{ top: `${14 + finalHeightMm + 5}mm` }}
+      >
+        <div className="flex justify-center gap-[4mm] mb-[4mm]">
+          {["Silly", "Easy", "Time", "Concept", "Key", "Others"].map((tab) => (
+            <div key={tab} className="w-[18mm] h-[6mm] border-[0.3mm] border-[#5050B4] bg-[#F5F5FF] rounded flex items-center justify-center">
+              <span className="text-[7pt] font-medium text-[#282878]">{tab}</span>
+            </div>
+          ))}
+        </div>
+        
+        <div className="px-[10mm] space-y-[2mm]">
+          <div className="h-[0.1mm] bg-black w-full opacity-30"></div>
+          <div className="h-[0.1mm] bg-black w-full opacity-30"></div>
+        </div>
+      </div>
+
     </div>
   );
 };

@@ -2,10 +2,9 @@ import React, { useState, useEffect } from "react";
 import { TopBar } from "./components/TopBar";
 import { Sidebar } from "./components/Sidebar";
 import { QuestionView } from "./components/QuestionView";
-import { ExportTemplate } from "./components/ExportTemplate";
+import { PrintWorkbook } from "./components/PrintWorkbook";
 import { TESTS, MOCK_TEST_DATA } from "./constants";
 import { TestData, Question, Section, SectionStats } from "./types";
-import { generatePDF, filterIncorrectQuestions } from "./utils/pdfGenerator";
 
 const App: React.FC = () => {
   const [currentTestId, setCurrentTestId] = useState(
@@ -23,22 +22,13 @@ const App: React.FC = () => {
   );
   const [zoomLevel, setZoomLevel] = useState(1);
 
-  // Export PDF state
-  const [isExporting, setIsExporting] = useState(false);
-  const [exportProgress, setExportProgress] = useState<{
-    current: number;
-    total: number;
-  } | null>(null);
-
   // Load Test Data
   useEffect(() => {
     const testMeta = TESTS.find((t) => t.id === currentTestId);
     if (testMeta) {
-      // Fetch data from the constants map
       const data = MOCK_TEST_DATA[testMeta.fileName];
       setTestData(data);
 
-      // Default select first question of first section if not already selected or if switched
       if (
         data &&
         data.data.sections.length > 0 &&
@@ -47,7 +37,6 @@ const App: React.FC = () => {
         setSelectedQuestionId(data.data.sections[0].questions[0]._id);
       }
 
-      // Load starred questions for this test from localStorage
       const storedStars = localStorage.getItem(
         `starred_questions_${currentTestId}`,
       );
@@ -75,19 +64,15 @@ const App: React.FC = () => {
 
   const toggleTheme = () => setIsDarkMode(!isDarkMode);
 
-  // Toggle star handler
   const handleToggleStar = () => {
     if (!selectedQuestionId) return;
-
     const newStarred = new Set(starredQuestions);
     if (newStarred.has(selectedQuestionId)) {
       newStarred.delete(selectedQuestionId);
     } else {
       newStarred.add(selectedQuestionId);
     }
-
     setStarredQuestions(newStarred);
-    // Persist
     localStorage.setItem(
       `starred_questions_${currentTestId}`,
       JSON.stringify(Array.from(newStarred)),
@@ -97,28 +82,12 @@ const App: React.FC = () => {
   const handleZoomIn = () => setZoomLevel((prev) => Math.min(prev + 0.1, 2));
   const handleZoomOut = () => setZoomLevel((prev) => Math.max(prev - 0.1, 0.5));
 
-  const handleExportPDF = async () => {
-    if (!testData) return;
-    const testMeta = TESTS.find((t) => t.id === currentTestId);
-    if (!testMeta) return;
-
-    setIsExporting(true);
-    setExportProgress(null);
-
-    try {
-      await generatePDF(testData, testMeta.name, (current, total) => {
-        setExportProgress({ current, total });
-      });
-    } catch (error) {
-      console.error("PDF Export failed:", error);
-      alert("Failed to generate PDF. Check console for details.");
-    } finally {
-      setIsExporting(false);
-      setExportProgress(null);
-    }
+  const handleExportPDF = () => {
+    // Native Browser Print - Uses the real browser engine for perfect layout
+    window.print();
   };
 
-  // Find current question object and navigation logic
+  // Navigation Logic
   const {
     currentQuestion,
     nextQuestionId,
@@ -135,7 +104,6 @@ const App: React.FC = () => {
         currentSectionName: "",
       };
 
-    // Flatten all questions to linearize navigation
     const allQuestions: Question[] = [];
     testData.data.sections.forEach((s) => allQuestions.push(...s.questions));
 
@@ -151,7 +119,6 @@ const App: React.FC = () => {
     const prevQuestionId =
       currentIndex > 0 ? allQuestions[currentIndex - 1]._id : null;
 
-    // Find section stats
     let currentSectionStats: SectionStats | null = null;
     if (currentQuestion && testData.data.sectionWiseStats) {
       currentSectionStats =
@@ -160,7 +127,6 @@ const App: React.FC = () => {
         ) || null;
     }
 
-    // Find section name
     const currentSection = testData.data.sections.find(
       (s) => s._id === currentQuestion?.sectionId,
     );
@@ -175,17 +141,12 @@ const App: React.FC = () => {
     };
   }, [testData, selectedQuestionId]);
 
-  // Handle Data Update (Key Change)
-  const handleDataUpdate = (
+  const handleUpdateData = (
     updatedQuestion: Question,
-    updatedSectionStats: SectionStats | null,
+    updatedStats: SectionStats | null,
   ) => {
     if (!testData) return;
-
-    // Create a deep copy
     const newData = JSON.parse(JSON.stringify(testData));
-
-    // Update Question
     const sectionIndex = newData.data.sections.findIndex(
       (s: Section) => s._id === updatedQuestion.sectionId,
     );
@@ -197,34 +158,15 @@ const App: React.FC = () => {
         newData.data.sections[sectionIndex].questions[qIndex] = updatedQuestion;
       }
     }
-
-    // Update Stats
-    if (updatedSectionStats && newData.data.sectionWiseStats) {
+    if (updatedStats && newData.data.sectionWiseStats) {
       const statIndex = newData.data.sectionWiseStats.findIndex(
-        (s: SectionStats) => s.sectionId === updatedSectionStats.sectionId,
+        (s: SectionStats) => s.sectionId === updatedStats.sectionId,
       );
       if (statIndex !== -1) {
-        newData.data.sectionWiseStats[statIndex] = updatedSectionStats;
+        newData.data.sectionWiseStats[statIndex] = updatedStats;
       }
     }
-
     setTestData(newData);
-
-    // Export complete new JSON
-    const fileName =
-      TESTS.find((t) => t.id === currentTestId)?.fileName ||
-      "updated_test_data.json";
-    const blob = new Blob([JSON.stringify(newData, null, 2)], {
-      type: "application/json",
-    });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement("a");
-    link.href = url;
-    link.download = "updated-" + fileName;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    URL.revokeObjectURL(url);
   };
 
   if (!testData) {
@@ -235,23 +177,24 @@ const App: React.FC = () => {
     );
   }
 
-  const filteredForExport = testData ? filterIncorrectQuestions(testData) : [];
-
   return (
     <div className="flex flex-col h-screen bg-background text-foreground overflow-hidden">
-      <TopBar
-        currentTestId={currentTestId}
-        onTestSelect={setCurrentTestId}
-        isDarkMode={isDarkMode}
-        toggleTheme={toggleTheme}
-        onExportPDF={handleExportPDF}
-        isExporting={isExporting}
-        exportProgress={exportProgress}
-      />
+      {/* TopBar - no-print class ensures it stays out of the PDF */}
+      <div className="no-print">
+        <TopBar
+          currentTestId={currentTestId}
+          onTestSelect={setCurrentTestId}
+          isDarkMode={isDarkMode}
+          toggleTheme={toggleTheme}
+          onExportPDF={handleExportPDF}
+          isExporting={false}
+          exportProgress={null}
+        />
+      </div>
 
       <div className="flex flex-1 overflow-hidden">
-        {/* Sidebar */}
-        <div className="hidden md:block h-full">
+        {/* Sidebar - hidden automatically by @media print */}
+        <div className="hidden md:block h-full no-print">
           <Sidebar
             sections={testData.data.sections}
             stats={testData.data.sectionWiseStats}
@@ -262,7 +205,7 @@ const App: React.FC = () => {
         </div>
 
         {/* Main Content */}
-        <main className="flex-1 relative">
+        <main className="flex-1 relative no-print">
           {currentQuestion ? (
             <QuestionView
               question={currentQuestion}
@@ -272,20 +215,16 @@ const App: React.FC = () => {
               zoomLevel={zoomLevel}
               onZoomIn={handleZoomIn}
               onZoomOut={handleZoomOut}
-              onNext={
-                nextQuestionId
-                  ? () => setSelectedQuestionId(nextQuestionId)
-                  : undefined
-              }
-              onPrev={
-                prevQuestionId
-                  ? () => setSelectedQuestionId(prevQuestionId)
-                  : undefined
-              }
               hasNext={!!nextQuestionId}
               hasPrev={!!prevQuestionId}
+              onNext={() =>
+                nextQuestionId && setSelectedQuestionId(nextQuestionId)
+              }
+              onPrev={() =>
+                prevQuestionId && setSelectedQuestionId(prevQuestionId)
+              }
               sectionStats={currentSectionStats}
-              onUpdateData={handleDataUpdate}
+              onUpdateData={handleUpdateData}
             />
           ) : (
             <div className="flex items-center justify-center h-full text-muted-foreground">
@@ -295,20 +234,8 @@ const App: React.FC = () => {
         </main>
       </div>
 
-      {/* Hidden container for PDF export rendering */}
-      <div
-        className="fixed top-0 left-0 -z-50 pointer-events-none overflow-hidden h-0 w-0"
-        aria-hidden="true"
-      >
-        {filteredForExport.map(({ question, sectionName, subject }) => (
-          <ExportTemplate
-            key={question._id}
-            question={question}
-            sectionName={sectionName}
-            subject={subject}
-          />
-        ))}
-      </div>
+      {/* The "Real Browser" Print Layout */}
+      <PrintWorkbook testData={testData} />
     </div>
   );
 };
