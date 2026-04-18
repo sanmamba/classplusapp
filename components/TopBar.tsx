@@ -1,5 +1,5 @@
 import React from "react";
-import { Moon, Sun, ChevronDown } from "lucide-react";
+import { Moon, Sun, ChevronDown, FileDown, Loader2 } from "lucide-react";
 import { TESTS } from "../constants";
 import { Button } from "./ui/Button";
 
@@ -8,6 +8,9 @@ interface TopBarProps {
   onTestSelect: (id: string) => void;
   isDarkMode: boolean;
   toggleTheme: () => void;
+  onExportPDF: () => void;
+  isExporting: boolean;
+  exportProgress: { current: number; total: number } | null;
 }
 
 export const TopBar: React.FC<TopBarProps> = ({
@@ -15,6 +18,9 @@ export const TopBar: React.FC<TopBarProps> = ({
   onTestSelect,
   isDarkMode,
   toggleTheme,
+  onExportPDF,
+  isExporting,
+  exportProgress,
 }) => {
   const currentTest = TESTS.find((t) => t.id === currentTestId);
 
@@ -68,6 +74,30 @@ export const TopBar: React.FC<TopBarProps> = ({
       </div>
 
       <div className="flex items-center gap-2">
+        <Button
+          variant="outline"
+          size="sm"
+          onClick={onExportPDF}
+          disabled={isExporting}
+          className="gap-2 hidden md:flex"
+        >
+          {isExporting ? (
+            <>
+              <Loader2 className="h-4 w-4 animate-spin" />
+              <span>
+                {exportProgress
+                  ? `Exporting ${exportProgress.current}/${exportProgress.total}`
+                  : "Exporting..."}
+              </span>
+            </>
+          ) : (
+            <>
+              <FileDown className="h-4 w-4" />
+              <span>Export PDF</span>
+            </>
+          )}
+        </Button>
+
         <Button
           variant="ghost"
           size="icon"

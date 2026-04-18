@@ -2,8 +2,10 @@ import React, { useState, useEffect } from "react";
 import { TopBar } from "./components/TopBar";
 import { Sidebar } from "./components/Sidebar";
 import { QuestionView } from "./components/QuestionView";
+import { ExportTemplate } from "./components/ExportTemplate";
 import { TESTS, MOCK_TEST_DATA } from "./constants";
 import { TestData, Question, Section, SectionStats } from "./types";
+import { generatePDF, filterIncorrectQuestions } from "./utils/pdfGenerator";
 
 const App: React.FC = () => {
   const [currentTestId, setCurrentTestId] = useState(
@@ -20,6 +22,13 @@ const App: React.FC = () => {
     new Set(),
   );
   const [zoomLevel, setZoomLevel] = useState(1);
+
+  // Export PDF state
+  const [isExporting, setIsExporting] = useState(false);
+  const [exportProgress, setExportProgress] = useState<{
+    current: number;
+    total: number;
+  } | null>(null);
 
   // Load Test Data
   useEffect(() => {
@@ -87,6 +96,27 @@ const App: React.FC = () => {
 
   const handleZoomIn = () => setZoomLevel((prev) => Math.min(prev + 0.1, 2));
   const handleZoomOut = () => setZoomLevel((prev) => Math.max(prev - 0.1, 0.5));
+
+  const handleExportPDF = async () => {
+    if (!testData) return;
+    const testMeta = TESTS.find((t) => t.id === currentTestId);
+    if (!testMeta) return;
+
+    setIsExporting(true);
+    setExportProgress(null);
+
+    try {
+      await generatePDF(testData, testMeta.name, (current, total) => {
+        setExportProgress({ current, total });
+      });
+    } catch (error) {
+      console.error("PDF Export failed:", error);
+      alert("Failed to generate PDF. Check console for details.");
+    } finally {
+      setIsExporting(false);
+      setExportProgress(null);
+    }
+  };
 
   // Find current question object and navigation logic
   const {
@@ -156,8 +186,6 @@ const App: React.FC = () => {
     const newData = JSON.parse(JSON.stringify(testData));
 
     // Update Question
-    // Find the section that contains this question
-    // We assume updatedQuestion.sectionId is correct.
     const sectionIndex = newData.data.sections.findIndex(
       (s: Section) => s._id === updatedQuestion.sectionId,
     );
@@ -207,6 +235,8 @@ const App: React.FC = () => {
     );
   }
 
+  const filteredForExport = testData ? filterIncorrectQuestions(testData) : [];
+
   return (
     <div className="flex flex-col h-screen bg-background text-foreground overflow-hidden">
       <TopBar
@@ -214,6 +244,9 @@ const App: React.FC = () => {
         onTestSelect={setCurrentTestId}
         isDarkMode={isDarkMode}
         toggleTheme={toggleTheme}
+        onExportPDF={handleExportPDF}
+        isExporting={isExporting}
+        exportProgress={exportProgress}
       />
 
       <div className="flex flex-1 overflow-hidden">
@@ -260,6 +293,21 @@ const App: React.FC = () => {
             </div>
           )}
         </main>
+      </div>
+
+      {/* Hidden container for PDF export rendering */}
+      <div
+        className="fixed top-0 left-0 -z-50 pointer-events-none overflow-hidden h-0 w-0"
+        aria-hidden="true"
+      >
+        {filteredForExport.map(({ question, sectionName, subject }) => (
+          <ExportTemplate
+            key={question._id}
+            question={question}
+            sectionName={sectionName}
+            subject={subject}
+          />
+        ))}
       </div>
     </div>
   );
