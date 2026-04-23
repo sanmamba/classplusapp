@@ -178,7 +178,7 @@
         "sectionId": "69e213d4ce597e818c5744f2"
       },
       {
-        "marksScored": 13,
+        "marksScored": 16,
         "sectionMarks": 16,
         "accuracy": 81.25,
         "_id": "69e3a41d7a718f8219bbf773",
@@ -2934,12 +2934,12 @@
             "hasMultipleAnswers": true,
             "type": "multiple_choice",
             "isAttempted": true,
-            "isPartiallyCorrect": true,
-            "isCorrect": false,
+            "isPartiallyCorrect": false,
+            "isCorrect": true,
             "isGraceMarked": false,
-            "isReevaluated": false,
+            "isReevaluated": true,
             "marks": {
-              "positive": 1,
+              "positive": 4,
               "negative": 0
             },
             "timeTaken": 357000,
